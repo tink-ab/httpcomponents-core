@@ -158,6 +158,7 @@ public class UriPatternMatcher<T> {
     }
 
     @Override
+    @GuardedBy("this")
     public String toString() {
         return this.map.toString();
     }
