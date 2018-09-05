@@ -26,14 +26,14 @@
  */
 package org.apache.http.impl.nio.pool;
 
-import org.apache.http.HttpHost;
-import org.apache.http.config.ConnectionConfig;
-import org.apache.http.nio.NHttpClientConnection;
-import org.apache.http.nio.pool.NIOConnFactory;
-import org.apache.http.nio.reactor.ConnectingIOReactor;
-import org.apache.http.nio.reactor.IOSession;
-import org.apache.http.nio.reactor.SessionRequest;
-import org.apache.http.nio.reactor.SessionRequestCallback;
+import se.tink.org.apache.http.HttpHost;
+import se.tink.org.apache.http.config.ConnectionConfig;
+import se.tink.org.apache.http.nio.NHttpClientConnection;
+import se.tink.org.apache.http.nio.pool.NIOConnFactory;
+import se.tink.org.apache.http.nio.reactor.ConnectingIOReactor;
+import se.tink.org.apache.http.nio.reactor.IOSession;
+import se.tink.org.apache.http.nio.reactor.SessionRequest;
+import se.tink.org.apache.http.nio.reactor.SessionRequestCallback;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;

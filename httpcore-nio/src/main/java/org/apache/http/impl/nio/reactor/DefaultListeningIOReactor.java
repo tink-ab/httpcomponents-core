@@ -42,13 +42,13 @@ import java.util.Set;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.ThreadFactory;
 
-import org.apache.http.annotation.ThreadSafe;
-import org.apache.http.nio.reactor.IOReactorException;
-import org.apache.http.nio.reactor.IOReactorStatus;
-import org.apache.http.nio.reactor.ListenerEndpoint;
-import org.apache.http.nio.reactor.ListeningIOReactor;
-import org.apache.http.params.HttpParams;
-import org.apache.http.util.Asserts;
+import se.tink.org.apache.http.annotation.ThreadSafe;
+import se.tink.org.apache.http.nio.reactor.IOReactorException;
+import se.tink.org.apache.http.nio.reactor.IOReactorStatus;
+import se.tink.org.apache.http.nio.reactor.ListenerEndpoint;
+import se.tink.org.apache.http.nio.reactor.ListeningIOReactor;
+import se.tink.org.apache.http.params.HttpParams;
+import se.tink.org.apache.http.util.Asserts;
 
 /**
  * Default implementation of {@link ListeningIOReactor}. This class extends

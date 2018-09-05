@@ -33,7 +33,7 @@ import java.nio.channels.ReadableByteChannel;
 import java.nio.channels.WritableByteChannel;
 import java.nio.charset.CharacterCodingException;
 
-import org.apache.http.util.CharArrayBuffer;
+import se.tink.org.apache.http.util.CharArrayBuffer;
 
 /**
  * Session input buffer for non-blocking connections. This interface facilitates

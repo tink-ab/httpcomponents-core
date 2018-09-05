@@ -30,8 +30,8 @@ package org.apache.http.nio.entity;
 import java.io.Closeable;
 import java.io.IOException;
 
-import org.apache.http.nio.ContentEncoder;
-import org.apache.http.nio.IOControl;
+import se.tink.org.apache.http.nio.ContentEncoder;
+import se.tink.org.apache.http.nio.IOControl;
 
 /**
  * <tt>HttpAsyncContentProducer</tt> is a callback interface whose methods

@@ -30,16 +30,16 @@ package org.apache.http.impl.nio.ssl;
 import javax.net.ssl.SSLContext;
 import javax.net.ssl.SSLException;
 
-import org.apache.http.annotation.Immutable;
-import org.apache.http.impl.nio.DefaultClientIOEventDispatch;
-import org.apache.http.impl.nio.reactor.SSLIOSession;
-import org.apache.http.impl.nio.reactor.SSLSetupHandler;
-import org.apache.http.nio.NHttpClientHandler;
-import org.apache.http.nio.NHttpClientIOTarget;
-import org.apache.http.nio.reactor.IOSession;
-import org.apache.http.params.HttpConnectionParams;
-import org.apache.http.params.HttpParams;
-import org.apache.http.util.Args;
+import se.tink.org.apache.http.annotation.Immutable;
+import se.tink.org.apache.http.impl.nio.DefaultClientIOEventDispatch;
+import se.tink.org.apache.http.impl.nio.reactor.SSLIOSession;
+import se.tink.org.apache.http.impl.nio.reactor.SSLSetupHandler;
+import se.tink.org.apache.http.nio.NHttpClientHandler;
+import se.tink.org.apache.http.nio.NHttpClientIOTarget;
+import se.tink.org.apache.http.nio.reactor.IOSession;
+import se.tink.org.apache.http.params.HttpConnectionParams;
+import se.tink.org.apache.http.params.HttpParams;
+import se.tink.org.apache.http.util.Args;
 
 /**
  * Default implementation of {@link org.apache.http.nio.reactor.IOEventDispatch}

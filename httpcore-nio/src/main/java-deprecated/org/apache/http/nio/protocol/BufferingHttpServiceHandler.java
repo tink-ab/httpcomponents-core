@@ -29,27 +29,27 @@ package org.apache.http.nio.protocol;
 
 import java.io.IOException;
 
-import org.apache.http.ConnectionReuseStrategy;
-import org.apache.http.HttpEntityEnclosingRequest;
-import org.apache.http.HttpException;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpResponseFactory;
-import org.apache.http.annotation.Immutable;
-import org.apache.http.nio.ContentDecoder;
-import org.apache.http.nio.ContentEncoder;
-import org.apache.http.nio.NHttpServerConnection;
-import org.apache.http.nio.NHttpServiceHandler;
-import org.apache.http.nio.entity.BufferingNHttpEntity;
-import org.apache.http.nio.entity.ConsumingNHttpEntity;
-import org.apache.http.nio.util.ByteBufferAllocator;
-import org.apache.http.nio.util.HeapByteBufferAllocator;
-import org.apache.http.params.HttpParams;
-import org.apache.http.protocol.HttpContext;
-import org.apache.http.protocol.HttpExpectationVerifier;
-import org.apache.http.protocol.HttpProcessor;
-import org.apache.http.protocol.HttpRequestHandler;
-import org.apache.http.protocol.HttpRequestHandlerResolver;
+import se.tink.org.apache.http.ConnectionReuseStrategy;
+import se.tink.org.apache.http.HttpEntityEnclosingRequest;
+import se.tink.org.apache.http.HttpException;
+import se.tink.org.apache.http.HttpRequest;
+import se.tink.org.apache.http.HttpResponse;
+import se.tink.org.apache.http.HttpResponseFactory;
+import se.tink.org.apache.http.annotation.Immutable;
+import se.tink.org.apache.http.nio.ContentDecoder;
+import se.tink.org.apache.http.nio.ContentEncoder;
+import se.tink.org.apache.http.nio.NHttpServerConnection;
+import se.tink.org.apache.http.nio.NHttpServiceHandler;
+import se.tink.org.apache.http.nio.entity.BufferingNHttpEntity;
+import se.tink.org.apache.http.nio.entity.ConsumingNHttpEntity;
+import se.tink.org.apache.http.nio.util.ByteBufferAllocator;
+import se.tink.org.apache.http.nio.util.HeapByteBufferAllocator;
+import se.tink.org.apache.http.params.HttpParams;
+import se.tink.org.apache.http.protocol.HttpContext;
+import se.tink.org.apache.http.protocol.HttpExpectationVerifier;
+import se.tink.org.apache.http.protocol.HttpProcessor;
+import se.tink.org.apache.http.protocol.HttpRequestHandler;
+import se.tink.org.apache.http.protocol.HttpRequestHandlerResolver;
 
 /**
  * Service protocol handler implementations that provide compatibility with

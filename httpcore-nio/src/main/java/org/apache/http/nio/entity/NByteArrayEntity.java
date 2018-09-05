@@ -33,12 +33,12 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.nio.ByteBuffer;
 
-import org.apache.http.annotation.NotThreadSafe;
-import org.apache.http.entity.AbstractHttpEntity;
-import org.apache.http.entity.ContentType;
-import org.apache.http.nio.ContentEncoder;
-import org.apache.http.nio.IOControl;
-import org.apache.http.util.Args;
+import se.tink.org.apache.http.annotation.NotThreadSafe;
+import se.tink.org.apache.http.entity.AbstractHttpEntity;
+import se.tink.org.apache.http.entity.ContentType;
+import se.tink.org.apache.http.nio.ContentEncoder;
+import se.tink.org.apache.http.nio.IOControl;
+import se.tink.org.apache.http.util.Args;
 
 /**
  * A simple self contained, repeatable non-blocking entity that retrieves

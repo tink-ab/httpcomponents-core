@@ -31,7 +31,7 @@ import javax.net.ssl.SSLEngine;
 import javax.net.ssl.SSLException;
 import javax.net.ssl.SSLSession;
 
-import org.apache.http.nio.reactor.IOSession;
+import se.tink.org.apache.http.nio.reactor.IOSession;
 
 /**
  * Callback interface that can be used to customize various aspects of

@@ -32,8 +32,8 @@ import java.io.ByteArrayOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
-import org.apache.http.HttpVersion;
-import org.apache.http.RequestLine;
+import se.tink.org.apache.http.HttpVersion;
+import se.tink.org.apache.http.RequestLine;
 import org.junit.Assert;
 import org.junit.Test;
 

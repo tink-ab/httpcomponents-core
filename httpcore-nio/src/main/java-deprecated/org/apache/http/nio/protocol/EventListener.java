@@ -29,8 +29,8 @@ package org.apache.http.nio.protocol;
 
 import java.io.IOException;
 
-import org.apache.http.HttpException;
-import org.apache.http.nio.NHttpConnection;
+import se.tink.org.apache.http.HttpException;
+import se.tink.org.apache.http.nio.NHttpConnection;
 
 /**
  * Event listener used by the HTTP protocol layer to report fatal exceptions

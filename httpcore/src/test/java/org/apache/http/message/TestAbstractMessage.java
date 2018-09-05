@@ -26,10 +26,10 @@
  */
 package org.apache.http.message;
 
-import org.apache.http.Header;
-import org.apache.http.HttpMessage;
-import org.apache.http.HttpVersion;
-import org.apache.http.ProtocolVersion;
+import se.tink.org.apache.http.Header;
+import se.tink.org.apache.http.HttpMessage;
+import se.tink.org.apache.http.HttpVersion;
+import se.tink.org.apache.http.ProtocolVersion;
 import org.junit.Assert;
 import org.junit.Test;
 

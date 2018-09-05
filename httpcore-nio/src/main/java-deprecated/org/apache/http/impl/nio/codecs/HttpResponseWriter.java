@@ -29,12 +29,12 @@ package org.apache.http.impl.nio.codecs;
 
 import java.io.IOException;
 
-import org.apache.http.HttpMessage;
-import org.apache.http.HttpResponse;
-import org.apache.http.message.LineFormatter;
-import org.apache.http.nio.reactor.SessionOutputBuffer;
-import org.apache.http.params.HttpParams;
-import org.apache.http.util.CharArrayBuffer;
+import se.tink.org.apache.http.HttpMessage;
+import se.tink.org.apache.http.HttpResponse;
+import se.tink.org.apache.http.message.LineFormatter;
+import se.tink.org.apache.http.nio.reactor.SessionOutputBuffer;
+import se.tink.org.apache.http.params.HttpParams;
+import se.tink.org.apache.http.util.CharArrayBuffer;
 
 /**
  * Default {@link org.apache.http.nio.NHttpMessageWriter} implementation

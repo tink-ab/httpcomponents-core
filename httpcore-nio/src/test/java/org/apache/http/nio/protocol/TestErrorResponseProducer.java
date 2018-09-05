@@ -27,12 +27,12 @@
 
 package org.apache.http.nio.protocol;
 
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpVersion;
-import org.apache.http.entity.StringEntity;
-import org.apache.http.message.BasicHttpResponse;
-import org.apache.http.protocol.HTTP;
+import se.tink.org.apache.http.HttpEntity;
+import se.tink.org.apache.http.HttpResponse;
+import se.tink.org.apache.http.HttpVersion;
+import se.tink.org.apache.http.entity.StringEntity;
+import se.tink.org.apache.http.message.BasicHttpResponse;
+import se.tink.org.apache.http.protocol.HTTP;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;

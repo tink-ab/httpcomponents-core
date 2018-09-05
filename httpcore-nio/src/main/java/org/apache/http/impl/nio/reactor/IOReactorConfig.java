@@ -27,8 +27,8 @@
 
 package org.apache.http.impl.nio.reactor;
 
-import org.apache.http.annotation.NotThreadSafe;
-import org.apache.http.util.Args;
+import se.tink.org.apache.http.annotation.NotThreadSafe;
+import se.tink.org.apache.http.util.Args;
 
 /**
  * I/O reactor configuration parameters.

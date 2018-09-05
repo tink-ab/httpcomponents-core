@@ -32,11 +32,11 @@ import java.net.SocketAddress;
 import java.nio.channels.Channel;
 import java.nio.channels.SelectionKey;
 
-import org.apache.http.annotation.ThreadSafe;
-import org.apache.http.nio.reactor.IOSession;
-import org.apache.http.nio.reactor.SessionRequest;
-import org.apache.http.nio.reactor.SessionRequestCallback;
-import org.apache.http.util.Args;
+import se.tink.org.apache.http.annotation.ThreadSafe;
+import se.tink.org.apache.http.nio.reactor.IOSession;
+import se.tink.org.apache.http.nio.reactor.SessionRequest;
+import se.tink.org.apache.http.nio.reactor.SessionRequestCallback;
+import se.tink.org.apache.http.util.Args;
 
 /**
  * Default implementation of {@link SessionRequest}.

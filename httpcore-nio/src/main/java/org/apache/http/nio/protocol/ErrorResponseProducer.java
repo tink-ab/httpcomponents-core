@@ -29,14 +29,14 @@ package org.apache.http.nio.protocol;
 
 import java.io.IOException;
 
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
-import org.apache.http.nio.ContentEncoder;
-import org.apache.http.nio.IOControl;
-import org.apache.http.nio.entity.EntityAsyncContentProducer;
-import org.apache.http.nio.entity.HttpAsyncContentProducer;
-import org.apache.http.protocol.HTTP;
-import org.apache.http.protocol.HttpContext;
+import se.tink.org.apache.http.HttpEntity;
+import se.tink.org.apache.http.HttpResponse;
+import se.tink.org.apache.http.nio.ContentEncoder;
+import se.tink.org.apache.http.nio.IOControl;
+import se.tink.org.apache.http.nio.entity.EntityAsyncContentProducer;
+import se.tink.org.apache.http.nio.entity.HttpAsyncContentProducer;
+import se.tink.org.apache.http.protocol.HTTP;
+import se.tink.org.apache.http.protocol.HttpContext;
 
 class ErrorResponseProducer implements HttpAsyncResponseProducer {
 

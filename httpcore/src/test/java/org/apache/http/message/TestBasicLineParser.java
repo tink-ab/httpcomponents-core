@@ -27,11 +27,11 @@
 
 package org.apache.http.message;
 
-import org.apache.http.HttpVersion;
-import org.apache.http.ParseException;
-import org.apache.http.RequestLine;
-import org.apache.http.StatusLine;
-import org.apache.http.util.CharArrayBuffer;
+import se.tink.org.apache.http.HttpVersion;
+import se.tink.org.apache.http.ParseException;
+import se.tink.org.apache.http.RequestLine;
+import se.tink.org.apache.http.StatusLine;
+import se.tink.org.apache.http.util.CharArrayBuffer;
 import org.junit.Assert;
 import org.junit.Test;
 

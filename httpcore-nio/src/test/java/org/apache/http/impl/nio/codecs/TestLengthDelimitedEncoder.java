@@ -33,11 +33,11 @@ import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 
-import org.apache.http.Consts;
-import org.apache.http.WritableByteChannelMock;
-import org.apache.http.impl.io.HttpTransportMetricsImpl;
-import org.apache.http.impl.nio.reactor.SessionOutputBufferImpl;
-import org.apache.http.nio.reactor.SessionOutputBuffer;
+import se.tink.org.apache.http.Consts;
+import se.tink.org.apache.http.WritableByteChannelMock;
+import se.tink.org.apache.http.impl.io.HttpTransportMetricsImpl;
+import se.tink.org.apache.http.impl.nio.reactor.SessionOutputBufferImpl;
+import se.tink.org.apache.http.nio.reactor.SessionOutputBuffer;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Test;

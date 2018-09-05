@@ -32,8 +32,8 @@ import java.io.ByteArrayOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
-import org.apache.http.HeaderElement;
-import org.apache.http.util.CharArrayBuffer;
+import se.tink.org.apache.http.HeaderElement;
+import se.tink.org.apache.http.util.CharArrayBuffer;
 import org.junit.Assert;
 import org.junit.Test;
 

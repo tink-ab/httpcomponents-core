@@ -30,10 +30,10 @@ package org.apache.http.nio.protocol;
 import java.io.Closeable;
 import java.io.IOException;
 
-import org.apache.http.HttpResponse;
-import org.apache.http.nio.ContentEncoder;
-import org.apache.http.nio.IOControl;
-import org.apache.http.protocol.HttpContext;
+import se.tink.org.apache.http.HttpResponse;
+import se.tink.org.apache.http.nio.ContentEncoder;
+import se.tink.org.apache.http.nio.IOControl;
+import se.tink.org.apache.http.protocol.HttpContext;
 
 /**
  * <tt>HttpAsyncResponseProducer</tt> is a callback interface whose methods

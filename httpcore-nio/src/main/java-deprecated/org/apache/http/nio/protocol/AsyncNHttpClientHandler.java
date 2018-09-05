@@ -29,30 +29,30 @@ package org.apache.http.nio.protocol;
 
 import java.io.IOException;
 
-import org.apache.http.ConnectionReuseStrategy;
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpEntityEnclosingRequest;
-import org.apache.http.HttpException;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpStatus;
-import org.apache.http.annotation.Immutable;
-import org.apache.http.nio.ContentDecoder;
-import org.apache.http.nio.ContentEncoder;
-import org.apache.http.nio.NHttpClientConnection;
-import org.apache.http.nio.NHttpClientHandler;
-import org.apache.http.nio.entity.ConsumingNHttpEntity;
-import org.apache.http.nio.entity.NHttpEntityWrapper;
-import org.apache.http.nio.entity.ProducingNHttpEntity;
-import org.apache.http.nio.util.ByteBufferAllocator;
-import org.apache.http.nio.util.HeapByteBufferAllocator;
-import org.apache.http.params.CoreProtocolPNames;
-import org.apache.http.params.DefaultedHttpParams;
-import org.apache.http.params.HttpParams;
-import org.apache.http.protocol.ExecutionContext;
-import org.apache.http.protocol.HttpContext;
-import org.apache.http.protocol.HttpProcessor;
-import org.apache.http.util.Args;
+import se.tink.org.apache.http.ConnectionReuseStrategy;
+import se.tink.org.apache.http.HttpEntity;
+import se.tink.org.apache.http.HttpEntityEnclosingRequest;
+import se.tink.org.apache.http.HttpException;
+import se.tink.org.apache.http.HttpRequest;
+import se.tink.org.apache.http.HttpResponse;
+import se.tink.org.apache.http.HttpStatus;
+import se.tink.org.apache.http.annotation.Immutable;
+import se.tink.org.apache.http.nio.ContentDecoder;
+import se.tink.org.apache.http.nio.ContentEncoder;
+import se.tink.org.apache.http.nio.NHttpClientConnection;
+import se.tink.org.apache.http.nio.NHttpClientHandler;
+import se.tink.org.apache.http.nio.entity.ConsumingNHttpEntity;
+import se.tink.org.apache.http.nio.entity.NHttpEntityWrapper;
+import se.tink.org.apache.http.nio.entity.ProducingNHttpEntity;
+import se.tink.org.apache.http.nio.util.ByteBufferAllocator;
+import se.tink.org.apache.http.nio.util.HeapByteBufferAllocator;
+import se.tink.org.apache.http.params.CoreProtocolPNames;
+import se.tink.org.apache.http.params.DefaultedHttpParams;
+import se.tink.org.apache.http.params.HttpParams;
+import se.tink.org.apache.http.protocol.ExecutionContext;
+import se.tink.org.apache.http.protocol.HttpContext;
+import se.tink.org.apache.http.protocol.HttpProcessor;
+import se.tink.org.apache.http.util.Args;
 
 /**
  * Fully asynchronous HTTP client side protocol handler that implements the

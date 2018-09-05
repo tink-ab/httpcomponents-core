@@ -30,20 +30,20 @@ package org.apache.http.nio.protocol;
 import java.io.IOException;
 import java.util.concurrent.Future;
 
-import org.apache.http.ConnectionReuseStrategy;
-import org.apache.http.HttpException;
-import org.apache.http.HttpHost;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.concurrent.BasicFuture;
-import org.apache.http.concurrent.FutureCallback;
-import org.apache.http.nio.ContentDecoder;
-import org.apache.http.nio.ContentEncoder;
-import org.apache.http.nio.IOControl;
-import org.apache.http.params.HttpParams;
-import org.apache.http.protocol.HttpContext;
-import org.apache.http.protocol.HttpProcessor;
-import org.apache.http.util.Args;
+import se.tink.org.apache.http.ConnectionReuseStrategy;
+import se.tink.org.apache.http.HttpException;
+import se.tink.org.apache.http.HttpHost;
+import se.tink.org.apache.http.HttpRequest;
+import se.tink.org.apache.http.HttpResponse;
+import se.tink.org.apache.http.concurrent.BasicFuture;
+import se.tink.org.apache.http.concurrent.FutureCallback;
+import se.tink.org.apache.http.nio.ContentDecoder;
+import se.tink.org.apache.http.nio.ContentEncoder;
+import se.tink.org.apache.http.nio.IOControl;
+import se.tink.org.apache.http.params.HttpParams;
+import se.tink.org.apache.http.protocol.HttpContext;
+import se.tink.org.apache.http.protocol.HttpProcessor;
+import se.tink.org.apache.http.util.Args;
 
 /**
  * Basic implementation of {@link HttpAsyncRequestExecutionHandler} that executes

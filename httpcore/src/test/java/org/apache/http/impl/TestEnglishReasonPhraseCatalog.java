@@ -30,7 +30,7 @@ package org.apache.http.impl;
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 
-import org.apache.http.HttpStatus;
+import se.tink.org.apache.http.HttpStatus;
 import org.junit.Assert;
 import org.junit.Test;
 

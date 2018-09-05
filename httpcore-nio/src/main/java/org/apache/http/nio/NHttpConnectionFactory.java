@@ -27,7 +27,7 @@
 
 package org.apache.http.nio;
 
-import org.apache.http.nio.reactor.IOSession;
+import se.tink.org.apache.http.nio.reactor.IOSession;
 
 /**
  * Factory for {@link NHttpConnection} instances.

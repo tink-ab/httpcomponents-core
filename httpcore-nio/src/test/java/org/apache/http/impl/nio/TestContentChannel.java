@@ -32,10 +32,10 @@ import static org.mockito.Mockito.verify;
 
 import java.nio.ByteBuffer;
 
-import org.apache.http.nio.ContentDecoder;
-import org.apache.http.nio.ContentDecoderChannel;
-import org.apache.http.nio.ContentEncoder;
-import org.apache.http.nio.ContentEncoderChannel;
+import se.tink.org.apache.http.nio.ContentDecoder;
+import se.tink.org.apache.http.nio.ContentDecoderChannel;
+import se.tink.org.apache.http.nio.ContentEncoder;
+import se.tink.org.apache.http.nio.ContentEncoderChannel;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

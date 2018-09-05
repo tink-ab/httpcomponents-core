@@ -29,22 +29,22 @@ package org.apache.http.examples;
 
 import java.net.Socket;
 
-import org.apache.http.ConnectionReuseStrategy;
-import org.apache.http.HttpHost;
-import org.apache.http.HttpResponse;
-import org.apache.http.impl.DefaultBHttpClientConnection;
-import org.apache.http.impl.DefaultConnectionReuseStrategy;
-import org.apache.http.message.BasicHttpRequest;
-import org.apache.http.protocol.HttpCoreContext;
-import org.apache.http.protocol.HttpProcessor;
-import org.apache.http.protocol.HttpProcessorBuilder;
-import org.apache.http.protocol.HttpRequestExecutor;
-import org.apache.http.protocol.RequestConnControl;
-import org.apache.http.protocol.RequestContent;
-import org.apache.http.protocol.RequestExpectContinue;
-import org.apache.http.protocol.RequestTargetHost;
-import org.apache.http.protocol.RequestUserAgent;
-import org.apache.http.util.EntityUtils;
+import se.tink.org.apache.http.ConnectionReuseStrategy;
+import se.tink.org.apache.http.HttpHost;
+import se.tink.org.apache.http.HttpResponse;
+import se.tink.org.apache.http.impl.DefaultBHttpClientConnection;
+import se.tink.org.apache.http.impl.DefaultConnectionReuseStrategy;
+import se.tink.org.apache.http.message.BasicHttpRequest;
+import se.tink.org.apache.http.protocol.HttpCoreContext;
+import se.tink.org.apache.http.protocol.HttpProcessor;
+import se.tink.org.apache.http.protocol.HttpProcessorBuilder;
+import se.tink.org.apache.http.protocol.HttpRequestExecutor;
+import se.tink.org.apache.http.protocol.RequestConnControl;
+import se.tink.org.apache.http.protocol.RequestContent;
+import se.tink.org.apache.http.protocol.RequestExpectContinue;
+import se.tink.org.apache.http.protocol.RequestTargetHost;
+import se.tink.org.apache.http.protocol.RequestUserAgent;
+import se.tink.org.apache.http.util.EntityUtils;
 
 /**
  * Elemental example for executing multiple GET requests sequentially.

@@ -27,13 +27,13 @@
 
 package org.apache.http.nio.protocol;
 
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpVersion;
-import org.apache.http.message.BasicRequestLine;
-import org.apache.http.protocol.BasicHttpContext;
-import org.apache.http.protocol.HttpContext;
-import org.apache.http.protocol.HttpRequestHandler;
+import se.tink.org.apache.http.HttpRequest;
+import se.tink.org.apache.http.HttpResponse;
+import se.tink.org.apache.http.HttpVersion;
+import se.tink.org.apache.http.message.BasicRequestLine;
+import se.tink.org.apache.http.protocol.BasicHttpContext;
+import se.tink.org.apache.http.protocol.HttpContext;
+import se.tink.org.apache.http.protocol.HttpRequestHandler;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;

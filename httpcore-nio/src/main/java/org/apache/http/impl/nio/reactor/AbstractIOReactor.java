@@ -41,13 +41,13 @@ import java.util.Queue;
 import java.util.Set;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
-import org.apache.http.annotation.ThreadSafe;
-import org.apache.http.nio.reactor.IOReactor;
-import org.apache.http.nio.reactor.IOReactorException;
-import org.apache.http.nio.reactor.IOReactorStatus;
-import org.apache.http.nio.reactor.IOSession;
-import org.apache.http.util.Args;
-import org.apache.http.util.Asserts;
+import se.tink.org.apache.http.annotation.ThreadSafe;
+import se.tink.org.apache.http.nio.reactor.IOReactor;
+import se.tink.org.apache.http.nio.reactor.IOReactorException;
+import se.tink.org.apache.http.nio.reactor.IOReactorStatus;
+import se.tink.org.apache.http.nio.reactor.IOSession;
+import se.tink.org.apache.http.util.Args;
+import se.tink.org.apache.http.util.Asserts;
 
 /**
  * Generic implementation of {@link IOReactor} that can used as a subclass

@@ -34,13 +34,13 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
-import org.apache.http.annotation.ThreadSafe;
-import org.apache.http.nio.reactor.EventMask;
-import org.apache.http.nio.reactor.IOEventDispatch;
-import org.apache.http.nio.reactor.IOReactorException;
-import org.apache.http.nio.reactor.IOReactorExceptionHandler;
-import org.apache.http.nio.reactor.IOSession;
-import org.apache.http.util.Args;
+import se.tink.org.apache.http.annotation.ThreadSafe;
+import se.tink.org.apache.http.nio.reactor.EventMask;
+import se.tink.org.apache.http.nio.reactor.IOEventDispatch;
+import se.tink.org.apache.http.nio.reactor.IOReactorException;
+import se.tink.org.apache.http.nio.reactor.IOReactorExceptionHandler;
+import se.tink.org.apache.http.nio.reactor.IOSession;
+import se.tink.org.apache.http.util.Args;
 
 /**
  * Default implementation of {@link AbstractIOReactor} that serves as a base

@@ -34,8 +34,8 @@ import java.nio.channels.ClosedChannelException;
 import java.nio.channels.WritableByteChannel;
 import java.nio.charset.Charset;
 
-import org.apache.http.nio.util.ExpandableBuffer;
-import org.apache.http.nio.util.HeapByteBufferAllocator;
+import se.tink.org.apache.http.nio.util.ExpandableBuffer;
+import se.tink.org.apache.http.nio.util.HeapByteBufferAllocator;
 
 public class WritableByteChannelMock implements WritableByteChannel {
 

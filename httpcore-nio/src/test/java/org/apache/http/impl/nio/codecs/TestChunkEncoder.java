@@ -29,11 +29,11 @@ package org.apache.http.impl.nio.codecs;
 
 import java.nio.ByteBuffer;
 
-import org.apache.http.Consts;
-import org.apache.http.WritableByteChannelMock;
-import org.apache.http.impl.io.HttpTransportMetricsImpl;
-import org.apache.http.impl.nio.reactor.SessionOutputBufferImpl;
-import org.apache.http.nio.reactor.SessionOutputBuffer;
+import se.tink.org.apache.http.Consts;
+import se.tink.org.apache.http.WritableByteChannelMock;
+import se.tink.org.apache.http.impl.io.HttpTransportMetricsImpl;
+import se.tink.org.apache.http.impl.nio.reactor.SessionOutputBufferImpl;
+import se.tink.org.apache.http.nio.reactor.SessionOutputBuffer;
 import org.junit.Assert;
 import org.junit.Test;
 import org.mockito.Mockito;

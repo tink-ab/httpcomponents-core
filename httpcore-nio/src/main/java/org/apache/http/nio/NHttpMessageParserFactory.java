@@ -27,9 +27,9 @@
 
 package org.apache.http.nio;
 
-import org.apache.http.HttpMessage;
-import org.apache.http.config.MessageConstraints;
-import org.apache.http.nio.reactor.SessionInputBuffer;
+import se.tink.org.apache.http.HttpMessage;
+import se.tink.org.apache.http.config.MessageConstraints;
+import se.tink.org.apache.http.nio.reactor.SessionInputBuffer;
 
 /**
  * Factory for {@link NHttpMessageParser} instances.

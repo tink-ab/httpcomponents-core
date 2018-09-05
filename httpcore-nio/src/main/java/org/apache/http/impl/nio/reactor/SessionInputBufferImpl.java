@@ -38,17 +38,17 @@ import java.nio.charset.CharsetDecoder;
 import java.nio.charset.CoderResult;
 import java.nio.charset.CodingErrorAction;
 
-import org.apache.http.annotation.NotThreadSafe;
-import org.apache.http.nio.reactor.SessionInputBuffer;
-import org.apache.http.nio.util.ByteBufferAllocator;
-import org.apache.http.nio.util.ExpandableBuffer;
-import org.apache.http.nio.util.HeapByteBufferAllocator;
-import org.apache.http.params.CoreProtocolPNames;
-import org.apache.http.params.HttpParams;
-import org.apache.http.protocol.HTTP;
-import org.apache.http.util.Args;
-import org.apache.http.util.CharArrayBuffer;
-import org.apache.http.util.CharsetUtils;
+import se.tink.org.apache.http.annotation.NotThreadSafe;
+import se.tink.org.apache.http.nio.reactor.SessionInputBuffer;
+import se.tink.org.apache.http.nio.util.ByteBufferAllocator;
+import se.tink.org.apache.http.nio.util.ExpandableBuffer;
+import se.tink.org.apache.http.nio.util.HeapByteBufferAllocator;
+import se.tink.org.apache.http.params.CoreProtocolPNames;
+import se.tink.org.apache.http.params.HttpParams;
+import se.tink.org.apache.http.protocol.HTTP;
+import se.tink.org.apache.http.util.Args;
+import se.tink.org.apache.http.util.CharArrayBuffer;
+import se.tink.org.apache.http.util.CharsetUtils;
 
 /**
  * Default implementation of {@link SessionInputBuffer} based on

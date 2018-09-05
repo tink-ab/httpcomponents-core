@@ -34,8 +34,8 @@ import java.nio.channels.ByteChannel;
 import java.nio.channels.SelectionKey;
 
 import org.apache.commons.logging.Log;
-import org.apache.http.nio.reactor.IOSession;
-import org.apache.http.nio.reactor.SessionBufferStatus;
+import se.tink.org.apache.http.nio.reactor.IOSession;
+import se.tink.org.apache.http.nio.reactor.SessionBufferStatus;
 
 /**
  * Decorator class intended to transparently extend an {@link IOSession}

@@ -29,12 +29,12 @@ package org.apache.http.nio.protocol;
 
 import java.io.IOException;
 
-import org.apache.http.HttpEntityEnclosingRequest;
-import org.apache.http.HttpException;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.nio.entity.ConsumingNHttpEntity;
-import org.apache.http.protocol.HttpContext;
+import se.tink.org.apache.http.HttpEntityEnclosingRequest;
+import se.tink.org.apache.http.HttpException;
+import se.tink.org.apache.http.HttpRequest;
+import se.tink.org.apache.http.HttpResponse;
+import se.tink.org.apache.http.nio.entity.ConsumingNHttpEntity;
+import se.tink.org.apache.http.protocol.HttpContext;
 
 /**
  * NHttpRequestHandler represents a routine for asynchronous processing of

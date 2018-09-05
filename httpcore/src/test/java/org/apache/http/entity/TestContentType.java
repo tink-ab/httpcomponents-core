@@ -29,9 +29,9 @@ package org.apache.http.entity;
 
 import java.nio.charset.Charset;
 
-import org.apache.http.Header;
-import org.apache.http.ParseException;
-import org.apache.http.message.BasicHeader;
+import se.tink.org.apache.http.Header;
+import se.tink.org.apache.http.ParseException;
+import se.tink.org.apache.http.message.BasicHeader;
 import org.junit.Assert;
 import org.junit.Test;
 

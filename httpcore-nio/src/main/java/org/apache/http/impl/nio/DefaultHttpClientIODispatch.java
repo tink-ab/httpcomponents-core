@@ -31,15 +31,15 @@ import java.io.IOException;
 
 import javax.net.ssl.SSLContext;
 
-import org.apache.http.annotation.Immutable;
-import org.apache.http.config.ConnectionConfig;
-import org.apache.http.impl.nio.reactor.AbstractIODispatch;
-import org.apache.http.nio.NHttpClientEventHandler;
-import org.apache.http.nio.NHttpConnectionFactory;
-import org.apache.http.nio.reactor.IOSession;
-import org.apache.http.nio.reactor.ssl.SSLSetupHandler;
-import org.apache.http.params.HttpParams;
-import org.apache.http.util.Args;
+import se.tink.org.apache.http.annotation.Immutable;
+import se.tink.org.apache.http.config.ConnectionConfig;
+import se.tink.org.apache.http.impl.nio.reactor.AbstractIODispatch;
+import se.tink.org.apache.http.nio.NHttpClientEventHandler;
+import se.tink.org.apache.http.nio.NHttpConnectionFactory;
+import se.tink.org.apache.http.nio.reactor.IOSession;
+import se.tink.org.apache.http.nio.reactor.ssl.SSLSetupHandler;
+import se.tink.org.apache.http.params.HttpParams;
+import se.tink.org.apache.http.util.Args;
 
 /**
  * Default {@link org.apache.http.nio.reactor.IOEventDispatch} implementation

@@ -27,12 +27,12 @@
 
 package org.apache.http.nio.entity;
 
-import org.apache.http.Header;
-import org.apache.http.HttpEntity;
-import org.apache.http.annotation.NotThreadSafe;
-import org.apache.http.entity.BasicHttpEntity;
-import org.apache.http.nio.util.ContentInputBuffer;
-import org.apache.http.util.Args;
+import se.tink.org.apache.http.Header;
+import se.tink.org.apache.http.HttpEntity;
+import se.tink.org.apache.http.annotation.NotThreadSafe;
+import se.tink.org.apache.http.entity.BasicHttpEntity;
+import se.tink.org.apache.http.nio.util.ContentInputBuffer;
+import se.tink.org.apache.http.util.Args;
 
 /**
  * HTTP entity wrapper whose content is provided by a

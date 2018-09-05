@@ -27,7 +27,7 @@
 
 package org.apache.http.examples;
 
-import org.apache.http.util.VersionInfo;
+import se.tink.org.apache.http.util.VersionInfo;
 
 /**
  * Prints version information for debugging purposes.

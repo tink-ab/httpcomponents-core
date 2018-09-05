@@ -29,9 +29,9 @@ package org.apache.http.nio.entity;
 
 import java.io.IOException;
 
-import org.apache.http.HttpEntity;
-import org.apache.http.nio.ContentEncoder;
-import org.apache.http.nio.IOControl;
+import se.tink.org.apache.http.HttpEntity;
+import se.tink.org.apache.http.nio.ContentEncoder;
+import se.tink.org.apache.http.nio.IOControl;
 
 /**
  * An {@link HttpEntity} that can stream content out into a

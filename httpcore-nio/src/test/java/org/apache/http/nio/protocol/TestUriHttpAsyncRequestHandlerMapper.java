@@ -27,9 +27,9 @@
 
 package org.apache.http.nio.protocol;
 
-import org.apache.http.HttpRequest;
-import org.apache.http.message.BasicHttpRequest;
-import org.apache.http.protocol.UriPatternMatcher;
+import se.tink.org.apache.http.HttpRequest;
+import se.tink.org.apache.http.message.BasicHttpRequest;
+import se.tink.org.apache.http.protocol.UriPatternMatcher;
 import org.junit.Assert;
 import org.junit.Test;
 import org.mockito.Mockito;

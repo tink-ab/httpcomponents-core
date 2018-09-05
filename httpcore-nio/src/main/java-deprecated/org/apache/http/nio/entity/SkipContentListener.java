@@ -30,10 +30,10 @@ package org.apache.http.nio.entity;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 
-import org.apache.http.nio.ContentDecoder;
-import org.apache.http.nio.IOControl;
-import org.apache.http.nio.util.ByteBufferAllocator;
-import org.apache.http.util.Args;
+import se.tink.org.apache.http.nio.ContentDecoder;
+import se.tink.org.apache.http.nio.IOControl;
+import se.tink.org.apache.http.nio.util.ByteBufferAllocator;
+import se.tink.org.apache.http.util.Args;
 
 /**
  * A simple {@link ContentListener} that reads and ignores all content.

@@ -27,9 +27,9 @@
 
 package org.apache.http.impl.entity;
 
-import org.apache.http.HttpMessage;
-import org.apache.http.ProtocolException;
-import org.apache.http.entity.ContentLengthStrategy;
+import se.tink.org.apache.http.HttpMessage;
+import se.tink.org.apache.http.ProtocolException;
+import se.tink.org.apache.http.entity.ContentLengthStrategy;
 import org.junit.Assert;
 import org.junit.Test;
 import org.mockito.Mockito;

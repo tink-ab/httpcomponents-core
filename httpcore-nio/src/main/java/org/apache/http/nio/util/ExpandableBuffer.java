@@ -29,9 +29,9 @@ package org.apache.http.nio.util;
 
 import java.nio.ByteBuffer;
 
-import org.apache.http.annotation.NotThreadSafe;
-import org.apache.http.io.BufferInfo;
-import org.apache.http.util.Args;
+import se.tink.org.apache.http.annotation.NotThreadSafe;
+import se.tink.org.apache.http.io.BufferInfo;
+import se.tink.org.apache.http.util.Args;
 
 /**
  * A buffer that expand its capacity on demand using {@link ByteBufferAllocator}

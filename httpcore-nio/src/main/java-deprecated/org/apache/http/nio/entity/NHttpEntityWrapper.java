@@ -34,11 +34,11 @@ import java.nio.ByteBuffer;
 import java.nio.channels.Channels;
 import java.nio.channels.ReadableByteChannel;
 
-import org.apache.http.HttpEntity;
-import org.apache.http.annotation.NotThreadSafe;
-import org.apache.http.entity.HttpEntityWrapper;
-import org.apache.http.nio.ContentEncoder;
-import org.apache.http.nio.IOControl;
+import se.tink.org.apache.http.HttpEntity;
+import se.tink.org.apache.http.annotation.NotThreadSafe;
+import se.tink.org.apache.http.entity.HttpEntityWrapper;
+import se.tink.org.apache.http.nio.ContentEncoder;
+import se.tink.org.apache.http.nio.IOControl;
 
 /**
  * {@link ProducingNHttpEntity} compatibility adaptor for blocking HTTP

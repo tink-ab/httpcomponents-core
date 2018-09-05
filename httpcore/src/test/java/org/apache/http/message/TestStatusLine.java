@@ -32,9 +32,9 @@ import java.io.ByteArrayOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
-import org.apache.http.HttpStatus;
-import org.apache.http.HttpVersion;
-import org.apache.http.StatusLine;
+import se.tink.org.apache.http.HttpStatus;
+import se.tink.org.apache.http.HttpVersion;
+import se.tink.org.apache.http.StatusLine;
 import org.junit.Assert;
 import org.junit.Test;
 

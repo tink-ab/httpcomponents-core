@@ -31,15 +31,15 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-import org.apache.http.HttpEntity;
-import org.apache.http.annotation.NotThreadSafe;
-import org.apache.http.entity.HttpEntityWrapper;
-import org.apache.http.nio.ContentDecoder;
-import org.apache.http.nio.IOControl;
-import org.apache.http.nio.util.ByteBufferAllocator;
-import org.apache.http.nio.util.SimpleInputBuffer;
-import org.apache.http.util.Args;
-import org.apache.http.util.Asserts;
+import se.tink.org.apache.http.HttpEntity;
+import se.tink.org.apache.http.annotation.NotThreadSafe;
+import se.tink.org.apache.http.entity.HttpEntityWrapper;
+import se.tink.org.apache.http.nio.ContentDecoder;
+import se.tink.org.apache.http.nio.IOControl;
+import se.tink.org.apache.http.nio.util.ByteBufferAllocator;
+import se.tink.org.apache.http.nio.util.SimpleInputBuffer;
+import se.tink.org.apache.http.util.Args;
+import se.tink.org.apache.http.util.Asserts;
 
 /**
  * A {@link ConsumingNHttpEntity} that consumes content into a buffer. The

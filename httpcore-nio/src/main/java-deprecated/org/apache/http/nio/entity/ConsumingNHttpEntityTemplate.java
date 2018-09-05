@@ -31,10 +31,10 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-import org.apache.http.HttpEntity;
-import org.apache.http.entity.HttpEntityWrapper;
-import org.apache.http.nio.ContentDecoder;
-import org.apache.http.nio.IOControl;
+import se.tink.org.apache.http.HttpEntity;
+import se.tink.org.apache.http.entity.HttpEntityWrapper;
+import se.tink.org.apache.http.nio.ContentDecoder;
+import se.tink.org.apache.http.nio.IOControl;
 
 /**
  * A {@link ConsumingNHttpEntity} that forwards available content to a

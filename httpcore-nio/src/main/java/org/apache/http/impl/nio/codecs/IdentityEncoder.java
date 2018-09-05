@@ -32,10 +32,10 @@ import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 import java.nio.channels.WritableByteChannel;
 
-import org.apache.http.annotation.NotThreadSafe;
-import org.apache.http.impl.io.HttpTransportMetricsImpl;
-import org.apache.http.nio.FileContentEncoder;
-import org.apache.http.nio.reactor.SessionOutputBuffer;
+import se.tink.org.apache.http.annotation.NotThreadSafe;
+import se.tink.org.apache.http.impl.io.HttpTransportMetricsImpl;
+import se.tink.org.apache.http.nio.FileContentEncoder;
+import se.tink.org.apache.http.nio.reactor.SessionOutputBuffer;
 
 /**
  * Content encoder that writes data without any transformation. The end of

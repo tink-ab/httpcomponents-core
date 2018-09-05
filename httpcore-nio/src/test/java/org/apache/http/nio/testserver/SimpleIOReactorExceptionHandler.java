@@ -28,8 +28,8 @@ package org.apache.http.nio.testserver;
 
 import java.io.IOException;
 
-import org.apache.http.OoopsieRuntimeException;
-import org.apache.http.nio.reactor.IOReactorExceptionHandler;
+import se.tink.org.apache.http.OoopsieRuntimeException;
+import se.tink.org.apache.http.nio.reactor.IOReactorExceptionHandler;
 
 public class SimpleIOReactorExceptionHandler implements IOReactorExceptionHandler {
 

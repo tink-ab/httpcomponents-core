@@ -29,11 +29,11 @@ package org.apache.http.nio.protocol;
 import java.io.Closeable;
 import java.io.IOException;
 
-import org.apache.http.HttpException;
-import org.apache.http.HttpRequest;
-import org.apache.http.nio.ContentDecoder;
-import org.apache.http.nio.IOControl;
-import org.apache.http.protocol.HttpContext;
+import se.tink.org.apache.http.HttpException;
+import se.tink.org.apache.http.HttpRequest;
+import se.tink.org.apache.http.nio.ContentDecoder;
+import se.tink.org.apache.http.nio.IOControl;
+import se.tink.org.apache.http.protocol.HttpContext;
 
 /**
  * <tt>HttpAsyncRequestConsumer</tt> is a callback interface whose methods

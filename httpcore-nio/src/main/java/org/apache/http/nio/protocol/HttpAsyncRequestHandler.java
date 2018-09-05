@@ -29,9 +29,9 @@ package org.apache.http.nio.protocol;
 
 import java.io.IOException;
 
-import org.apache.http.HttpException;
-import org.apache.http.HttpRequest;
-import org.apache.http.protocol.HttpContext;
+import se.tink.org.apache.http.HttpException;
+import se.tink.org.apache.http.HttpRequest;
+import se.tink.org.apache.http.protocol.HttpContext;
 
 /**
  * <tt>HttpAsyncRequestHandler</tt> represents a routine for asynchronous

@@ -28,8 +28,8 @@ package org.apache.http.message;
 
 import java.util.NoSuchElementException;
 
-import org.apache.http.Header;
-import org.apache.http.HeaderIterator;
+import se.tink.org.apache.http.Header;
+import se.tink.org.apache.http.HeaderIterator;
 import org.junit.Assert;
 import org.junit.Test;
 

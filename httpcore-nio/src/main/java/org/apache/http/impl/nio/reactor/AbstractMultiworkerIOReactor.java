@@ -41,18 +41,18 @@ import java.util.Date;
 import java.util.List;
 import java.util.concurrent.ThreadFactory;
 
-import org.apache.http.annotation.ThreadSafe;
-import org.apache.http.nio.params.NIOReactorPNames;
-import org.apache.http.nio.reactor.IOEventDispatch;
-import org.apache.http.nio.reactor.IOReactor;
-import org.apache.http.nio.reactor.IOReactorException;
-import org.apache.http.nio.reactor.IOReactorExceptionHandler;
-import org.apache.http.nio.reactor.IOReactorStatus;
-import org.apache.http.params.BasicHttpParams;
-import org.apache.http.params.CoreConnectionPNames;
-import org.apache.http.params.HttpParams;
-import org.apache.http.util.Args;
-import org.apache.http.util.Asserts;
+import se.tink.org.apache.http.annotation.ThreadSafe;
+import se.tink.org.apache.http.nio.params.NIOReactorPNames;
+import se.tink.org.apache.http.nio.reactor.IOEventDispatch;
+import se.tink.org.apache.http.nio.reactor.IOReactor;
+import se.tink.org.apache.http.nio.reactor.IOReactorException;
+import se.tink.org.apache.http.nio.reactor.IOReactorExceptionHandler;
+import se.tink.org.apache.http.nio.reactor.IOReactorStatus;
+import se.tink.org.apache.http.params.BasicHttpParams;
+import se.tink.org.apache.http.params.CoreConnectionPNames;
+import se.tink.org.apache.http.params.HttpParams;
+import se.tink.org.apache.http.util.Args;
+import se.tink.org.apache.http.util.Asserts;
 
 /**
  * Generic implementation of {@link IOReactor} that can run multiple

@@ -27,8 +27,8 @@
 
 package org.apache.http.message;
 
-import org.apache.http.HeaderElement;
-import org.apache.http.NameValuePair;
+import se.tink.org.apache.http.HeaderElement;
+import se.tink.org.apache.http.NameValuePair;
 import org.junit.Assert;
 import org.junit.Test;
 

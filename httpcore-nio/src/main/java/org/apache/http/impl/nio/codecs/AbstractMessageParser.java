@@ -32,21 +32,21 @@ import java.nio.channels.ReadableByteChannel;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.http.HttpException;
-import org.apache.http.HttpMessage;
-import org.apache.http.MessageConstraintException;
-import org.apache.http.ParseException;
-import org.apache.http.ProtocolException;
-import org.apache.http.annotation.NotThreadSafe;
-import org.apache.http.config.MessageConstraints;
-import org.apache.http.message.BasicLineParser;
-import org.apache.http.message.LineParser;
-import org.apache.http.nio.NHttpMessageParser;
-import org.apache.http.nio.reactor.SessionInputBuffer;
-import org.apache.http.params.HttpParamConfig;
-import org.apache.http.params.HttpParams;
-import org.apache.http.util.Args;
-import org.apache.http.util.CharArrayBuffer;
+import se.tink.org.apache.http.HttpException;
+import se.tink.org.apache.http.HttpMessage;
+import se.tink.org.apache.http.MessageConstraintException;
+import se.tink.org.apache.http.ParseException;
+import se.tink.org.apache.http.ProtocolException;
+import se.tink.org.apache.http.annotation.NotThreadSafe;
+import se.tink.org.apache.http.config.MessageConstraints;
+import se.tink.org.apache.http.message.BasicLineParser;
+import se.tink.org.apache.http.message.LineParser;
+import se.tink.org.apache.http.nio.NHttpMessageParser;
+import se.tink.org.apache.http.nio.reactor.SessionInputBuffer;
+import se.tink.org.apache.http.params.HttpParamConfig;
+import se.tink.org.apache.http.params.HttpParams;
+import se.tink.org.apache.http.util.Args;
+import se.tink.org.apache.http.util.CharArrayBuffer;
 
 /**
  * Abstract {@link NHttpMessageParser} that serves as a base for all message

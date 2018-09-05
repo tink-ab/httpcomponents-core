@@ -27,20 +27,20 @@
 
 package org.apache.http.impl.nio.codecs;
 
-import org.apache.http.HttpException;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpResponseFactory;
-import org.apache.http.ParseException;
-import org.apache.http.StatusLine;
-import org.apache.http.annotation.NotThreadSafe;
-import org.apache.http.config.MessageConstraints;
-import org.apache.http.impl.DefaultHttpResponseFactory;
-import org.apache.http.message.LineParser;
-import org.apache.http.message.ParserCursor;
-import org.apache.http.nio.reactor.SessionInputBuffer;
-import org.apache.http.params.HttpParams;
-import org.apache.http.util.Args;
-import org.apache.http.util.CharArrayBuffer;
+import se.tink.org.apache.http.HttpException;
+import se.tink.org.apache.http.HttpResponse;
+import se.tink.org.apache.http.HttpResponseFactory;
+import se.tink.org.apache.http.ParseException;
+import se.tink.org.apache.http.StatusLine;
+import se.tink.org.apache.http.annotation.NotThreadSafe;
+import se.tink.org.apache.http.config.MessageConstraints;
+import se.tink.org.apache.http.impl.DefaultHttpResponseFactory;
+import se.tink.org.apache.http.message.LineParser;
+import se.tink.org.apache.http.message.ParserCursor;
+import se.tink.org.apache.http.nio.reactor.SessionInputBuffer;
+import se.tink.org.apache.http.params.HttpParams;
+import se.tink.org.apache.http.util.Args;
+import se.tink.org.apache.http.util.CharArrayBuffer;
 
 /**
  * Default {@link org.apache.http.nio.NHttpMessageParser} implementation

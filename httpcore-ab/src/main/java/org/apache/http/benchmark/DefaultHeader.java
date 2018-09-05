@@ -27,7 +27,7 @@
 
 package org.apache.http.benchmark;
 
-import org.apache.http.message.BasicHeader;
+import se.tink.org.apache.http.message.BasicHeader;
 
 class DefaultHeader extends BasicHeader {
 

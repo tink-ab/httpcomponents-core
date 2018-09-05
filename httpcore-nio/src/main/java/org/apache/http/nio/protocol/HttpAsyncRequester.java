@@ -29,21 +29,21 @@ package org.apache.http.nio.protocol;
 import java.io.IOException;
 import java.util.concurrent.Future;
 
-import org.apache.http.ConnectionClosedException;
-import org.apache.http.ConnectionReuseStrategy;
-import org.apache.http.HttpHost;
-import org.apache.http.annotation.Immutable;
-import org.apache.http.concurrent.BasicFuture;
-import org.apache.http.concurrent.FutureCallback;
-import org.apache.http.impl.DefaultConnectionReuseStrategy;
-import org.apache.http.nio.NHttpClientConnection;
-import org.apache.http.params.HttpParams;
-import org.apache.http.pool.ConnPool;
-import org.apache.http.pool.PoolEntry;
-import org.apache.http.protocol.BasicHttpContext;
-import org.apache.http.protocol.HttpContext;
-import org.apache.http.protocol.HttpProcessor;
-import org.apache.http.util.Args;
+import se.tink.org.apache.http.ConnectionClosedException;
+import se.tink.org.apache.http.ConnectionReuseStrategy;
+import se.tink.org.apache.http.HttpHost;
+import se.tink.org.apache.http.annotation.Immutable;
+import se.tink.org.apache.http.concurrent.BasicFuture;
+import se.tink.org.apache.http.concurrent.FutureCallback;
+import se.tink.org.apache.http.impl.DefaultConnectionReuseStrategy;
+import se.tink.org.apache.http.nio.NHttpClientConnection;
+import se.tink.org.apache.http.params.HttpParams;
+import se.tink.org.apache.http.pool.ConnPool;
+import se.tink.org.apache.http.pool.PoolEntry;
+import se.tink.org.apache.http.protocol.BasicHttpContext;
+import se.tink.org.apache.http.protocol.HttpContext;
+import se.tink.org.apache.http.protocol.HttpProcessor;
+import se.tink.org.apache.http.util.Args;
 
 /**
  * <tt>HttpAsyncRequester</tt> is a utility class that can be used

@@ -27,13 +27,13 @@
 
 package org.apache.http.nio.testserver;
 
-import org.apache.http.HttpHost;
-import org.apache.http.impl.nio.DefaultNHttpClientConnection;
-import org.apache.http.impl.nio.DefaultNHttpServerConnection;
-import org.apache.http.impl.nio.pool.BasicNIOConnFactory;
-import org.apache.http.nio.NHttpClientConnection;
-import org.apache.http.nio.NHttpConnectionFactory;
-import org.apache.http.nio.pool.NIOConnFactory;
+import se.tink.org.apache.http.HttpHost;
+import se.tink.org.apache.http.impl.nio.DefaultNHttpClientConnection;
+import se.tink.org.apache.http.impl.nio.DefaultNHttpServerConnection;
+import se.tink.org.apache.http.impl.nio.pool.BasicNIOConnFactory;
+import se.tink.org.apache.http.nio.NHttpClientConnection;
+import se.tink.org.apache.http.nio.NHttpConnectionFactory;
+import se.tink.org.apache.http.nio.pool.NIOConnFactory;
 import org.junit.After;
 
 /**

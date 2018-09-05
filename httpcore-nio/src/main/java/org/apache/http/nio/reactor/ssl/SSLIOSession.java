@@ -43,13 +43,13 @@ import javax.net.ssl.SSLEngineResult.Status;
 import javax.net.ssl.SSLException;
 import javax.net.ssl.SSLSession;
 
-import org.apache.http.annotation.ThreadSafe;
-import org.apache.http.nio.reactor.EventMask;
-import org.apache.http.nio.reactor.IOSession;
-import org.apache.http.nio.reactor.SessionBufferStatus;
-import org.apache.http.nio.reactor.SocketAccessor;
-import org.apache.http.util.Args;
-import org.apache.http.util.Asserts;
+import se.tink.org.apache.http.annotation.ThreadSafe;
+import se.tink.org.apache.http.nio.reactor.EventMask;
+import se.tink.org.apache.http.nio.reactor.IOSession;
+import se.tink.org.apache.http.nio.reactor.SessionBufferStatus;
+import se.tink.org.apache.http.nio.reactor.SocketAccessor;
+import se.tink.org.apache.http.util.Args;
+import se.tink.org.apache.http.util.Asserts;
 
 /**
  * <tt>SSLIOSession</tt> is a decorator class intended to transparently extend

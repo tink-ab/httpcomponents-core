@@ -30,10 +30,10 @@ package org.apache.http.nio.entity;
 import java.io.IOException;
 import java.io.InputStream;
 
-import org.apache.http.annotation.NotThreadSafe;
-import org.apache.http.io.BufferInfo;
-import org.apache.http.nio.util.ContentInputBuffer;
-import org.apache.http.util.Args;
+import se.tink.org.apache.http.annotation.NotThreadSafe;
+import se.tink.org.apache.http.io.BufferInfo;
+import se.tink.org.apache.http.nio.util.ContentInputBuffer;
+import se.tink.org.apache.http.util.Args;
 
 /**
  * {@link InputStream} adaptor for {@link ContentInputBuffer}.

@@ -33,16 +33,16 @@ import java.nio.channels.ReadableByteChannel;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.http.Header;
-import org.apache.http.MalformedChunkCodingException;
-import org.apache.http.ParseException;
-import org.apache.http.TruncatedChunkException;
-import org.apache.http.annotation.NotThreadSafe;
-import org.apache.http.impl.io.HttpTransportMetricsImpl;
-import org.apache.http.message.BufferedHeader;
-import org.apache.http.nio.reactor.SessionInputBuffer;
-import org.apache.http.util.Args;
-import org.apache.http.util.CharArrayBuffer;
+import se.tink.org.apache.http.Header;
+import se.tink.org.apache.http.MalformedChunkCodingException;
+import se.tink.org.apache.http.ParseException;
+import se.tink.org.apache.http.TruncatedChunkException;
+import se.tink.org.apache.http.annotation.NotThreadSafe;
+import se.tink.org.apache.http.impl.io.HttpTransportMetricsImpl;
+import se.tink.org.apache.http.message.BufferedHeader;
+import se.tink.org.apache.http.nio.reactor.SessionInputBuffer;
+import se.tink.org.apache.http.util.Args;
+import se.tink.org.apache.http.util.CharArrayBuffer;
 
 /**
  * Implements chunked transfer coding. The content is received in small chunks.

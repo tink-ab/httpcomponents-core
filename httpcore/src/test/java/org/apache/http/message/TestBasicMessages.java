@@ -27,12 +27,12 @@
 
 package org.apache.http.message;
 
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpStatus;
-import org.apache.http.HttpVersion;
-import org.apache.http.entity.BasicHttpEntity;
+import se.tink.org.apache.http.HttpEntity;
+import se.tink.org.apache.http.HttpRequest;
+import se.tink.org.apache.http.HttpResponse;
+import se.tink.org.apache.http.HttpStatus;
+import se.tink.org.apache.http.HttpVersion;
+import se.tink.org.apache.http.entity.BasicHttpEntity;
 import org.junit.Assert;
 import org.junit.Test;
 

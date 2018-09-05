@@ -31,11 +31,11 @@ import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-import org.apache.http.HttpResponse;
-import org.apache.http.entity.StringEntity;
-import org.apache.http.nio.ContentDecoder;
-import org.apache.http.nio.IOControl;
-import org.apache.http.protocol.HttpContext;
+import se.tink.org.apache.http.HttpResponse;
+import se.tink.org.apache.http.entity.StringEntity;
+import se.tink.org.apache.http.nio.ContentDecoder;
+import se.tink.org.apache.http.nio.IOControl;
+import se.tink.org.apache.http.protocol.HttpContext;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;

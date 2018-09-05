@@ -35,14 +35,14 @@ import java.io.OutputStream;
 import java.io.RandomAccessFile;
 import java.nio.channels.FileChannel;
 
-import org.apache.http.annotation.NotThreadSafe;
-import org.apache.http.entity.AbstractHttpEntity;
-import org.apache.http.entity.ContentType;
-import org.apache.http.nio.ContentEncoder;
-import org.apache.http.nio.ContentEncoderChannel;
-import org.apache.http.nio.FileContentEncoder;
-import org.apache.http.nio.IOControl;
-import org.apache.http.util.Args;
+import se.tink.org.apache.http.annotation.NotThreadSafe;
+import se.tink.org.apache.http.entity.AbstractHttpEntity;
+import se.tink.org.apache.http.entity.ContentType;
+import se.tink.org.apache.http.nio.ContentEncoder;
+import se.tink.org.apache.http.nio.ContentEncoderChannel;
+import se.tink.org.apache.http.nio.FileContentEncoder;
+import se.tink.org.apache.http.nio.IOControl;
+import se.tink.org.apache.http.util.Args;
 
 /**
  * A self contained, repeatable non-blocking entity that retrieves its content

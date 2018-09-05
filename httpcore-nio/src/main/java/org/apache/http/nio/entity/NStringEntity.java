@@ -36,13 +36,13 @@ import java.nio.ByteBuffer;
 import java.nio.charset.Charset;
 import java.nio.charset.UnsupportedCharsetException;
 
-import org.apache.http.annotation.NotThreadSafe;
-import org.apache.http.entity.AbstractHttpEntity;
-import org.apache.http.entity.ContentType;
-import org.apache.http.nio.ContentEncoder;
-import org.apache.http.nio.IOControl;
-import org.apache.http.protocol.HTTP;
-import org.apache.http.util.Args;
+import se.tink.org.apache.http.annotation.NotThreadSafe;
+import se.tink.org.apache.http.entity.AbstractHttpEntity;
+import se.tink.org.apache.http.entity.ContentType;
+import se.tink.org.apache.http.nio.ContentEncoder;
+import se.tink.org.apache.http.nio.IOControl;
+import se.tink.org.apache.http.protocol.HTTP;
+import se.tink.org.apache.http.util.Args;
 
 /**
  * A simple, self contained, repeatable non-blocking entity that retrieves

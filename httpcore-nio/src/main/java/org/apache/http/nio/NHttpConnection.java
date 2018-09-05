@@ -27,10 +27,10 @@
 
 package org.apache.http.nio;
 
-import org.apache.http.HttpConnection;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.protocol.HttpContext;
+import se.tink.org.apache.http.HttpConnection;
+import se.tink.org.apache.http.HttpRequest;
+import se.tink.org.apache.http.HttpResponse;
+import se.tink.org.apache.http.protocol.HttpContext;
 
 /**
  * Abstract non-blocking HTTP connection interface. Each connection contains an

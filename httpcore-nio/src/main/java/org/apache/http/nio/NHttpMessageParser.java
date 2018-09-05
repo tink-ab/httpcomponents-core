@@ -30,8 +30,8 @@ package org.apache.http.nio;
 import java.io.IOException;
 import java.nio.channels.ReadableByteChannel;
 
-import org.apache.http.HttpException;
-import org.apache.http.HttpMessage;
+import se.tink.org.apache.http.HttpException;
+import se.tink.org.apache.http.HttpMessage;
 
 /**
  * Abstract HTTP message parser for non-blocking connections.

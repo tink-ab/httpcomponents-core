@@ -27,9 +27,9 @@
 
 package org.apache.http.impl.entity;
 
-import org.apache.http.HttpVersion;
-import org.apache.http.ProtocolVersion;
-import org.apache.http.message.AbstractHttpMessage;
+import se.tink.org.apache.http.HttpVersion;
+import se.tink.org.apache.http.ProtocolVersion;
+import se.tink.org.apache.http.message.AbstractHttpMessage;
 
 class DummyHttpMessage extends AbstractHttpMessage {
 
