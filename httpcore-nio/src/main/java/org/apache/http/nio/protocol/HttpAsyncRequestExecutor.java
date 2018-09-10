@@ -30,22 +30,22 @@ package org.apache.http.nio.protocol;
 import java.io.IOException;
 import java.net.SocketTimeoutException;
 
-import se.tink.org.apache.http.ConnectionClosedException;
-import se.tink.org.apache.http.HttpEntityEnclosingRequest;
-import se.tink.org.apache.http.HttpException;
-import se.tink.org.apache.http.HttpRequest;
-import se.tink.org.apache.http.HttpResponse;
-import se.tink.org.apache.http.HttpStatus;
-import se.tink.org.apache.http.ProtocolException;
-import se.tink.org.apache.http.annotation.Immutable;
-import se.tink.org.apache.http.nio.ContentDecoder;
-import se.tink.org.apache.http.nio.ContentEncoder;
-import se.tink.org.apache.http.nio.NHttpClientConnection;
-import se.tink.org.apache.http.nio.NHttpClientEventHandler;
-import se.tink.org.apache.http.nio.NHttpConnection;
-import se.tink.org.apache.http.protocol.HttpContext;
-import se.tink.org.apache.http.util.Args;
-import se.tink.org.apache.http.util.Asserts;
+import tink.org.apache.http.ConnectionClosedException;
+import tink.org.apache.http.HttpEntityEnclosingRequest;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpStatus;
+import tink.org.apache.http.ProtocolException;
+import tink.org.apache.http.annotation.Immutable;
+import tink.org.apache.http.nio.ContentDecoder;
+import tink.org.apache.http.nio.ContentEncoder;
+import tink.org.apache.http.nio.NHttpClientConnection;
+import tink.org.apache.http.nio.NHttpClientEventHandler;
+import tink.org.apache.http.nio.NHttpConnection;
+import tink.org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.util.Args;
+import tink.org.apache.http.util.Asserts;
 
 /**
  * <tt>HttpAsyncRequestExecutor</tt> is a fully asynchronous HTTP client side

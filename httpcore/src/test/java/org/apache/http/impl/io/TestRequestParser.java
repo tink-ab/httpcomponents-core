@@ -28,14 +28,14 @@ package org.apache.http.impl.io;
 
 import java.io.InterruptedIOException;
 
-import se.tink.org.apache.http.ConnectionClosedException;
-import se.tink.org.apache.http.Consts;
-import se.tink.org.apache.http.Header;
-import se.tink.org.apache.http.HttpRequest;
-import se.tink.org.apache.http.HttpVersion;
-import se.tink.org.apache.http.RequestLine;
-import se.tink.org.apache.http.impl.SessionInputBufferMock;
-import se.tink.org.apache.http.io.SessionInputBuffer;
+import tink.org.apache.http.ConnectionClosedException;
+import tink.org.apache.http.Consts;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.RequestLine;
+import tink.org.apache.http.impl.SessionInputBufferMock;
+import tink.org.apache.http.io.SessionInputBuffer;
 import org.junit.Assert;
 import org.junit.Test;
 

@@ -28,18 +28,18 @@ package org.apache.http.nio.protocol;
 
 import java.io.IOException;
 
-import se.tink.org.apache.http.ContentTooLongException;
-import se.tink.org.apache.http.HttpEntity;
-import se.tink.org.apache.http.HttpResponse;
-import se.tink.org.apache.http.annotation.ThreadSafe;
-import se.tink.org.apache.http.entity.ContentType;
-import se.tink.org.apache.http.nio.ContentDecoder;
-import se.tink.org.apache.http.nio.IOControl;
-import se.tink.org.apache.http.nio.entity.ContentBufferEntity;
-import se.tink.org.apache.http.nio.util.HeapByteBufferAllocator;
-import se.tink.org.apache.http.nio.util.SimpleInputBuffer;
-import se.tink.org.apache.http.protocol.HttpContext;
-import se.tink.org.apache.http.util.Asserts;
+import tink.org.apache.http.ContentTooLongException;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.annotation.ThreadSafe;
+import tink.org.apache.http.entity.ContentType;
+import tink.org.apache.http.nio.ContentDecoder;
+import tink.org.apache.http.nio.IOControl;
+import tink.org.apache.http.nio.entity.ContentBufferEntity;
+import tink.org.apache.http.nio.util.HeapByteBufferAllocator;
+import tink.org.apache.http.nio.util.SimpleInputBuffer;
+import tink.org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.util.Asserts;
 
 /**
  * Basic implementation of {@link HttpAsyncResponseConsumer}. Please note that

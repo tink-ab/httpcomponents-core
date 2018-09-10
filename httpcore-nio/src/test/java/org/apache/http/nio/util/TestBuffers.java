@@ -34,14 +34,14 @@ import java.nio.channels.Channels;
 import java.nio.channels.ReadableByteChannel;
 import java.nio.channels.WritableByteChannel;
 
-import se.tink.org.apache.http.Consts;
-import se.tink.org.apache.http.ReadableByteChannelMock;
-import se.tink.org.apache.http.impl.io.HttpTransportMetricsImpl;
-import se.tink.org.apache.http.impl.nio.reactor.SessionOutputBufferImpl;
-import se.tink.org.apache.http.nio.ContentDecoder;
-import se.tink.org.apache.http.nio.ContentEncoder;
-import se.tink.org.apache.http.nio.reactor.SessionOutputBuffer;
-import se.tink.org.apache.http.util.EncodingUtils;
+import tink.org.apache.http.Consts;
+import tink.org.apache.http.ReadableByteChannelMock;
+import tink.org.apache.http.impl.io.HttpTransportMetricsImpl;
+import tink.org.apache.http.impl.nio.reactor.SessionOutputBufferImpl;
+import tink.org.apache.http.nio.ContentDecoder;
+import tink.org.apache.http.nio.ContentEncoder;
+import tink.org.apache.http.nio.reactor.SessionOutputBuffer;
+import tink.org.apache.http.util.EncodingUtils;
 import org.junit.Assert;
 import org.junit.Test;
 

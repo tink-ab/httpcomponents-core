@@ -27,13 +27,13 @@
 
 package org.apache.http.impl.nio.codecs;
 
-import se.tink.org.apache.http.HttpResponse;
-import se.tink.org.apache.http.annotation.Immutable;
-import se.tink.org.apache.http.message.BasicLineFormatter;
-import se.tink.org.apache.http.message.LineFormatter;
-import se.tink.org.apache.http.nio.NHttpMessageWriter;
-import se.tink.org.apache.http.nio.NHttpMessageWriterFactory;
-import se.tink.org.apache.http.nio.reactor.SessionOutputBuffer;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.annotation.Immutable;
+import tink.org.apache.http.message.BasicLineFormatter;
+import tink.org.apache.http.message.LineFormatter;
+import tink.org.apache.http.nio.NHttpMessageWriter;
+import tink.org.apache.http.nio.NHttpMessageWriterFactory;
+import tink.org.apache.http.nio.reactor.SessionOutputBuffer;
 
 /**
  * Default factory for response message writers.

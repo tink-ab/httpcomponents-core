@@ -28,8 +28,8 @@ package org.apache.http.nio.util;
 
 import java.io.IOException;
 
-import se.tink.org.apache.http.annotation.NotThreadSafe;
-import se.tink.org.apache.http.nio.ContentEncoder;
+import tink.org.apache.http.annotation.NotThreadSafe;
+import tink.org.apache.http.nio.ContentEncoder;
 
 /**
  * Basic implementation of the {@link ContentOutputBuffer} interface.

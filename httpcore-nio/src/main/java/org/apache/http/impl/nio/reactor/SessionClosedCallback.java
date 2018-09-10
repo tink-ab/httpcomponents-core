@@ -27,7 +27,7 @@
 
 package org.apache.http.impl.nio.reactor;
 
-import se.tink.org.apache.http.nio.reactor.IOSession;
+import tink.org.apache.http.nio.reactor.IOSession;
 
 /**
  * Session callback interface used internally by I/O reactor implementations.

@@ -29,22 +29,22 @@ package org.apache.http.nio.protocol;
 
 import java.io.IOException;
 
-import se.tink.org.apache.http.ConnectionReuseStrategy;
-import se.tink.org.apache.http.HttpException;
-import se.tink.org.apache.http.HttpRequest;
-import se.tink.org.apache.http.HttpResponse;
-import se.tink.org.apache.http.annotation.Immutable;
-import se.tink.org.apache.http.nio.ContentDecoder;
-import se.tink.org.apache.http.nio.ContentEncoder;
-import se.tink.org.apache.http.nio.NHttpClientConnection;
-import se.tink.org.apache.http.nio.NHttpClientHandler;
-import se.tink.org.apache.http.nio.entity.BufferingNHttpEntity;
-import se.tink.org.apache.http.nio.entity.ConsumingNHttpEntity;
-import se.tink.org.apache.http.nio.util.ByteBufferAllocator;
-import se.tink.org.apache.http.nio.util.HeapByteBufferAllocator;
-import se.tink.org.apache.http.params.HttpParams;
-import se.tink.org.apache.http.protocol.HttpContext;
-import se.tink.org.apache.http.protocol.HttpProcessor;
+import tink.org.apache.http.ConnectionReuseStrategy;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.annotation.Immutable;
+import tink.org.apache.http.nio.ContentDecoder;
+import tink.org.apache.http.nio.ContentEncoder;
+import tink.org.apache.http.nio.NHttpClientConnection;
+import tink.org.apache.http.nio.NHttpClientHandler;
+import tink.org.apache.http.nio.entity.BufferingNHttpEntity;
+import tink.org.apache.http.nio.entity.ConsumingNHttpEntity;
+import tink.org.apache.http.nio.util.ByteBufferAllocator;
+import tink.org.apache.http.nio.util.HeapByteBufferAllocator;
+import tink.org.apache.http.params.HttpParams;
+import tink.org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.protocol.HttpProcessor;
 
 /**
  * Client protocol handler implementation that provides compatibility with the

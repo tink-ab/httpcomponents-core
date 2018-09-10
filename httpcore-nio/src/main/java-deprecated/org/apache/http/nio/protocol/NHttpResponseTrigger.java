@@ -29,8 +29,8 @@ package org.apache.http.nio.protocol;
 
 import java.io.IOException;
 
-import se.tink.org.apache.http.HttpException;
-import se.tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpResponse;
 
 /**
  * Callback interface to submit HTTP responses asynchronously.

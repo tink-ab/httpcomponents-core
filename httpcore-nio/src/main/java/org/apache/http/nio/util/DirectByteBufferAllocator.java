@@ -29,7 +29,7 @@ package org.apache.http.nio.util;
 
 import java.nio.ByteBuffer;
 
-import se.tink.org.apache.http.annotation.Immutable;
+import tink.org.apache.http.annotation.Immutable;
 
 /**
  * Allocates {@link ByteBuffer} instances using

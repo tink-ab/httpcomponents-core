@@ -47,16 +47,16 @@ import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
 import org.apache.commons.cli.Options;
 import org.apache.commons.cli.PosixParser;
-import se.tink.org.apache.http.Header;
-import se.tink.org.apache.http.HttpEntity;
-import se.tink.org.apache.http.HttpHost;
-import se.tink.org.apache.http.HttpRequest;
-import se.tink.org.apache.http.entity.ContentType;
-import se.tink.org.apache.http.entity.FileEntity;
-import se.tink.org.apache.http.entity.StringEntity;
-import se.tink.org.apache.http.message.BasicHttpEntityEnclosingRequest;
-import se.tink.org.apache.http.message.BasicHttpRequest;
-import se.tink.org.apache.http.protocol.HTTP;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.entity.ContentType;
+import tink.org.apache.http.entity.FileEntity;
+import tink.org.apache.http.entity.StringEntity;
+import tink.org.apache.http.message.BasicHttpEntityEnclosingRequest;
+import tink.org.apache.http.message.BasicHttpRequest;
+import tink.org.apache.http.protocol.HTTP;
 
 /**
  * Main program of the HTTP benchmark.

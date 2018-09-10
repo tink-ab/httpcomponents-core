@@ -27,8 +27,8 @@
 
 package org.apache.http.impl.nio.reactor;
 
-import se.tink.org.apache.http.annotation.Immutable;
-import se.tink.org.apache.http.util.Args;
+import tink.org.apache.http.annotation.Immutable;
+import tink.org.apache.http.util.Args;
 
 /**
  * Session request handle class used by I/O reactor implementations to keep

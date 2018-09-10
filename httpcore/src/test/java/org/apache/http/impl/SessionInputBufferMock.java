@@ -34,9 +34,9 @@ import java.io.UnsupportedEncodingException;
 import java.nio.charset.Charset;
 import java.nio.charset.CharsetDecoder;
 
-import se.tink.org.apache.http.config.MessageConstraints;
-import se.tink.org.apache.http.impl.io.HttpTransportMetricsImpl;
-import se.tink.org.apache.http.impl.io.SessionInputBufferImpl;
+import tink.org.apache.http.config.MessageConstraints;
+import tink.org.apache.http.impl.io.HttpTransportMetricsImpl;
+import tink.org.apache.http.impl.io.SessionInputBufferImpl;
 
 /**
  * {@link org.apache.http.io.SessionInputBuffer} mockup implementation.

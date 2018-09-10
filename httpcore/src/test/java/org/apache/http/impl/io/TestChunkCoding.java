@@ -33,13 +33,13 @@ import java.io.InputStream;
 import java.io.InterruptedIOException;
 import java.io.OutputStream;
 
-import se.tink.org.apache.http.Header;
-import se.tink.org.apache.http.MalformedChunkCodingException;
-import se.tink.org.apache.http.TruncatedChunkException;
-import se.tink.org.apache.http.impl.SessionInputBufferMock;
-import se.tink.org.apache.http.impl.SessionOutputBufferMock;
-import se.tink.org.apache.http.io.SessionInputBuffer;
-import se.tink.org.apache.http.util.EncodingUtils;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.MalformedChunkCodingException;
+import tink.org.apache.http.TruncatedChunkException;
+import tink.org.apache.http.impl.SessionInputBufferMock;
+import tink.org.apache.http.impl.SessionOutputBufferMock;
+import tink.org.apache.http.io.SessionInputBuffer;
+import tink.org.apache.http.util.EncodingUtils;
 import org.junit.Assert;
 import org.junit.Test;
 

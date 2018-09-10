@@ -27,12 +27,12 @@
 
 package org.apache.http.nio.protocol;
 
-import se.tink.org.apache.http.HttpRequest;
-import se.tink.org.apache.http.HttpResponse;
-import se.tink.org.apache.http.HttpStatus;
-import se.tink.org.apache.http.entity.ContentType;
-import se.tink.org.apache.http.nio.entity.NStringEntity;
-import se.tink.org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpStatus;
+import tink.org.apache.http.entity.ContentType;
+import tink.org.apache.http.nio.entity.NStringEntity;
+import tink.org.apache.http.protocol.HttpContext;
 
 class NullRequestHandler implements HttpAsyncRequestHandler<Object> {
 

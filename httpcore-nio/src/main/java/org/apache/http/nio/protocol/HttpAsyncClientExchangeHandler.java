@@ -30,13 +30,13 @@ package org.apache.http.nio.protocol;
 import java.io.Closeable;
 import java.io.IOException;
 
-import se.tink.org.apache.http.HttpException;
-import se.tink.org.apache.http.HttpRequest;
-import se.tink.org.apache.http.HttpResponse;
-import se.tink.org.apache.http.concurrent.Cancellable;
-import se.tink.org.apache.http.nio.ContentDecoder;
-import se.tink.org.apache.http.nio.ContentEncoder;
-import se.tink.org.apache.http.nio.IOControl;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.concurrent.Cancellable;
+import tink.org.apache.http.nio.ContentDecoder;
+import tink.org.apache.http.nio.ContentEncoder;
+import tink.org.apache.http.nio.IOControl;
 
 /**
  * <tt>HttpAsyncClientExchangeHandler</tt> represents a callback interface whose

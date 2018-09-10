@@ -32,7 +32,7 @@ import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
-import se.tink.org.apache.http.HttpConnection;
+import tink.org.apache.http.HttpConnection;
 import org.junit.Assert;
 import org.junit.Test;
 import org.mockito.Mockito;

@@ -27,17 +27,17 @@
 
 package org.apache.http.impl.nio.codecs;
 
-import se.tink.org.apache.http.HttpException;
-import se.tink.org.apache.http.HttpMessage;
-import se.tink.org.apache.http.HttpResponseFactory;
-import se.tink.org.apache.http.ParseException;
-import se.tink.org.apache.http.StatusLine;
-import se.tink.org.apache.http.message.LineParser;
-import se.tink.org.apache.http.message.ParserCursor;
-import se.tink.org.apache.http.nio.reactor.SessionInputBuffer;
-import se.tink.org.apache.http.params.HttpParams;
-import se.tink.org.apache.http.util.Args;
-import se.tink.org.apache.http.util.CharArrayBuffer;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpMessage;
+import tink.org.apache.http.HttpResponseFactory;
+import tink.org.apache.http.ParseException;
+import tink.org.apache.http.StatusLine;
+import tink.org.apache.http.message.LineParser;
+import tink.org.apache.http.message.ParserCursor;
+import tink.org.apache.http.nio.reactor.SessionInputBuffer;
+import tink.org.apache.http.params.HttpParams;
+import tink.org.apache.http.util.Args;
+import tink.org.apache.http.util.CharArrayBuffer;
 
 /**
  * Default {@link org.apache.http.nio.NHttpMessageParser} implementation

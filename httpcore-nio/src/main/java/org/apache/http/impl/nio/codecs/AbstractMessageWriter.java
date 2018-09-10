@@ -30,17 +30,17 @@ package org.apache.http.impl.nio.codecs;
 import java.io.IOException;
 import java.util.Iterator;
 
-import se.tink.org.apache.http.Header;
-import se.tink.org.apache.http.HttpException;
-import se.tink.org.apache.http.HttpMessage;
-import se.tink.org.apache.http.annotation.NotThreadSafe;
-import se.tink.org.apache.http.message.BasicLineFormatter;
-import se.tink.org.apache.http.message.LineFormatter;
-import se.tink.org.apache.http.nio.NHttpMessageWriter;
-import se.tink.org.apache.http.nio.reactor.SessionOutputBuffer;
-import se.tink.org.apache.http.params.HttpParams;
-import se.tink.org.apache.http.util.Args;
-import se.tink.org.apache.http.util.CharArrayBuffer;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpMessage;
+import tink.org.apache.http.annotation.NotThreadSafe;
+import tink.org.apache.http.message.BasicLineFormatter;
+import tink.org.apache.http.message.LineFormatter;
+import tink.org.apache.http.nio.NHttpMessageWriter;
+import tink.org.apache.http.nio.reactor.SessionOutputBuffer;
+import tink.org.apache.http.params.HttpParams;
+import tink.org.apache.http.util.Args;
+import tink.org.apache.http.util.CharArrayBuffer;
 
 /**
  * Abstract {@link NHttpMessageWriter} that serves as a base for all message

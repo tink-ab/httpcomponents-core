@@ -34,12 +34,12 @@ import java.nio.charset.CharsetDecoder;
 import java.nio.charset.CharsetEncoder;
 import java.nio.charset.CodingErrorAction;
 
-import se.tink.org.apache.http.Consts;
-import se.tink.org.apache.http.config.MessageConstraints;
-import se.tink.org.apache.http.impl.SessionInputBufferMock;
-import se.tink.org.apache.http.impl.SessionOutputBufferMock;
-import se.tink.org.apache.http.io.HttpTransportMetrics;
-import se.tink.org.apache.http.util.CharArrayBuffer;
+import tink.org.apache.http.Consts;
+import tink.org.apache.http.config.MessageConstraints;
+import tink.org.apache.http.impl.SessionInputBufferMock;
+import tink.org.apache.http.impl.SessionOutputBufferMock;
+import tink.org.apache.http.io.HttpTransportMetrics;
+import tink.org.apache.http.util.CharArrayBuffer;
 import org.junit.Assert;
 import org.junit.Test;
 import org.mockito.Mockito;

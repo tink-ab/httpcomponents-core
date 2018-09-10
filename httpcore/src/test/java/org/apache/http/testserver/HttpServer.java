@@ -33,27 +33,27 @@ import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-import se.tink.org.apache.http.ConnectionClosedException;
-import se.tink.org.apache.http.ConnectionReuseStrategy;
-import se.tink.org.apache.http.HttpException;
-import se.tink.org.apache.http.HttpResponseFactory;
-import se.tink.org.apache.http.HttpResponseInterceptor;
-import se.tink.org.apache.http.HttpServerConnection;
-import se.tink.org.apache.http.impl.DefaultConnectionReuseStrategy;
-import se.tink.org.apache.http.impl.DefaultHttpResponseFactory;
-import se.tink.org.apache.http.protocol.BasicHttpContext;
-import se.tink.org.apache.http.protocol.HttpContext;
-import se.tink.org.apache.http.protocol.HttpExpectationVerifier;
-import se.tink.org.apache.http.protocol.HttpProcessor;
-import se.tink.org.apache.http.protocol.HttpRequestHandler;
-import se.tink.org.apache.http.protocol.HttpService;
-import se.tink.org.apache.http.protocol.ImmutableHttpProcessor;
-import se.tink.org.apache.http.protocol.ResponseConnControl;
-import se.tink.org.apache.http.protocol.ResponseContent;
-import se.tink.org.apache.http.protocol.ResponseDate;
-import se.tink.org.apache.http.protocol.ResponseServer;
-import se.tink.org.apache.http.protocol.UriHttpRequestHandlerMapper;
-import se.tink.org.apache.http.util.Asserts;
+import tink.org.apache.http.ConnectionClosedException;
+import tink.org.apache.http.ConnectionReuseStrategy;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpResponseFactory;
+import tink.org.apache.http.HttpResponseInterceptor;
+import tink.org.apache.http.HttpServerConnection;
+import tink.org.apache.http.impl.DefaultConnectionReuseStrategy;
+import tink.org.apache.http.impl.DefaultHttpResponseFactory;
+import tink.org.apache.http.protocol.BasicHttpContext;
+import tink.org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.protocol.HttpExpectationVerifier;
+import tink.org.apache.http.protocol.HttpProcessor;
+import tink.org.apache.http.protocol.HttpRequestHandler;
+import tink.org.apache.http.protocol.HttpService;
+import tink.org.apache.http.protocol.ImmutableHttpProcessor;
+import tink.org.apache.http.protocol.ResponseConnControl;
+import tink.org.apache.http.protocol.ResponseContent;
+import tink.org.apache.http.protocol.ResponseDate;
+import tink.org.apache.http.protocol.ResponseServer;
+import tink.org.apache.http.protocol.UriHttpRequestHandlerMapper;
+import tink.org.apache.http.util.Asserts;
 
 public class HttpServer {
 

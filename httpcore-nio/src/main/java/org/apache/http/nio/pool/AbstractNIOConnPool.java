@@ -43,20 +43,20 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-import se.tink.org.apache.http.annotation.ThreadSafe;
-import se.tink.org.apache.http.concurrent.BasicFuture;
-import se.tink.org.apache.http.concurrent.FutureCallback;
-import se.tink.org.apache.http.nio.reactor.ConnectingIOReactor;
-import se.tink.org.apache.http.nio.reactor.IOSession;
-import se.tink.org.apache.http.nio.reactor.SessionRequest;
-import se.tink.org.apache.http.nio.reactor.SessionRequestCallback;
-import se.tink.org.apache.http.pool.ConnPool;
-import se.tink.org.apache.http.pool.ConnPoolControl;
-import se.tink.org.apache.http.pool.PoolEntry;
-import se.tink.org.apache.http.pool.PoolEntryCallback;
-import se.tink.org.apache.http.pool.PoolStats;
-import se.tink.org.apache.http.util.Args;
-import se.tink.org.apache.http.util.Asserts;
+import tink.org.apache.http.annotation.ThreadSafe;
+import tink.org.apache.http.concurrent.BasicFuture;
+import tink.org.apache.http.concurrent.FutureCallback;
+import tink.org.apache.http.nio.reactor.ConnectingIOReactor;
+import tink.org.apache.http.nio.reactor.IOSession;
+import tink.org.apache.http.nio.reactor.SessionRequest;
+import tink.org.apache.http.nio.reactor.SessionRequestCallback;
+import tink.org.apache.http.pool.ConnPool;
+import tink.org.apache.http.pool.ConnPoolControl;
+import tink.org.apache.http.pool.PoolEntry;
+import tink.org.apache.http.pool.PoolEntryCallback;
+import tink.org.apache.http.pool.PoolStats;
+import tink.org.apache.http.util.Args;
+import tink.org.apache.http.util.Asserts;
 
 /**
  * Abstract non-blocking connection pool.

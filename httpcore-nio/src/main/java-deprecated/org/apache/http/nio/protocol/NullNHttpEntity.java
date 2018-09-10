@@ -32,11 +32,11 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.nio.ByteBuffer;
 
-import se.tink.org.apache.http.HttpEntity;
-import se.tink.org.apache.http.entity.HttpEntityWrapper;
-import se.tink.org.apache.http.nio.ContentDecoder;
-import se.tink.org.apache.http.nio.IOControl;
-import se.tink.org.apache.http.nio.entity.ConsumingNHttpEntity;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.entity.HttpEntityWrapper;
+import tink.org.apache.http.nio.ContentDecoder;
+import tink.org.apache.http.nio.IOControl;
+import tink.org.apache.http.nio.entity.ConsumingNHttpEntity;
 
 /**
  * @deprecated (4.2)

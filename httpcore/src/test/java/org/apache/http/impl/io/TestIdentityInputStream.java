@@ -27,8 +27,8 @@
 
 package org.apache.http.impl.io;
 
-import se.tink.org.apache.http.impl.SessionInputBufferMock;
-import se.tink.org.apache.http.io.SessionInputBuffer;
+import tink.org.apache.http.impl.SessionInputBufferMock;
+import tink.org.apache.http.io.SessionInputBuffer;
 import org.junit.Assert;
 import org.junit.Test;
 

@@ -32,18 +32,18 @@ import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicLong;
 
-import se.tink.org.apache.http.HttpHost;
-import se.tink.org.apache.http.annotation.ThreadSafe;
-import se.tink.org.apache.http.concurrent.FutureCallback;
-import se.tink.org.apache.http.config.ConnectionConfig;
-import se.tink.org.apache.http.nio.NHttpClientConnection;
-import se.tink.org.apache.http.nio.pool.AbstractNIOConnPool;
-import se.tink.org.apache.http.nio.pool.NIOConnFactory;
-import se.tink.org.apache.http.nio.pool.SocketAddressResolver;
-import se.tink.org.apache.http.nio.reactor.ConnectingIOReactor;
-import se.tink.org.apache.http.params.CoreConnectionPNames;
-import se.tink.org.apache.http.params.HttpParams;
-import se.tink.org.apache.http.util.Args;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.annotation.ThreadSafe;
+import tink.org.apache.http.concurrent.FutureCallback;
+import tink.org.apache.http.config.ConnectionConfig;
+import tink.org.apache.http.nio.NHttpClientConnection;
+import tink.org.apache.http.nio.pool.AbstractNIOConnPool;
+import tink.org.apache.http.nio.pool.NIOConnFactory;
+import tink.org.apache.http.nio.pool.SocketAddressResolver;
+import tink.org.apache.http.nio.reactor.ConnectingIOReactor;
+import tink.org.apache.http.params.CoreConnectionPNames;
+import tink.org.apache.http.params.HttpParams;
+import tink.org.apache.http.util.Args;
 
 /**
  * A very basic {@link org.apache.http.pool.ConnPool} implementation that

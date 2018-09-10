@@ -29,11 +29,11 @@ package org.apache.http.impl.nio.reactor;
 
 import java.io.IOException;
 
-import se.tink.org.apache.http.annotation.Immutable;
-import se.tink.org.apache.http.nio.reactor.IOEventDispatch;
-import se.tink.org.apache.http.nio.reactor.IOSession;
-import se.tink.org.apache.http.nio.reactor.ssl.SSLIOSession;
-import se.tink.org.apache.http.util.Asserts;
+import tink.org.apache.http.annotation.Immutable;
+import tink.org.apache.http.nio.reactor.IOEventDispatch;
+import tink.org.apache.http.nio.reactor.IOSession;
+import tink.org.apache.http.nio.reactor.ssl.SSLIOSession;
+import tink.org.apache.http.util.Asserts;
 
 /**
  * Abstract {@link IOEventDispatch} implementation that supports both plain (non-encrypted)

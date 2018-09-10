@@ -28,12 +28,12 @@ package org.apache.http.nio.testserver;
 
 import javax.net.ssl.SSLContext;
 
-import se.tink.org.apache.http.impl.nio.DefaultNHttpServerConnection;
-import se.tink.org.apache.http.nio.NHttpConnectionFactory;
-import se.tink.org.apache.http.nio.reactor.IOSession;
-import se.tink.org.apache.http.nio.reactor.ssl.SSLIOSession;
-import se.tink.org.apache.http.nio.reactor.ssl.SSLMode;
-import se.tink.org.apache.http.nio.reactor.ssl.SSLSetupHandler;
+import tink.org.apache.http.impl.nio.DefaultNHttpServerConnection;
+import tink.org.apache.http.nio.NHttpConnectionFactory;
+import tink.org.apache.http.nio.reactor.IOSession;
+import tink.org.apache.http.nio.reactor.ssl.SSLIOSession;
+import tink.org.apache.http.nio.reactor.ssl.SSLMode;
+import tink.org.apache.http.nio.reactor.ssl.SSLSetupHandler;
 
 public class LoggingSSLServerConnectionFactory implements NHttpConnectionFactory<DefaultNHttpServerConnection> {
 

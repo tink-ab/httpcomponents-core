@@ -29,7 +29,7 @@ package org.apache.http.nio.util;
 
 import java.io.IOException;
 
-import se.tink.org.apache.http.nio.ContentDecoder;
+import tink.org.apache.http.nio.ContentDecoder;
 
 /**
  * Generic content input buffer.

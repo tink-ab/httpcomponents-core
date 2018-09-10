@@ -29,12 +29,12 @@ package org.apache.http.nio.protocol;
 
 import java.io.IOException;
 
-import se.tink.org.apache.http.HttpException;
-import se.tink.org.apache.http.HttpRequest;
-import se.tink.org.apache.http.annotation.Immutable;
-import se.tink.org.apache.http.protocol.HttpContext;
-import se.tink.org.apache.http.protocol.HttpRequestHandler;
-import se.tink.org.apache.http.util.Args;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.annotation.Immutable;
+import tink.org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.protocol.HttpRequestHandler;
+import tink.org.apache.http.util.Args;
 
 /**
  * Basic implementation of {@link HttpAsyncRequestHandler} that delegates

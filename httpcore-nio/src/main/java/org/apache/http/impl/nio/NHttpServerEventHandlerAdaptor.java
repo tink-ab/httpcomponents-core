@@ -29,12 +29,12 @@ package org.apache.http.impl.nio;
 
 import java.io.IOException;
 
-import se.tink.org.apache.http.HttpException;
-import se.tink.org.apache.http.nio.ContentDecoder;
-import se.tink.org.apache.http.nio.ContentEncoder;
-import se.tink.org.apache.http.nio.NHttpServerConnection;
-import se.tink.org.apache.http.nio.NHttpServerEventHandler;
-import se.tink.org.apache.http.nio.NHttpServiceHandler;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.nio.ContentDecoder;
+import tink.org.apache.http.nio.ContentEncoder;
+import tink.org.apache.http.nio.NHttpServerConnection;
+import tink.org.apache.http.nio.NHttpServerEventHandler;
+import tink.org.apache.http.nio.NHttpServiceHandler;
 
 /**
  * @deprecated (4.2)

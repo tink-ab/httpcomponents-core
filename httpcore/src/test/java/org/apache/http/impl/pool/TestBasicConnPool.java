@@ -35,10 +35,10 @@ import javax.net.ssl.SSLServerSocket;
 import javax.net.ssl.SSLServerSocketFactory;
 import javax.net.ssl.SSLSocketFactory;
 
-import se.tink.org.apache.http.HttpClientConnection;
-import se.tink.org.apache.http.HttpHost;
-import se.tink.org.apache.http.config.ConnectionConfig;
-import se.tink.org.apache.http.config.SocketConfig;
+import tink.org.apache.http.HttpClientConnection;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.config.ConnectionConfig;
+import tink.org.apache.http.config.SocketConfig;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

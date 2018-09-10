@@ -26,9 +26,9 @@
  */
 package org.apache.http.nio.pool;
 
-import se.tink.org.apache.http.annotation.Immutable;
-import se.tink.org.apache.http.concurrent.BasicFuture;
-import se.tink.org.apache.http.pool.PoolEntry;
+import tink.org.apache.http.annotation.Immutable;
+import tink.org.apache.http.concurrent.BasicFuture;
+import tink.org.apache.http.pool.PoolEntry;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 

@@ -33,7 +33,7 @@ import java.nio.channels.ClosedChannelException;
 import java.nio.channels.ReadableByteChannel;
 import java.nio.charset.Charset;
 
-import se.tink.org.apache.http.util.EncodingUtils;
+import tink.org.apache.http.util.EncodingUtils;
 
 public class ReadableByteChannelMock implements ReadableByteChannel {
 

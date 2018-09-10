@@ -32,8 +32,8 @@ import java.io.ByteArrayOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
-import se.tink.org.apache.http.Header;
-import se.tink.org.apache.http.HeaderElement;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HeaderElement;
 import org.junit.Assert;
 import org.junit.Test;
 

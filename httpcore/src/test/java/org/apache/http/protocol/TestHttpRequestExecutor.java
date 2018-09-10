@@ -29,16 +29,16 @@ package org.apache.http.protocol;
 
 import java.io.IOException;
 
-import se.tink.org.apache.http.HttpClientConnection;
-import se.tink.org.apache.http.HttpEntity;
-import se.tink.org.apache.http.HttpEntityEnclosingRequest;
-import se.tink.org.apache.http.HttpRequest;
-import se.tink.org.apache.http.HttpResponse;
-import se.tink.org.apache.http.HttpVersion;
-import se.tink.org.apache.http.ProtocolException;
-import se.tink.org.apache.http.message.BasicHttpEntityEnclosingRequest;
-import se.tink.org.apache.http.message.BasicHttpRequest;
-import se.tink.org.apache.http.message.BasicHttpResponse;
+import tink.org.apache.http.HttpClientConnection;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.HttpEntityEnclosingRequest;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.ProtocolException;
+import tink.org.apache.http.message.BasicHttpEntityEnclosingRequest;
+import tink.org.apache.http.message.BasicHttpRequest;
+import tink.org.apache.http.message.BasicHttpResponse;
 import org.junit.Assert;
 import org.junit.Test;
 import org.mockito.Mockito;

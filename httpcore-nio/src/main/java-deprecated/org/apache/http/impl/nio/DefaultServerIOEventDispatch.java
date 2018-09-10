@@ -29,18 +29,18 @@ package org.apache.http.impl.nio;
 
 import java.io.IOException;
 
-import se.tink.org.apache.http.HttpRequestFactory;
-import se.tink.org.apache.http.annotation.Immutable;
-import se.tink.org.apache.http.impl.DefaultHttpRequestFactory;
-import se.tink.org.apache.http.impl.nio.reactor.AbstractIODispatch;
-import se.tink.org.apache.http.nio.NHttpServerIOTarget;
-import se.tink.org.apache.http.nio.NHttpServiceHandler;
-import se.tink.org.apache.http.nio.reactor.IOSession;
-import se.tink.org.apache.http.nio.util.ByteBufferAllocator;
-import se.tink.org.apache.http.nio.util.HeapByteBufferAllocator;
-import se.tink.org.apache.http.params.HttpConnectionParams;
-import se.tink.org.apache.http.params.HttpParams;
-import se.tink.org.apache.http.util.Args;
+import tink.org.apache.http.HttpRequestFactory;
+import tink.org.apache.http.annotation.Immutable;
+import tink.org.apache.http.impl.DefaultHttpRequestFactory;
+import tink.org.apache.http.impl.nio.reactor.AbstractIODispatch;
+import tink.org.apache.http.nio.NHttpServerIOTarget;
+import tink.org.apache.http.nio.NHttpServiceHandler;
+import tink.org.apache.http.nio.reactor.IOSession;
+import tink.org.apache.http.nio.util.ByteBufferAllocator;
+import tink.org.apache.http.nio.util.HeapByteBufferAllocator;
+import tink.org.apache.http.params.HttpConnectionParams;
+import tink.org.apache.http.params.HttpParams;
+import tink.org.apache.http.util.Args;
 
 /**
  * Default implementation of {@link org.apache.http.nio.reactor.IOEventDispatch}

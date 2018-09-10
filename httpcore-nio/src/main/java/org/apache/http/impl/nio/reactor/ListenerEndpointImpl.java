@@ -32,9 +32,9 @@ import java.net.SocketAddress;
 import java.nio.channels.Channel;
 import java.nio.channels.SelectionKey;
 
-import se.tink.org.apache.http.annotation.ThreadSafe;
-import se.tink.org.apache.http.nio.reactor.ListenerEndpoint;
-import se.tink.org.apache.http.util.Args;
+import tink.org.apache.http.annotation.ThreadSafe;
+import tink.org.apache.http.nio.reactor.ListenerEndpoint;
+import tink.org.apache.http.util.Args;
 
 /**
  * Default implementation of {@link ListenerEndpoint}.

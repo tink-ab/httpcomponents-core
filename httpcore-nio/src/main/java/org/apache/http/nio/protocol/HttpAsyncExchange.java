@@ -27,9 +27,9 @@
 
 package org.apache.http.nio.protocol;
 
-import se.tink.org.apache.http.HttpRequest;
-import se.tink.org.apache.http.HttpResponse;
-import se.tink.org.apache.http.concurrent.Cancellable;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.concurrent.Cancellable;
 
 /**
  * <tt>HttpAsyncExchange</tt> represents a server-side HTTP message exchange

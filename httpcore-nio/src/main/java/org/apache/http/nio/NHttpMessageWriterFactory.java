@@ -27,8 +27,8 @@
 
 package org.apache.http.nio;
 
-import se.tink.org.apache.http.HttpMessage;
-import se.tink.org.apache.http.nio.reactor.SessionOutputBuffer;
+import tink.org.apache.http.HttpMessage;
+import tink.org.apache.http.nio.reactor.SessionOutputBuffer;
 
 /**
  * Factory for {@link NHttpMessageWriter} instances.

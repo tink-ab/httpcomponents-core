@@ -31,13 +31,13 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.channels.ReadableByteChannel;
 
-import se.tink.org.apache.http.Consts;
-import se.tink.org.apache.http.Header;
-import se.tink.org.apache.http.MalformedChunkCodingException;
-import se.tink.org.apache.http.ReadableByteChannelMock;
-import se.tink.org.apache.http.impl.io.HttpTransportMetricsImpl;
-import se.tink.org.apache.http.impl.nio.reactor.SessionInputBufferImpl;
-import se.tink.org.apache.http.nio.reactor.SessionInputBuffer;
+import tink.org.apache.http.Consts;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.MalformedChunkCodingException;
+import tink.org.apache.http.ReadableByteChannelMock;
+import tink.org.apache.http.impl.io.HttpTransportMetricsImpl;
+import tink.org.apache.http.impl.nio.reactor.SessionInputBufferImpl;
+import tink.org.apache.http.nio.reactor.SessionInputBuffer;
 import org.junit.Assert;
 import org.junit.Test;
 

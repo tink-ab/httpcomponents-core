@@ -30,9 +30,9 @@ package org.apache.http.nio.entity;
 import java.io.IOException;
 import java.io.OutputStream;
 
-import se.tink.org.apache.http.annotation.NotThreadSafe;
-import se.tink.org.apache.http.nio.util.ContentOutputBuffer;
-import se.tink.org.apache.http.util.Args;
+import tink.org.apache.http.annotation.NotThreadSafe;
+import tink.org.apache.http.nio.util.ContentOutputBuffer;
+import tink.org.apache.http.util.Args;
 
 /**
  * {@link OutputStream} adaptor for {@link ContentOutputBuffer}.

@@ -32,20 +32,20 @@ import java.io.IOException;
 import javax.net.ssl.SSLContext;
 import javax.net.ssl.SSLException;
 
-import se.tink.org.apache.http.HttpResponseFactory;
-import se.tink.org.apache.http.impl.DefaultHttpResponseFactory;
-import se.tink.org.apache.http.impl.nio.reactor.SSLIOSession;
-import se.tink.org.apache.http.impl.nio.reactor.SSLIOSessionHandler;
-import se.tink.org.apache.http.impl.nio.reactor.SSLMode;
-import se.tink.org.apache.http.nio.NHttpClientHandler;
-import se.tink.org.apache.http.nio.NHttpClientIOTarget;
-import se.tink.org.apache.http.nio.reactor.IOEventDispatch;
-import se.tink.org.apache.http.nio.reactor.IOSession;
-import se.tink.org.apache.http.nio.util.ByteBufferAllocator;
-import se.tink.org.apache.http.nio.util.HeapByteBufferAllocator;
-import se.tink.org.apache.http.params.HttpParams;
-import se.tink.org.apache.http.protocol.ExecutionContext;
-import se.tink.org.apache.http.util.Args;
+import tink.org.apache.http.HttpResponseFactory;
+import tink.org.apache.http.impl.DefaultHttpResponseFactory;
+import tink.org.apache.http.impl.nio.reactor.SSLIOSession;
+import tink.org.apache.http.impl.nio.reactor.SSLIOSessionHandler;
+import tink.org.apache.http.impl.nio.reactor.SSLMode;
+import tink.org.apache.http.nio.NHttpClientHandler;
+import tink.org.apache.http.nio.NHttpClientIOTarget;
+import tink.org.apache.http.nio.reactor.IOEventDispatch;
+import tink.org.apache.http.nio.reactor.IOSession;
+import tink.org.apache.http.nio.util.ByteBufferAllocator;
+import tink.org.apache.http.nio.util.HeapByteBufferAllocator;
+import tink.org.apache.http.params.HttpParams;
+import tink.org.apache.http.protocol.ExecutionContext;
+import tink.org.apache.http.util.Args;
 
 /**
  * Default implementation of {@link IOEventDispatch} interface for SSL

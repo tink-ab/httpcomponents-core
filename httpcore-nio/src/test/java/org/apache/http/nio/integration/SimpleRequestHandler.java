@@ -29,17 +29,17 @@ package org.apache.http.nio.integration;
 
 import java.io.IOException;
 
-import se.tink.org.apache.http.HttpEntity;
-import se.tink.org.apache.http.HttpEntityEnclosingRequest;
-import se.tink.org.apache.http.HttpException;
-import se.tink.org.apache.http.HttpRequest;
-import se.tink.org.apache.http.HttpResponse;
-import se.tink.org.apache.http.HttpStatus;
-import se.tink.org.apache.http.entity.ContentType;
-import se.tink.org.apache.http.nio.entity.NStringEntity;
-import se.tink.org.apache.http.protocol.HttpContext;
-import se.tink.org.apache.http.protocol.HttpRequestHandler;
-import se.tink.org.apache.http.util.EntityUtils;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.HttpEntityEnclosingRequest;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpStatus;
+import tink.org.apache.http.entity.ContentType;
+import tink.org.apache.http.nio.entity.NStringEntity;
+import tink.org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.protocol.HttpRequestHandler;
+import tink.org.apache.http.util.EntityUtils;
 
 final class SimpleRequestHandler implements HttpRequestHandler {
 

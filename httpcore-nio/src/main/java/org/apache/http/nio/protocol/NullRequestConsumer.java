@@ -30,10 +30,10 @@ package org.apache.http.nio.protocol;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 
-import se.tink.org.apache.http.HttpRequest;
-import se.tink.org.apache.http.nio.ContentDecoder;
-import se.tink.org.apache.http.nio.IOControl;
-import se.tink.org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.nio.ContentDecoder;
+import tink.org.apache.http.nio.IOControl;
+import tink.org.apache.http.protocol.HttpContext;
 
 class NullRequestConsumer implements HttpAsyncRequestConsumer<Object> {
 

@@ -31,9 +31,9 @@ import java.io.InterruptedIOException;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
-import se.tink.org.apache.http.annotation.ThreadSafe;
-import se.tink.org.apache.http.nio.ContentDecoder;
-import se.tink.org.apache.http.nio.IOControl;
+import tink.org.apache.http.annotation.ThreadSafe;
+import tink.org.apache.http.nio.ContentDecoder;
+import tink.org.apache.http.nio.IOControl;
 
 /**
  * Implementation of the {@link ContentInputBuffer} interface that can be

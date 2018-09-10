@@ -30,8 +30,8 @@ package org.apache.http.util;
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
 
-import se.tink.org.apache.http.entity.BasicHttpEntity;
-import se.tink.org.apache.http.message.BasicHeader;
+import tink.org.apache.http.entity.BasicHttpEntity;
+import tink.org.apache.http.message.BasicHeader;
 import org.junit.Assert;
 import org.junit.Test;
 

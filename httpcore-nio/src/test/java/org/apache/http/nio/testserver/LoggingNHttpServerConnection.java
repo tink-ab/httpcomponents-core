@@ -32,13 +32,13 @@ import java.util.concurrent.atomic.AtomicLong;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import se.tink.org.apache.http.Header;
-import se.tink.org.apache.http.HttpException;
-import se.tink.org.apache.http.HttpRequest;
-import se.tink.org.apache.http.HttpResponse;
-import se.tink.org.apache.http.impl.nio.DefaultNHttpServerConnection;
-import se.tink.org.apache.http.nio.NHttpServerEventHandler;
-import se.tink.org.apache.http.nio.reactor.IOSession;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.impl.nio.DefaultNHttpServerConnection;
+import tink.org.apache.http.nio.NHttpServerEventHandler;
+import tink.org.apache.http.nio.reactor.IOSession;
 
 public class LoggingNHttpServerConnection extends DefaultNHttpServerConnection {
 

@@ -27,8 +27,8 @@
 
 package org.apache.http.protocol;
 
-import se.tink.org.apache.http.HttpRequest;
-import se.tink.org.apache.http.message.BasicHttpRequest;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.message.BasicHttpRequest;
 import org.junit.Assert;
 import org.junit.Test;
 import org.mockito.Mockito;

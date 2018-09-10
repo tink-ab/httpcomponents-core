@@ -29,7 +29,7 @@ package org.apache.http.nio.pool;
 
 import java.io.IOException;
 
-import se.tink.org.apache.http.nio.reactor.IOSession;
+import tink.org.apache.http.nio.reactor.IOSession;
 
 /**
  * Factory for poolable non-blocking connections.

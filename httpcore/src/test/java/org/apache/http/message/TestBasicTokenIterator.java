@@ -29,10 +29,10 @@ package org.apache.http.message;
 
 import java.util.NoSuchElementException;
 
-import se.tink.org.apache.http.Header;
-import se.tink.org.apache.http.HeaderIterator;
-import se.tink.org.apache.http.ParseException;
-import se.tink.org.apache.http.TokenIterator;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HeaderIterator;
+import tink.org.apache.http.ParseException;
+import tink.org.apache.http.TokenIterator;
 import org.junit.Assert;
 import org.junit.Test;
 

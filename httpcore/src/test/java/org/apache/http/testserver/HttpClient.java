@@ -31,25 +31,25 @@ import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.net.Socket;
 
-import se.tink.org.apache.http.ConnectionReuseStrategy;
-import se.tink.org.apache.http.HttpClientConnection;
-import se.tink.org.apache.http.HttpException;
-import se.tink.org.apache.http.HttpHost;
-import se.tink.org.apache.http.HttpRequest;
-import se.tink.org.apache.http.HttpRequestInterceptor;
-import se.tink.org.apache.http.HttpResponse;
-import se.tink.org.apache.http.impl.DefaultBHttpClientConnection;
-import se.tink.org.apache.http.impl.DefaultConnectionReuseStrategy;
-import se.tink.org.apache.http.protocol.HttpContext;
-import se.tink.org.apache.http.protocol.HttpCoreContext;
-import se.tink.org.apache.http.protocol.HttpProcessor;
-import se.tink.org.apache.http.protocol.HttpRequestExecutor;
-import se.tink.org.apache.http.protocol.ImmutableHttpProcessor;
-import se.tink.org.apache.http.protocol.RequestConnControl;
-import se.tink.org.apache.http.protocol.RequestContent;
-import se.tink.org.apache.http.protocol.RequestExpectContinue;
-import se.tink.org.apache.http.protocol.RequestTargetHost;
-import se.tink.org.apache.http.protocol.RequestUserAgent;
+import tink.org.apache.http.ConnectionReuseStrategy;
+import tink.org.apache.http.HttpClientConnection;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpRequestInterceptor;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.impl.DefaultBHttpClientConnection;
+import tink.org.apache.http.impl.DefaultConnectionReuseStrategy;
+import tink.org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.protocol.HttpCoreContext;
+import tink.org.apache.http.protocol.HttpProcessor;
+import tink.org.apache.http.protocol.HttpRequestExecutor;
+import tink.org.apache.http.protocol.ImmutableHttpProcessor;
+import tink.org.apache.http.protocol.RequestConnControl;
+import tink.org.apache.http.protocol.RequestContent;
+import tink.org.apache.http.protocol.RequestExpectContinue;
+import tink.org.apache.http.protocol.RequestTargetHost;
+import tink.org.apache.http.protocol.RequestUserAgent;
 
 public class HttpClient {
 

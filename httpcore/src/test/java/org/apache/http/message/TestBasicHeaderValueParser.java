@@ -26,9 +26,9 @@
  */
 package org.apache.http.message;
 
-import se.tink.org.apache.http.HeaderElement;
-import se.tink.org.apache.http.NameValuePair;
-import se.tink.org.apache.http.util.CharArrayBuffer;
+import tink.org.apache.http.HeaderElement;
+import tink.org.apache.http.NameValuePair;
+import tink.org.apache.http.util.CharArrayBuffer;
 import org.junit.Assert;
 import org.junit.Test;
 

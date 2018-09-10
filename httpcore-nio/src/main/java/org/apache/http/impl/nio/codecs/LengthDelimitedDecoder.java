@@ -32,12 +32,12 @@ import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 import java.nio.channels.ReadableByteChannel;
 
-import se.tink.org.apache.http.ConnectionClosedException;
-import se.tink.org.apache.http.annotation.NotThreadSafe;
-import se.tink.org.apache.http.impl.io.HttpTransportMetricsImpl;
-import se.tink.org.apache.http.nio.FileContentDecoder;
-import se.tink.org.apache.http.nio.reactor.SessionInputBuffer;
-import se.tink.org.apache.http.util.Args;
+import tink.org.apache.http.ConnectionClosedException;
+import tink.org.apache.http.annotation.NotThreadSafe;
+import tink.org.apache.http.impl.io.HttpTransportMetricsImpl;
+import tink.org.apache.http.nio.FileContentDecoder;
+import tink.org.apache.http.nio.reactor.SessionInputBuffer;
+import tink.org.apache.http.util.Args;
 
 /**
  * Content decoder that cuts off after a defined number of bytes. This class

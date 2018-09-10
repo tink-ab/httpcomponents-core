@@ -27,7 +27,7 @@
 
 package org.apache.http.message;
 
-import se.tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.HttpVersion;
 import org.junit.Assert;
 import org.junit.Test;
 

@@ -31,11 +31,11 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.channels.WritableByteChannel;
 
-import se.tink.org.apache.http.annotation.NotThreadSafe;
-import se.tink.org.apache.http.impl.io.HttpTransportMetricsImpl;
-import se.tink.org.apache.http.io.BufferInfo;
-import se.tink.org.apache.http.nio.reactor.SessionOutputBuffer;
-import se.tink.org.apache.http.util.CharArrayBuffer;
+import tink.org.apache.http.annotation.NotThreadSafe;
+import tink.org.apache.http.impl.io.HttpTransportMetricsImpl;
+import tink.org.apache.http.io.BufferInfo;
+import tink.org.apache.http.nio.reactor.SessionOutputBuffer;
+import tink.org.apache.http.util.CharArrayBuffer;
 
 /**
  * Implements chunked transfer coding. The content is sent in small chunks.

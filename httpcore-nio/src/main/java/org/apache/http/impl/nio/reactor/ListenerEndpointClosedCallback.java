@@ -27,7 +27,7 @@
 
 package org.apache.http.impl.nio.reactor;
 
-import se.tink.org.apache.http.nio.reactor.ListenerEndpoint;
+import tink.org.apache.http.nio.reactor.ListenerEndpoint;
 
 /**
  * Listener endpoint callback interface used internally by I/O reactor

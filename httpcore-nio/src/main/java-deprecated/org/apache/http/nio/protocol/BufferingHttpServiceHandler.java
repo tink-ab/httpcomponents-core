@@ -29,27 +29,27 @@ package org.apache.http.nio.protocol;
 
 import java.io.IOException;
 
-import se.tink.org.apache.http.ConnectionReuseStrategy;
-import se.tink.org.apache.http.HttpEntityEnclosingRequest;
-import se.tink.org.apache.http.HttpException;
-import se.tink.org.apache.http.HttpRequest;
-import se.tink.org.apache.http.HttpResponse;
-import se.tink.org.apache.http.HttpResponseFactory;
-import se.tink.org.apache.http.annotation.Immutable;
-import se.tink.org.apache.http.nio.ContentDecoder;
-import se.tink.org.apache.http.nio.ContentEncoder;
-import se.tink.org.apache.http.nio.NHttpServerConnection;
-import se.tink.org.apache.http.nio.NHttpServiceHandler;
-import se.tink.org.apache.http.nio.entity.BufferingNHttpEntity;
-import se.tink.org.apache.http.nio.entity.ConsumingNHttpEntity;
-import se.tink.org.apache.http.nio.util.ByteBufferAllocator;
-import se.tink.org.apache.http.nio.util.HeapByteBufferAllocator;
-import se.tink.org.apache.http.params.HttpParams;
-import se.tink.org.apache.http.protocol.HttpContext;
-import se.tink.org.apache.http.protocol.HttpExpectationVerifier;
-import se.tink.org.apache.http.protocol.HttpProcessor;
-import se.tink.org.apache.http.protocol.HttpRequestHandler;
-import se.tink.org.apache.http.protocol.HttpRequestHandlerResolver;
+import tink.org.apache.http.ConnectionReuseStrategy;
+import tink.org.apache.http.HttpEntityEnclosingRequest;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpResponseFactory;
+import tink.org.apache.http.annotation.Immutable;
+import tink.org.apache.http.nio.ContentDecoder;
+import tink.org.apache.http.nio.ContentEncoder;
+import tink.org.apache.http.nio.NHttpServerConnection;
+import tink.org.apache.http.nio.NHttpServiceHandler;
+import tink.org.apache.http.nio.entity.BufferingNHttpEntity;
+import tink.org.apache.http.nio.entity.ConsumingNHttpEntity;
+import tink.org.apache.http.nio.util.ByteBufferAllocator;
+import tink.org.apache.http.nio.util.HeapByteBufferAllocator;
+import tink.org.apache.http.params.HttpParams;
+import tink.org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.protocol.HttpExpectationVerifier;
+import tink.org.apache.http.protocol.HttpProcessor;
+import tink.org.apache.http.protocol.HttpRequestHandler;
+import tink.org.apache.http.protocol.HttpRequestHandlerResolver;
 
 /**
  * Service protocol handler implementations that provide compatibility with

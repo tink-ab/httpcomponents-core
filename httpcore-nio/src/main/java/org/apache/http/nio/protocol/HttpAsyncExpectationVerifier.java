@@ -29,8 +29,8 @@ package org.apache.http.nio.protocol;
 
 import java.io.IOException;
 
-import se.tink.org.apache.http.HttpException;
-import se.tink.org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.protocol.HttpContext;
 
 /**
  * <tt>HttpAsyncExpectationVerifier</tt> defines a strategy to verify whether

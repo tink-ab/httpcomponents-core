@@ -29,8 +29,8 @@ package org.apache.http.nio.entity;
 
 import java.io.IOException;
 
-import se.tink.org.apache.http.nio.ContentDecoder;
-import se.tink.org.apache.http.nio.IOControl;
+import tink.org.apache.http.nio.ContentDecoder;
+import tink.org.apache.http.nio.IOControl;
 
 /**
  * A listener for available data on a non-blocking {@link ConsumingNHttpEntity}.

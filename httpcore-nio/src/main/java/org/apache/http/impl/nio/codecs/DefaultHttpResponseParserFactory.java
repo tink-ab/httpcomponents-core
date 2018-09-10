@@ -27,16 +27,16 @@
 
 package org.apache.http.impl.nio.codecs;
 
-import se.tink.org.apache.http.HttpResponse;
-import se.tink.org.apache.http.HttpResponseFactory;
-import se.tink.org.apache.http.annotation.Immutable;
-import se.tink.org.apache.http.config.MessageConstraints;
-import se.tink.org.apache.http.impl.DefaultHttpResponseFactory;
-import se.tink.org.apache.http.message.BasicLineParser;
-import se.tink.org.apache.http.message.LineParser;
-import se.tink.org.apache.http.nio.NHttpMessageParser;
-import se.tink.org.apache.http.nio.NHttpMessageParserFactory;
-import se.tink.org.apache.http.nio.reactor.SessionInputBuffer;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpResponseFactory;
+import tink.org.apache.http.annotation.Immutable;
+import tink.org.apache.http.config.MessageConstraints;
+import tink.org.apache.http.impl.DefaultHttpResponseFactory;
+import tink.org.apache.http.message.BasicLineParser;
+import tink.org.apache.http.message.LineParser;
+import tink.org.apache.http.nio.NHttpMessageParser;
+import tink.org.apache.http.nio.NHttpMessageParserFactory;
+import tink.org.apache.http.nio.reactor.SessionInputBuffer;
 
 /**
  * Default factory for response message parsers.

@@ -27,10 +27,10 @@
 
 package org.apache.http.nio.protocol;
 
-import se.tink.org.apache.http.HttpRequest;
-import se.tink.org.apache.http.annotation.ThreadSafe;
-import se.tink.org.apache.http.protocol.UriPatternMatcher;
-import se.tink.org.apache.http.util.Args;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.annotation.ThreadSafe;
+import tink.org.apache.http.protocol.UriPatternMatcher;
+import tink.org.apache.http.util.Args;
 
 /**
  * Maintains a map of HTTP request handlers keyed by a request URI pattern.

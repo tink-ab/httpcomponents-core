@@ -31,12 +31,12 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.channels.WritableByteChannel;
 
-import se.tink.org.apache.http.annotation.NotThreadSafe;
-import se.tink.org.apache.http.impl.io.HttpTransportMetricsImpl;
-import se.tink.org.apache.http.nio.ContentEncoder;
-import se.tink.org.apache.http.nio.reactor.SessionOutputBuffer;
-import se.tink.org.apache.http.util.Args;
-import se.tink.org.apache.http.util.Asserts;
+import tink.org.apache.http.annotation.NotThreadSafe;
+import tink.org.apache.http.impl.io.HttpTransportMetricsImpl;
+import tink.org.apache.http.nio.ContentEncoder;
+import tink.org.apache.http.nio.reactor.SessionOutputBuffer;
+import tink.org.apache.http.util.Args;
+import tink.org.apache.http.util.Asserts;
 
 /**
  * Abstract {@link ContentEncoder} that serves as a base for all content

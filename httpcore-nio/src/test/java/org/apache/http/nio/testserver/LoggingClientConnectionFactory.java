@@ -26,9 +26,9 @@
  */
 package org.apache.http.nio.testserver;
 
-import se.tink.org.apache.http.impl.nio.DefaultNHttpClientConnection;
-import se.tink.org.apache.http.nio.NHttpConnectionFactory;
-import se.tink.org.apache.http.nio.reactor.IOSession;
+import tink.org.apache.http.impl.nio.DefaultNHttpClientConnection;
+import tink.org.apache.http.nio.NHttpConnectionFactory;
+import tink.org.apache.http.nio.reactor.IOSession;
 
 public class LoggingClientConnectionFactory implements NHttpConnectionFactory<DefaultNHttpClientConnection> {
 

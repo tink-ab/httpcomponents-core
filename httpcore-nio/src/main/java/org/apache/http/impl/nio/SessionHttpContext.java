@@ -27,8 +27,8 @@
 
 package org.apache.http.impl.nio;
 
-import se.tink.org.apache.http.nio.reactor.IOSession;
-import se.tink.org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.nio.reactor.IOSession;
+import tink.org.apache.http.protocol.HttpContext;
 
 class SessionHttpContext implements HttpContext {
 

@@ -28,7 +28,7 @@ package org.apache.http.benchmark;
 
 import java.text.NumberFormat;
 
-import se.tink.org.apache.http.HttpHost;
+import tink.org.apache.http.HttpHost;
 
 public class ResultProcessor {
 

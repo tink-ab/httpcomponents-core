@@ -31,11 +31,11 @@ import java.io.InterruptedIOException;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
-import se.tink.org.apache.http.annotation.ThreadSafe;
-import se.tink.org.apache.http.nio.ContentEncoder;
-import se.tink.org.apache.http.nio.IOControl;
-import se.tink.org.apache.http.util.Args;
-import se.tink.org.apache.http.util.Asserts;
+import tink.org.apache.http.annotation.ThreadSafe;
+import tink.org.apache.http.nio.ContentEncoder;
+import tink.org.apache.http.nio.IOControl;
+import tink.org.apache.http.util.Args;
+import tink.org.apache.http.util.Asserts;
 
 /**
  * Implementation of the {@link ContentOutputBuffer} interface that can be

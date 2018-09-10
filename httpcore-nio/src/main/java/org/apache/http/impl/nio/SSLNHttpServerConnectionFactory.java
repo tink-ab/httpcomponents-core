@@ -28,27 +28,27 @@ package org.apache.http.impl.nio;
 
 import javax.net.ssl.SSLContext;
 
-import se.tink.org.apache.http.HttpRequest;
-import se.tink.org.apache.http.HttpRequestFactory;
-import se.tink.org.apache.http.HttpResponse;
-import se.tink.org.apache.http.annotation.Immutable;
-import se.tink.org.apache.http.config.ConnectionConfig;
-import se.tink.org.apache.http.entity.ContentLengthStrategy;
-import se.tink.org.apache.http.impl.ConnSupport;
-import se.tink.org.apache.http.impl.DefaultHttpRequestFactory;
-import se.tink.org.apache.http.impl.nio.codecs.DefaultHttpRequestParserFactory;
-import se.tink.org.apache.http.nio.NHttpConnectionFactory;
-import se.tink.org.apache.http.nio.NHttpMessageParserFactory;
-import se.tink.org.apache.http.nio.NHttpMessageWriterFactory;
-import se.tink.org.apache.http.nio.reactor.IOSession;
-import se.tink.org.apache.http.nio.reactor.ssl.SSLIOSession;
-import se.tink.org.apache.http.nio.reactor.ssl.SSLMode;
-import se.tink.org.apache.http.nio.reactor.ssl.SSLSetupHandler;
-import se.tink.org.apache.http.nio.util.ByteBufferAllocator;
-import se.tink.org.apache.http.nio.util.HeapByteBufferAllocator;
-import se.tink.org.apache.http.params.HttpParamConfig;
-import se.tink.org.apache.http.params.HttpParams;
-import se.tink.org.apache.http.util.Args;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpRequestFactory;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.annotation.Immutable;
+import tink.org.apache.http.config.ConnectionConfig;
+import tink.org.apache.http.entity.ContentLengthStrategy;
+import tink.org.apache.http.impl.ConnSupport;
+import tink.org.apache.http.impl.DefaultHttpRequestFactory;
+import tink.org.apache.http.impl.nio.codecs.DefaultHttpRequestParserFactory;
+import tink.org.apache.http.nio.NHttpConnectionFactory;
+import tink.org.apache.http.nio.NHttpMessageParserFactory;
+import tink.org.apache.http.nio.NHttpMessageWriterFactory;
+import tink.org.apache.http.nio.reactor.IOSession;
+import tink.org.apache.http.nio.reactor.ssl.SSLIOSession;
+import tink.org.apache.http.nio.reactor.ssl.SSLMode;
+import tink.org.apache.http.nio.reactor.ssl.SSLSetupHandler;
+import tink.org.apache.http.nio.util.ByteBufferAllocator;
+import tink.org.apache.http.nio.util.HeapByteBufferAllocator;
+import tink.org.apache.http.params.HttpParamConfig;
+import tink.org.apache.http.params.HttpParams;
+import tink.org.apache.http.util.Args;
 
 /**
  * Default factory for SSL encrypted, non-blocking

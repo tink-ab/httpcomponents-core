@@ -29,9 +29,9 @@ package org.apache.http.entity;
 
 import java.io.ByteArrayOutputStream;
 
-import se.tink.org.apache.http.Consts;
-import se.tink.org.apache.http.protocol.HTTP;
-import se.tink.org.apache.http.util.EntityUtils;
+import tink.org.apache.http.Consts;
+import tink.org.apache.http.protocol.HTTP;
+import tink.org.apache.http.util.EntityUtils;
 import org.junit.Assert;
 import org.junit.Test;
 

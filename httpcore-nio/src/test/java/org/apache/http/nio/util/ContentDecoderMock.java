@@ -31,7 +31,7 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.channels.ReadableByteChannel;
 
-import se.tink.org.apache.http.nio.ContentDecoder;
+import tink.org.apache.http.nio.ContentDecoder;
 
 public class ContentDecoderMock implements ContentDecoder {
 

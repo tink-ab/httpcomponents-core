@@ -29,7 +29,7 @@ package org.apache.http.nio;
 
 import java.io.IOException;
 
-import se.tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpException;
 
 /**
  * Abstract server-side HTTP event handler.

@@ -31,8 +31,8 @@ import java.io.ByteArrayOutputStream;
 import java.nio.charset.Charset;
 import java.nio.charset.CharsetEncoder;
 
-import se.tink.org.apache.http.impl.io.HttpTransportMetricsImpl;
-import se.tink.org.apache.http.impl.io.SessionOutputBufferImpl;
+import tink.org.apache.http.impl.io.HttpTransportMetricsImpl;
+import tink.org.apache.http.impl.io.SessionOutputBufferImpl;
 
 /**
  * {@link org.apache.http.io.SessionOutputBuffer} mockup implementation.

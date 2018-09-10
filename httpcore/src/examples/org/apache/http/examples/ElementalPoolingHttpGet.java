@@ -30,26 +30,26 @@ package org.apache.http.examples;
 import java.io.IOException;
 import java.util.concurrent.Future;
 
-import se.tink.org.apache.http.ConnectionReuseStrategy;
-import se.tink.org.apache.http.HttpClientConnection;
-import se.tink.org.apache.http.HttpException;
-import se.tink.org.apache.http.HttpHost;
-import se.tink.org.apache.http.HttpResponse;
-import se.tink.org.apache.http.impl.DefaultConnectionReuseStrategy;
-import se.tink.org.apache.http.impl.pool.BasicConnFactory;
-import se.tink.org.apache.http.impl.pool.BasicConnPool;
-import se.tink.org.apache.http.impl.pool.BasicPoolEntry;
-import se.tink.org.apache.http.message.BasicHttpRequest;
-import se.tink.org.apache.http.protocol.HttpCoreContext;
-import se.tink.org.apache.http.protocol.HttpProcessor;
-import se.tink.org.apache.http.protocol.HttpProcessorBuilder;
-import se.tink.org.apache.http.protocol.HttpRequestExecutor;
-import se.tink.org.apache.http.protocol.RequestConnControl;
-import se.tink.org.apache.http.protocol.RequestContent;
-import se.tink.org.apache.http.protocol.RequestExpectContinue;
-import se.tink.org.apache.http.protocol.RequestTargetHost;
-import se.tink.org.apache.http.protocol.RequestUserAgent;
-import se.tink.org.apache.http.util.EntityUtils;
+import tink.org.apache.http.ConnectionReuseStrategy;
+import tink.org.apache.http.HttpClientConnection;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.impl.DefaultConnectionReuseStrategy;
+import tink.org.apache.http.impl.pool.BasicConnFactory;
+import tink.org.apache.http.impl.pool.BasicConnPool;
+import tink.org.apache.http.impl.pool.BasicPoolEntry;
+import tink.org.apache.http.message.BasicHttpRequest;
+import tink.org.apache.http.protocol.HttpCoreContext;
+import tink.org.apache.http.protocol.HttpProcessor;
+import tink.org.apache.http.protocol.HttpProcessorBuilder;
+import tink.org.apache.http.protocol.HttpRequestExecutor;
+import tink.org.apache.http.protocol.RequestConnControl;
+import tink.org.apache.http.protocol.RequestContent;
+import tink.org.apache.http.protocol.RequestExpectContinue;
+import tink.org.apache.http.protocol.RequestTargetHost;
+import tink.org.apache.http.protocol.RequestUserAgent;
+import tink.org.apache.http.util.EntityUtils;
 
 /**
  * Elemental example for executing multiple GET requests from different threads using a connection

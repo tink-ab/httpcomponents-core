@@ -29,7 +29,7 @@ package org.apache.http.impl.nio.reactor;
 
 import java.util.Date;
 
-import se.tink.org.apache.http.annotation.Immutable;
+import tink.org.apache.http.annotation.Immutable;
 
 /**
  * A {@link Throwable} instance along with a time stamp.

@@ -27,7 +27,7 @@
 
 package org.apache.http.nio.protocol;
 
-import se.tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpRequest;
 
 /**
  * <tt>HttpAsyncRequestHandlerMapper</tt> can be used to resolve an instance

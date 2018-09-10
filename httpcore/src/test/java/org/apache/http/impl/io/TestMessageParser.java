@@ -29,14 +29,14 @@ package org.apache.http.impl.io;
 
 import java.io.IOException;
 
-import se.tink.org.apache.http.Consts;
-import se.tink.org.apache.http.Header;
-import se.tink.org.apache.http.HeaderElement;
-import se.tink.org.apache.http.NameValuePair;
-import se.tink.org.apache.http.ProtocolException;
-import se.tink.org.apache.http.impl.SessionInputBufferMock;
-import se.tink.org.apache.http.io.SessionInputBuffer;
-import se.tink.org.apache.http.message.BufferedHeader;
+import tink.org.apache.http.Consts;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HeaderElement;
+import tink.org.apache.http.NameValuePair;
+import tink.org.apache.http.ProtocolException;
+import tink.org.apache.http.impl.SessionInputBufferMock;
+import tink.org.apache.http.io.SessionInputBuffer;
+import tink.org.apache.http.message.BufferedHeader;
 import org.junit.Assert;
 import org.junit.Test;
 

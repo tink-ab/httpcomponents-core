@@ -27,8 +27,8 @@
 
 package org.apache.http.nio.params;
 
-import se.tink.org.apache.http.params.HttpAbstractParamBean;
-import se.tink.org.apache.http.params.HttpParams;
+import tink.org.apache.http.params.HttpAbstractParamBean;
+import tink.org.apache.http.params.HttpParams;
 
 /**
  * @since 4.0

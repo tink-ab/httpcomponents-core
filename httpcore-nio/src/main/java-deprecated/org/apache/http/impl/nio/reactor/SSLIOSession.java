@@ -30,8 +30,8 @@ package org.apache.http.impl.nio.reactor;
 import javax.net.ssl.SSLContext;
 import javax.net.ssl.SSLException;
 
-import se.tink.org.apache.http.nio.reactor.IOSession;
-import se.tink.org.apache.http.params.HttpParams;
+import tink.org.apache.http.nio.reactor.IOSession;
+import tink.org.apache.http.params.HttpParams;
 
 /**
  * A decorator class intended to transparently extend an {@link IOSession}

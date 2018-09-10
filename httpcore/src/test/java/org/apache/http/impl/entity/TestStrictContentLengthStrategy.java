@@ -27,10 +27,10 @@
 
 package org.apache.http.impl.entity;
 
-import se.tink.org.apache.http.HttpMessage;
-import se.tink.org.apache.http.HttpVersion;
-import se.tink.org.apache.http.ProtocolException;
-import se.tink.org.apache.http.entity.ContentLengthStrategy;
+import tink.org.apache.http.HttpMessage;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.ProtocolException;
+import tink.org.apache.http.entity.ContentLengthStrategy;
 import org.junit.Assert;
 import org.junit.Test;
 
