@@ -33,7 +33,7 @@ import java.io.FileOutputStream;
 import java.io.InputStream;
 
 import org.junit.Assert;
-import org.junit.Test;
+import org.junit.Test;import tink.org.apache.http.entity.ContentType;import tink.org.apache.http.entity.FileEntity;
 
 /**
  * Unit tests for {@link FileEntity}.

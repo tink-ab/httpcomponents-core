@@ -27,11 +27,11 @@
 
 package org.apache.http.impl.nio.codecs;
 
-import org.apache.http.HttpResponse;
-import org.apache.http.annotation.ThreadingBehavior;
-import org.apache.http.annotation.Contract;
-import org.apache.http.message.BasicLineFormatter;
-import org.apache.http.message.LineFormatter;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.annotation.ThreadingBehavior;
+import tink.org.apache.http.annotation.Contract;
+import tink.org.apache.http.message.BasicLineFormatter;
+import tink.org.apache.http.message.LineFormatter;
 import org.apache.http.nio.NHttpMessageWriter;
 import org.apache.http.nio.NHttpMessageWriterFactory;
 import org.apache.http.nio.reactor.SessionOutputBuffer;

@@ -27,8 +27,8 @@
 
 package org.apache.http.impl;
 
-import org.apache.http.HttpResponse;
-import org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.impl.NoConnectionReuseStrategy;import tink.org.apache.http.protocol.HttpContext;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

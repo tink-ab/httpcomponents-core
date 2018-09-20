@@ -45,8 +45,8 @@ import org.apache.http.nio.reactor.IOReactor;
 import org.apache.http.nio.reactor.IOReactorException;
 import org.apache.http.nio.reactor.IOReactorStatus;
 import org.apache.http.nio.reactor.IOSession;
-import org.apache.http.util.Args;
-import org.apache.http.util.Asserts;
+import tink.org.apache.http.util.Args;
+import tink.org.apache.http.util.Asserts;
 
 /**
  * Generic implementation of {@link IOReactor} that can used as a subclass

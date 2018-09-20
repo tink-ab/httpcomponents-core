@@ -27,7 +27,7 @@
 package org.apache.http.concurrent;
 
 
-class BasicFutureCallback<T> implements FutureCallback<T> {
+import tink.org.apache.http.concurrent.FutureCallback;class BasicFutureCallback<T> implements FutureCallback<T> {
 
     private T result;
     private Exception ex;

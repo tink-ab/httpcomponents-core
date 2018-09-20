@@ -27,7 +27,7 @@
 package org.apache.http.nio.reactor.ssl;
 
 import java.nio.ByteBuffer;
-import org.apache.http.util.Args;
+import tink.org.apache.http.util.Args;
 
 /**
  * A {@link SSLBufferManagementStrategy} that never releases the underlying buffer.

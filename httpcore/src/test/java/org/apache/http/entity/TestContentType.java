@@ -30,11 +30,11 @@ package org.apache.http.entity;
 import java.nio.charset.Charset;
 import java.nio.charset.UnsupportedCharsetException;
 
-import org.apache.http.Consts;
-import org.apache.http.Header;
-import org.apache.http.ParseException;
-import org.apache.http.message.BasicHeader;
-import org.apache.http.message.BasicNameValuePair;
+import tink.org.apache.http.Consts;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.ParseException;
+import tink.org.apache.http.entity.BasicHttpEntity;import tink.org.apache.http.entity.ContentType;import tink.org.apache.http.message.BasicHeader;
+import tink.org.apache.http.message.BasicNameValuePair;
 import org.junit.Assert;
 import org.junit.Test;
 

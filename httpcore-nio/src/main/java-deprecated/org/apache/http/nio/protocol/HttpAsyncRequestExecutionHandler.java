@@ -27,9 +27,9 @@
 
 package org.apache.http.nio.protocol;
 
-import org.apache.http.ConnectionReuseStrategy;
-import org.apache.http.protocol.HttpContext;
-import org.apache.http.protocol.HttpProcessor;
+import tink.org.apache.http.ConnectionReuseStrategy;
+import tink.org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.protocol.HttpProcessor;
 
 /**
  * {@code HttpAsyncRequestExecutionHandler} represents a callback interface

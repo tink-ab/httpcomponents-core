@@ -35,12 +35,12 @@ import java.io.UnsupportedEncodingException;
 import java.nio.ByteBuffer;
 import java.nio.charset.Charset;
 
-import org.apache.http.entity.AbstractHttpEntity;
-import org.apache.http.entity.ContentType;
+import tink.org.apache.http.entity.AbstractHttpEntity;
+import tink.org.apache.http.entity.ContentType;
 import org.apache.http.nio.ContentEncoder;
 import org.apache.http.nio.IOControl;
-import org.apache.http.protocol.HTTP;
-import org.apache.http.util.Args;
+import tink.org.apache.http.protocol.HTTP;
+import tink.org.apache.http.util.Args;
 
 /**
  * A simple, self contained, repeatable non-blocking entity that retrieves

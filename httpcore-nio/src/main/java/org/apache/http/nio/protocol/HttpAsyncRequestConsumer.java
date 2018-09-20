@@ -29,11 +29,11 @@ package org.apache.http.nio.protocol;
 import java.io.Closeable;
 import java.io.IOException;
 
-import org.apache.http.HttpException;
-import org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpRequest;
 import org.apache.http.nio.ContentDecoder;
 import org.apache.http.nio.IOControl;
-import org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.HttpEntityEnclosingRequest;import tink.org.apache.http.protocol.HttpContext;
 
 /**
  * {@code HttpAsyncRequestConsumer} is a callback interface whose methods
@@ -49,7 +49,7 @@ public interface HttpAsyncRequestConsumer<T> extends Closeable {
      * Invoked when a HTTP request message is received. Please note
      * that the {@link #consumeContent(ContentDecoder, IOControl)} method
      * will be invoked only for if the request message implements
-     * {@link org.apache.http.HttpEntityEnclosingRequest} interface and
+     * {@link HttpEntityEnclosingRequest} interface and
      * has a content entity enclosed.
      *
      * @param request HTTP request message.

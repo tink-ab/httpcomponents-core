@@ -38,27 +38,27 @@ import java.util.concurrent.TimeUnit;
 
 import javax.net.ssl.SSLContext;
 
-import org.apache.http.ConnectionClosedException;
-import org.apache.http.ExceptionLogger;
-import org.apache.http.HttpConnection;
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpEntityEnclosingRequest;
-import org.apache.http.HttpException;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpStatus;
-import org.apache.http.MethodNotSupportedException;
-import org.apache.http.config.SocketConfig;
-import org.apache.http.entity.ContentType;
-import org.apache.http.entity.FileEntity;
-import org.apache.http.entity.StringEntity;
-import org.apache.http.impl.bootstrap.HttpServer;
-import org.apache.http.impl.bootstrap.ServerBootstrap;
-import org.apache.http.protocol.HttpContext;
-import org.apache.http.protocol.HttpCoreContext;
-import org.apache.http.protocol.HttpRequestHandler;
-import org.apache.http.ssl.SSLContexts;
-import org.apache.http.util.EntityUtils;
+import tink.org.apache.http.ConnectionClosedException;
+import tink.org.apache.http.ExceptionLogger;
+import tink.org.apache.http.HttpConnection;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.HttpEntityEnclosingRequest;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpStatus;
+import tink.org.apache.http.MethodNotSupportedException;
+import tink.org.apache.http.config.SocketConfig;
+import tink.org.apache.http.entity.ContentType;
+import tink.org.apache.http.entity.FileEntity;
+import tink.org.apache.http.entity.StringEntity;
+import tink.org.apache.http.impl.bootstrap.HttpServer;
+import tink.org.apache.http.impl.bootstrap.ServerBootstrap;
+import tink.org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.protocol.HttpCoreContext;
+import tink.org.apache.http.protocol.HttpRequestHandler;
+import tink.org.apache.http.ssl.SSLContexts;
+import tink.org.apache.http.util.EntityUtils;
 
 /**
  * Embedded HTTP/1.1 file server based on a classic (blocking) I/O model.

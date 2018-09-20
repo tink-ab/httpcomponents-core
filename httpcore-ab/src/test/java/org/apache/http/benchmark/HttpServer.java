@@ -33,25 +33,25 @@ import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-import org.apache.http.ConnectionClosedException;
-import org.apache.http.HttpException;
-import org.apache.http.HttpResponseInterceptor;
-import org.apache.http.HttpServerConnection;
-import org.apache.http.impl.DefaultBHttpServerConnection;
-import org.apache.http.impl.DefaultConnectionReuseStrategy;
-import org.apache.http.impl.DefaultHttpResponseFactory;
-import org.apache.http.protocol.BasicHttpContext;
-import org.apache.http.protocol.HttpContext;
-import org.apache.http.protocol.HttpProcessor;
-import org.apache.http.protocol.HttpRequestHandler;
-import org.apache.http.protocol.HttpService;
-import org.apache.http.protocol.ImmutableHttpProcessor;
-import org.apache.http.protocol.ResponseConnControl;
-import org.apache.http.protocol.ResponseContent;
-import org.apache.http.protocol.ResponseDate;
-import org.apache.http.protocol.ResponseServer;
-import org.apache.http.protocol.UriHttpRequestHandlerMapper;
-import org.apache.http.util.Asserts;
+import tink.org.apache.http.ConnectionClosedException;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpResponseInterceptor;
+import tink.org.apache.http.HttpServerConnection;
+import tink.org.apache.http.impl.DefaultBHttpServerConnection;
+import tink.org.apache.http.impl.DefaultConnectionReuseStrategy;
+import tink.org.apache.http.impl.DefaultHttpResponseFactory;
+import tink.org.apache.http.protocol.BasicHttpContext;
+import tink.org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.protocol.HttpProcessor;
+import tink.org.apache.http.protocol.HttpRequestHandler;
+import tink.org.apache.http.protocol.HttpService;
+import tink.org.apache.http.protocol.ImmutableHttpProcessor;
+import tink.org.apache.http.protocol.ResponseConnControl;
+import tink.org.apache.http.protocol.ResponseContent;
+import tink.org.apache.http.protocol.ResponseDate;
+import tink.org.apache.http.protocol.ResponseServer;
+import tink.org.apache.http.protocol.UriHttpRequestHandlerMapper;
+import tink.org.apache.http.util.Asserts;
 
 public class HttpServer {
 

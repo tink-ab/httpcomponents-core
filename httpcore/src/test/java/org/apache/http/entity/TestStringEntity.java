@@ -30,8 +30,8 @@ package org.apache.http.entity;
 import java.io.ByteArrayOutputStream;
 import java.nio.charset.Charset;
 
-import org.apache.http.Consts;
-import org.apache.http.util.EntityUtils;
+import tink.org.apache.http.Consts;
+import tink.org.apache.http.entity.ContentType;import tink.org.apache.http.entity.StringEntity;import tink.org.apache.http.util.EntityUtils;
 import org.junit.Assert;
 import org.junit.Test;
 

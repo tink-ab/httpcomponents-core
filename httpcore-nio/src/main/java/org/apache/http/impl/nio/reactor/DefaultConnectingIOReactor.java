@@ -45,8 +45,8 @@ import org.apache.http.nio.reactor.IOReactorException;
 import org.apache.http.nio.reactor.IOReactorStatus;
 import org.apache.http.nio.reactor.SessionRequest;
 import org.apache.http.nio.reactor.SessionRequestCallback;
-import org.apache.http.params.HttpParams;
-import org.apache.http.util.Asserts;
+import tink.org.apache.http.params.HttpParams;
+import tink.org.apache.http.util.Asserts;
 
 /**
  * Default implementation of {@link ConnectingIOReactor}. This class extends

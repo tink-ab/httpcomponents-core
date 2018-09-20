@@ -28,11 +28,11 @@ package org.apache.http.impl.nio.pool;
 
 import java.io.IOException;
 
-import org.apache.http.HttpHost;
-import org.apache.http.annotation.ThreadingBehavior;
-import org.apache.http.annotation.Contract;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.annotation.ThreadingBehavior;
+import tink.org.apache.http.annotation.Contract;
 import org.apache.http.nio.NHttpClientConnection;
-import org.apache.http.pool.PoolEntry;
+import tink.org.apache.http.pool.PoolEntry;
 
 /**
  * A basic {@link PoolEntry} implementation that represents an entry

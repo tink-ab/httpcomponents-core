@@ -31,15 +31,15 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.util.concurrent.Executor;
 
-import org.apache.http.ConnectionReuseStrategy;
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpEntityEnclosingRequest;
-import org.apache.http.HttpException;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpStatus;
-import org.apache.http.annotation.ThreadingBehavior;
-import org.apache.http.annotation.Contract;
+import tink.org.apache.http.ConnectionReuseStrategy;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.HttpEntityEnclosingRequest;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpStatus;
+import tink.org.apache.http.annotation.ThreadingBehavior;
+import tink.org.apache.http.annotation.Contract;
 import org.apache.http.nio.ContentDecoder;
 import org.apache.http.nio.ContentEncoder;
 import org.apache.http.nio.IOControl;
@@ -55,13 +55,13 @@ import org.apache.http.nio.util.ContentOutputBuffer;
 import org.apache.http.nio.util.DirectByteBufferAllocator;
 import org.apache.http.nio.util.SharedInputBuffer;
 import org.apache.http.nio.util.SharedOutputBuffer;
-import org.apache.http.params.CoreProtocolPNames;
-import org.apache.http.params.DefaultedHttpParams;
-import org.apache.http.params.HttpParams;
-import org.apache.http.protocol.ExecutionContext;
-import org.apache.http.protocol.HttpContext;
-import org.apache.http.protocol.HttpProcessor;
-import org.apache.http.util.Args;
+import tink.org.apache.http.params.CoreProtocolPNames;
+import tink.org.apache.http.params.DefaultedHttpParams;
+import tink.org.apache.http.params.HttpParams;
+import tink.org.apache.http.protocol.ExecutionContext;
+import tink.org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.protocol.HttpProcessor;
+import tink.org.apache.http.util.Args;
 
 /**
  * Client protocol handler implementation that provide compatibility with
@@ -91,7 +91,7 @@ import org.apache.http.util.Args;
  * class:
  * <ul>
  *  <li>{@link org.apache.http.nio.params.NIOReactorPNames#CONTENT_BUFFER_SIZE}</li>
- *  <li>{@link org.apache.http.params.CoreProtocolPNames#WAIT_FOR_CONTINUE}</li>
+ *  <li>{@link CoreProtocolPNames#WAIT_FOR_CONTINUE}</li>
  * </ul>
  *
  * @since 4.0

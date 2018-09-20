@@ -32,10 +32,10 @@ import java.io.ByteArrayOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
-import org.apache.http.Header;
-import org.apache.http.HeaderElement;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HeaderElement;
 import org.junit.Assert;
-import org.junit.Test;
+import org.junit.Test;import tink.org.apache.http.message.BasicHeader;
 
 /**
  * Unit tests for {@link Header}.

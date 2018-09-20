@@ -32,7 +32,7 @@ import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-import org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpResponse;
 import org.apache.http.nio.ContentEncoder;
 import org.apache.http.nio.entity.HttpAsyncContentProducer;
 import org.junit.After;

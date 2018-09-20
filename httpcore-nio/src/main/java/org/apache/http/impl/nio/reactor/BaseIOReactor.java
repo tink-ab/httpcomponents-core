@@ -39,7 +39,7 @@ import org.apache.http.nio.reactor.IOEventDispatch;
 import org.apache.http.nio.reactor.IOReactorException;
 import org.apache.http.nio.reactor.IOReactorExceptionHandler;
 import org.apache.http.nio.reactor.IOSession;
-import org.apache.http.util.Args;
+import tink.org.apache.http.util.Args;
 
 /**
  * Default implementation of {@link AbstractIOReactor} that serves as a base

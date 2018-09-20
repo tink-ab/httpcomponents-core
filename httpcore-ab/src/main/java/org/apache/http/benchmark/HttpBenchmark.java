@@ -42,19 +42,19 @@ import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
 import org.apache.commons.cli.Options;
 import org.apache.commons.cli.PosixParser;
-import org.apache.http.Header;
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpHost;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpVersion;
-import org.apache.http.entity.ContentType;
-import org.apache.http.entity.FileEntity;
-import org.apache.http.entity.StringEntity;
-import org.apache.http.message.BasicHttpEntityEnclosingRequest;
-import org.apache.http.message.BasicHttpRequest;
-import org.apache.http.protocol.HTTP;
-import org.apache.http.ssl.SSLContextBuilder;
-import org.apache.http.ssl.TrustStrategy;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.entity.ContentType;
+import tink.org.apache.http.entity.FileEntity;
+import tink.org.apache.http.entity.StringEntity;
+import tink.org.apache.http.message.BasicHttpEntityEnclosingRequest;
+import tink.org.apache.http.message.BasicHttpRequest;
+import tink.org.apache.http.protocol.HTTP;
+import tink.org.apache.http.ssl.SSLContextBuilder;
+import tink.org.apache.http.ssl.TrustStrategy;
 
 /**
  * Main program of the HTTP benchmark.

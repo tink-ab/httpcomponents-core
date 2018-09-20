@@ -30,9 +30,9 @@ package org.apache.http.protocol;
 import java.util.LinkedList;
 import java.util.List;
 
-import org.apache.http.HttpRequestInterceptor;
+import tink.org.apache.http.HttpRequestInterceptor;
 import org.junit.Assert;
-import org.junit.Test;
+import org.junit.Test;import tink.org.apache.http.protocol.RequestConnControl;import tink.org.apache.http.protocol.RequestContent;import tink.org.apache.http.protocol.RequestExpectContinue;import tink.org.apache.http.protocol.RequestTargetHost;import tink.org.apache.http.protocol.RequestUserAgent;
 
 public class TestChainBuilder {
 

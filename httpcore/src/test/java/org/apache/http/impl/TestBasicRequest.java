@@ -27,9 +27,9 @@
 
 package org.apache.http.impl;
 
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpVersion;
-import org.apache.http.message.BasicHttpRequest;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.message.BasicHttpRequest;
 import org.junit.Assert;
 import org.junit.Test;
 

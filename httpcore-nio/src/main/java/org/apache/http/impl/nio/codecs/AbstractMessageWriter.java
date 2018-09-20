@@ -30,16 +30,16 @@ package org.apache.http.impl.nio.codecs;
 import java.io.IOException;
 import java.util.Iterator;
 
-import org.apache.http.Header;
-import org.apache.http.HttpException;
-import org.apache.http.HttpMessage;
-import org.apache.http.message.BasicLineFormatter;
-import org.apache.http.message.LineFormatter;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpMessage;
+import tink.org.apache.http.message.BasicLineFormatter;
+import tink.org.apache.http.message.LineFormatter;
 import org.apache.http.nio.NHttpMessageWriter;
 import org.apache.http.nio.reactor.SessionOutputBuffer;
-import org.apache.http.params.HttpParams;
-import org.apache.http.util.Args;
-import org.apache.http.util.CharArrayBuffer;
+import tink.org.apache.http.params.HttpParams;
+import tink.org.apache.http.util.Args;
+import tink.org.apache.http.util.CharArrayBuffer;
 
 /**
  * Abstract {@link NHttpMessageWriter} that serves as a base for all message

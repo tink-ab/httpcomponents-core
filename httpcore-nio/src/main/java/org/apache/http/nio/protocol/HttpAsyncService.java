@@ -33,25 +33,25 @@ import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import org.apache.http.ConnectionReuseStrategy;
-import org.apache.http.ExceptionLogger;
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpEntityEnclosingRequest;
-import org.apache.http.HttpException;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpResponseFactory;
-import org.apache.http.HttpStatus;
-import org.apache.http.HttpVersion;
-import org.apache.http.MethodNotSupportedException;
-import org.apache.http.ProtocolException;
-import org.apache.http.UnsupportedHttpVersionException;
-import org.apache.http.annotation.Contract;
-import org.apache.http.annotation.ThreadingBehavior;
-import org.apache.http.concurrent.Cancellable;
-import org.apache.http.entity.ContentType;
-import org.apache.http.impl.DefaultConnectionReuseStrategy;
-import org.apache.http.impl.DefaultHttpResponseFactory;
+import tink.org.apache.http.ConnectionReuseStrategy;
+import tink.org.apache.http.ExceptionLogger;
+import tink.org.apache.http.HttpConnection;import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.HttpEntityEnclosingRequest;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpResponseFactory;
+import tink.org.apache.http.HttpStatus;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.MethodNotSupportedException;
+import tink.org.apache.http.ProtocolException;
+import tink.org.apache.http.UnsupportedHttpVersionException;
+import tink.org.apache.http.annotation.Contract;
+import tink.org.apache.http.annotation.ThreadingBehavior;
+import tink.org.apache.http.concurrent.Cancellable;
+import tink.org.apache.http.entity.ContentType;
+import tink.org.apache.http.impl.DefaultConnectionReuseStrategy;
+import tink.org.apache.http.impl.DefaultHttpResponseFactory;
 import org.apache.http.nio.ContentDecoder;
 import org.apache.http.nio.ContentEncoder;
 import org.apache.http.nio.NHttpConnection;
@@ -59,13 +59,13 @@ import org.apache.http.nio.NHttpServerConnection;
 import org.apache.http.nio.NHttpServerEventHandler;
 import org.apache.http.nio.entity.NStringEntity;
 import org.apache.http.nio.reactor.SessionBufferStatus;
-import org.apache.http.params.HttpParams;
-import org.apache.http.protocol.BasicHttpContext;
-import org.apache.http.protocol.HttpContext;
-import org.apache.http.protocol.HttpCoreContext;
-import org.apache.http.protocol.HttpProcessor;
-import org.apache.http.util.Args;
-import org.apache.http.util.Asserts;
+import tink.org.apache.http.params.HttpParams;
+import tink.org.apache.http.protocol.BasicHttpContext;
+import tink.org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.protocol.HttpCoreContext;
+import tink.org.apache.http.protocol.HttpProcessor;
+import tink.org.apache.http.util.Args;
+import tink.org.apache.http.util.Asserts;
 
 /**
  * {@code HttpAsyncService} is a fully asynchronous HTTP server side protocol
@@ -200,7 +200,7 @@ public class HttpAsyncService implements NHttpServerEventHandler {
      * @param exceptionLogger Exception logger. If {@code null}
      *   {@link ExceptionLogger#NO_OP} will be used. Please note that the exception
      *   logger will be only used to log I/O exception thrown while closing
-     *   {@link java.io.Closeable} objects (such as {@link org.apache.http.HttpConnection}).
+     *   {@link java.io.Closeable} objects (such as {@link HttpConnection}).
      *
      * @since 4.4
      */
@@ -244,7 +244,7 @@ public class HttpAsyncService implements NHttpServerEventHandler {
      * @param exceptionLogger Exception logger. If {@code null}
      *   {@link ExceptionLogger#NO_OP} will be used. Please note that the exception
      *   logger will be only used to log I/O exception thrown while closing
-     *   {@link java.io.Closeable} objects (such as {@link org.apache.http.HttpConnection}).
+     *   {@link java.io.Closeable} objects (such as {@link HttpConnection}).
      *
      * @since 4.4
      */
@@ -552,7 +552,7 @@ public class HttpAsyncService implements NHttpServerEventHandler {
     /**
      * This method can be used to log I/O exception thrown while closing
      * {@link java.io.Closeable} objects (such as
-     * {@link org.apache.http.HttpConnection}).
+     * {@link HttpConnection}).
      *
      * @param ex I/O exception thrown by {@link java.io.Closeable#close()}
      */

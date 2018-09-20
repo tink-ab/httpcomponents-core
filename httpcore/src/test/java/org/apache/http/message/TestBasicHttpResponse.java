@@ -27,9 +27,9 @@
 
 package org.apache.http.message;
 
-import org.apache.http.HttpVersion;
+import tink.org.apache.http.HttpVersion;
 import org.junit.Assert;
-import org.junit.Test;
+import org.junit.Test;import tink.org.apache.http.message.BasicHttpResponse;import tink.org.apache.http.message.BasicStatusLine;
 
 /**
  * Unit tests for {@link BasicHttpResponse}.

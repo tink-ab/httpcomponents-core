@@ -27,9 +27,9 @@
 
 package org.apache.http.entity;
 
-import org.apache.http.Header;
-import org.apache.http.message.BasicHeader;
-import org.apache.http.protocol.HTTP;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.entity.AbstractHttpEntity;import tink.org.apache.http.entity.BasicHttpEntity;import tink.org.apache.http.message.BasicHeader;
+import tink.org.apache.http.protocol.HTTP;
 import org.junit.Assert;
 import org.junit.Test;
 

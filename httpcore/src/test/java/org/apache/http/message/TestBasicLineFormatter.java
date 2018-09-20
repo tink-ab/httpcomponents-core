@@ -27,12 +27,12 @@
 
 package org.apache.http.message;
 
-import org.apache.http.Header;
-import org.apache.http.HttpStatus;
-import org.apache.http.HttpVersion;
-import org.apache.http.RequestLine;
-import org.apache.http.StatusLine;
-import org.apache.http.util.CharArrayBuffer;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HttpStatus;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.RequestLine;
+import tink.org.apache.http.StatusLine;
+import tink.org.apache.http.message.BasicHeader;import tink.org.apache.http.message.BasicLineFormatter;import tink.org.apache.http.message.BasicRequestLine;import tink.org.apache.http.message.BasicStatusLine;import tink.org.apache.http.util.CharArrayBuffer;
 import org.junit.Assert;
 import org.junit.Test;
 

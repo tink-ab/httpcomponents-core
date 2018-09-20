@@ -32,14 +32,14 @@ import java.nio.channels.SelectionKey;
 import java.nio.charset.CharsetDecoder;
 import java.nio.charset.CharsetEncoder;
 
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpEntityEnclosingRequest;
-import org.apache.http.HttpException;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpResponseFactory;
-import org.apache.http.config.MessageConstraints;
-import org.apache.http.entity.ContentLengthStrategy;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.HttpEntityEnclosingRequest;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpResponseFactory;
+import tink.org.apache.http.config.MessageConstraints;
+import tink.org.apache.http.entity.ContentLengthStrategy;
 import org.apache.http.impl.nio.codecs.DefaultHttpRequestWriter;
 import org.apache.http.impl.nio.codecs.DefaultHttpRequestWriterFactory;
 import org.apache.http.impl.nio.codecs.DefaultHttpResponseParser;
@@ -56,9 +56,9 @@ import org.apache.http.nio.reactor.IOSession;
 import org.apache.http.nio.reactor.SessionInputBuffer;
 import org.apache.http.nio.reactor.SessionOutputBuffer;
 import org.apache.http.nio.util.ByteBufferAllocator;
-import org.apache.http.params.HttpParamConfig;
-import org.apache.http.params.HttpParams;
-import org.apache.http.util.Args;
+import tink.org.apache.http.params.HttpParamConfig;
+import tink.org.apache.http.params.HttpParams;
+import tink.org.apache.http.util.Args;import tink.org.apache.http.impl.entity.LaxContentLengthStrategy;import tink.org.apache.http.impl.entity.StrictContentLengthStrategy;
 
 /**
  * Default implementation of the {@link org.apache.http.nio.NHttpClientConnection}
@@ -117,9 +117,9 @@ public class DefaultNHttpClientConnection
      * @param constraints Message constraints. If {@code null}
      *   {@link MessageConstraints#DEFAULT} will be used.
      * @param incomingContentStrategy incoming content length strategy. If {@code null}
-     *   {@link org.apache.http.impl.entity.LaxContentLengthStrategy#INSTANCE} will be used.
+     *   {@link LaxContentLengthStrategy#INSTANCE} will be used.
      * @param outgoingContentStrategy outgoing content length strategy. If {@code null}
-     *   {@link org.apache.http.impl.entity.StrictContentLengthStrategy#INSTANCE} will be used.
+     *   {@link StrictContentLengthStrategy#INSTANCE} will be used.
      *
      * @since 4.3
      */

@@ -27,16 +27,16 @@
 
 package org.apache.http.impl;
 
-import org.apache.http.ConnectionReuseStrategy;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpStatus;
-import org.apache.http.HttpVersion;
-import org.apache.http.message.BasicHttpRequest;
-import org.apache.http.message.BasicHttpResponse;
-import org.apache.http.protocol.BasicHttpContext;
-import org.apache.http.protocol.HttpContext;
-import org.apache.http.protocol.HttpCoreContext;
+import tink.org.apache.http.ConnectionReuseStrategy;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpStatus;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.impl.DefaultConnectionReuseStrategy;import tink.org.apache.http.message.BasicHttpRequest;
+import tink.org.apache.http.message.BasicHttpResponse;
+import tink.org.apache.http.protocol.BasicHttpContext;
+import tink.org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.protocol.HttpCoreContext;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

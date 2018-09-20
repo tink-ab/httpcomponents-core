@@ -34,7 +34,7 @@ import java.io.ObjectOutputStream;
 import java.io.Serializable;
 
 import org.junit.Assert;
-import org.junit.Test;
+import org.junit.Test;import tink.org.apache.http.entity.SerializableEntity;
 
 public class TestSerializableEntity {
 

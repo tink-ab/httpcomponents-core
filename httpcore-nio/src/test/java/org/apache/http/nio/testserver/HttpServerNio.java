@@ -33,8 +33,8 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.apache.http.ConnectionClosedException;
-import org.apache.http.ExceptionLogger;
+import tink.org.apache.http.ConnectionClosedException;
+import tink.org.apache.http.ExceptionLogger;
 import org.apache.http.impl.nio.DefaultNHttpServerConnection;
 import org.apache.http.impl.nio.bootstrap.HttpServer;
 import org.apache.http.impl.nio.bootstrap.ServerBootstrap;
@@ -44,8 +44,8 @@ import org.apache.http.nio.protocol.HttpAsyncExpectationVerifier;
 import org.apache.http.nio.protocol.HttpAsyncRequestHandler;
 import org.apache.http.nio.protocol.UriHttpAsyncRequestHandlerMapper;
 import org.apache.http.nio.reactor.ListenerEndpoint;
-import org.apache.http.protocol.HttpProcessor;
-import org.apache.http.util.Asserts;
+import tink.org.apache.http.protocol.HttpProcessor;
+import tink.org.apache.http.util.Asserts;
 
 public class HttpServerNio {
 

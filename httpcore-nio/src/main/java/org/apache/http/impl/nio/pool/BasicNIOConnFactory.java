@@ -30,14 +30,14 @@ import java.io.IOException;
 
 import javax.net.ssl.SSLContext;
 
-import org.apache.http.HttpHost;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpResponseFactory;
-import org.apache.http.annotation.ThreadingBehavior;
-import org.apache.http.annotation.Contract;
-import org.apache.http.config.ConnectionConfig;
-import org.apache.http.impl.DefaultHttpResponseFactory;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpResponseFactory;
+import tink.org.apache.http.annotation.ThreadingBehavior;
+import tink.org.apache.http.annotation.Contract;
+import tink.org.apache.http.config.ConnectionConfig;
+import tink.org.apache.http.impl.DefaultHttpResponseFactory;
 import org.apache.http.impl.nio.DefaultNHttpClientConnectionFactory;
 import org.apache.http.impl.nio.SSLNHttpClientConnectionFactory;
 import org.apache.http.nio.NHttpClientConnection;
@@ -50,8 +50,8 @@ import org.apache.http.nio.reactor.IOSession;
 import org.apache.http.nio.reactor.ssl.SSLSetupHandler;
 import org.apache.http.nio.util.ByteBufferAllocator;
 import org.apache.http.nio.util.HeapByteBufferAllocator;
-import org.apache.http.params.HttpParams;
-import org.apache.http.util.Args;
+import tink.org.apache.http.params.HttpParams;
+import tink.org.apache.http.util.Args;
 
 /**
  * A basic {@link NIOConnFactory} implementation that creates

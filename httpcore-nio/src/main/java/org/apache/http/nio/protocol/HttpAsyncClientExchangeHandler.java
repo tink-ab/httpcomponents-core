@@ -30,13 +30,13 @@ package org.apache.http.nio.protocol;
 import java.io.Closeable;
 import java.io.IOException;
 
-import org.apache.http.HttpException;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.concurrent.Cancellable;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpEntityEnclosingRequest;import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.concurrent.Cancellable;
 import org.apache.http.nio.ContentDecoder;
 import org.apache.http.nio.ContentEncoder;
-import org.apache.http.nio.IOControl;
+import org.apache.http.nio.IOControl;import tink.org.apache.http.protocol.HttpProcessor;
 
 /**
  * {@code HttpAsyncClientExchangeHandler} represents a callback interface whose
@@ -44,7 +44,7 @@ import org.apache.http.nio.IOControl;
  * on the client side.
  * <p>
  * Individual {@code HttpAsyncClientExchangeHandler} are expected to make use of
- * a {@link org.apache.http.protocol.HttpProcessor} to generate mandatory protocol
+ * a {@link HttpProcessor} to generate mandatory protocol
  * headers for all outgoing messages and apply common, cross-cutting message
  * transformations to all incoming and outgoing messages.
  * {@code HttpAsyncClientExchangeHandler}s can delegate implementation
@@ -57,10 +57,10 @@ public interface HttpAsyncClientExchangeHandler extends Closeable, Cancellable {
 
     /**
      * Invoked to generate a HTTP request message head. The message is expected
-     * to implement the {@link org.apache.http.HttpEntityEnclosingRequest} interface if it is
+     * to implement the {@link HttpEntityEnclosingRequest} interface if it is
      * to enclose a content entity. The {@link #produceContent(ContentEncoder,
      * IOControl)} method will not be invoked if
-     * {@link org.apache.http.HttpEntityEnclosingRequest#getEntity()} returns
+     * {@link HttpEntityEnclosingRequest#getEntity()} returns
      * {@code null}.
      *
      * @return HTTP request message.

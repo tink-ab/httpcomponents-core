@@ -33,13 +33,13 @@ import java.nio.charset.CharsetDecoder;
 import java.nio.charset.CharsetEncoder;
 import java.nio.charset.CodingErrorAction;
 
-import org.apache.http.Consts;
-import org.apache.http.MessageConstraintException;
-import org.apache.http.config.MessageConstraints;
+import tink.org.apache.http.Consts;
+import tink.org.apache.http.MessageConstraintException;
+import tink.org.apache.http.config.MessageConstraints;
 import org.apache.http.impl.SessionInputBufferMock;
 import org.apache.http.impl.SessionOutputBufferMock;
-import org.apache.http.io.HttpTransportMetrics;
-import org.apache.http.util.CharArrayBuffer;
+import tink.org.apache.http.io.HttpTransportMetrics;
+import tink.org.apache.http.util.CharArrayBuffer;
 import org.junit.Assert;
 import org.junit.Test;
 import org.mockito.Mockito;

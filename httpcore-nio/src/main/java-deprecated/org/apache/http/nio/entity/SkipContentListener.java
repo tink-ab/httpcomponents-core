@@ -33,7 +33,7 @@ import java.nio.ByteBuffer;
 import org.apache.http.nio.ContentDecoder;
 import org.apache.http.nio.IOControl;
 import org.apache.http.nio.util.ByteBufferAllocator;
-import org.apache.http.util.Args;
+import tink.org.apache.http.util.Args;
 
 /**
  * A simple {@link ContentListener} that reads and ignores all content.

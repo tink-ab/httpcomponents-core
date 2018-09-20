@@ -28,7 +28,7 @@
 package org.apache.http.protocol;
 
 import org.junit.Assert;
-import org.junit.Test;
+import org.junit.Test;import tink.org.apache.http.protocol.UriPatternMatcher;
 
 public class TestUriPatternMatcher {
 

@@ -27,7 +27,7 @@
 
 package org.apache.http.impl.nio.reactor;
 
-import org.apache.http.util.Args;
+import tink.org.apache.http.util.Args;
 
 /**
  * Session request handle class used by I/O reactor implementations to keep

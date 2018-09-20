@@ -27,8 +27,8 @@
 
 package org.apache.http.osgi;
 
-import org.apache.http.concurrent.BasicFuture;
-import org.apache.http.concurrent.FutureCallback;
+import tink.org.apache.http.concurrent.BasicFuture;
+import tink.org.apache.http.concurrent.FutureCallback;
 import org.junit.Test;
 
 /**

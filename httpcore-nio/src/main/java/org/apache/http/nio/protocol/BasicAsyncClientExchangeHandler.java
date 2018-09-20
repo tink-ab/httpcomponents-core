@@ -31,22 +31,22 @@ import java.io.IOException;
 import java.util.concurrent.Future;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import org.apache.http.ConnectionClosedException;
-import org.apache.http.ConnectionReuseStrategy;
-import org.apache.http.HttpException;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.concurrent.BasicFuture;
-import org.apache.http.concurrent.FutureCallback;
-import org.apache.http.impl.DefaultConnectionReuseStrategy;
+import tink.org.apache.http.ConnectionClosedException;
+import tink.org.apache.http.ConnectionReuseStrategy;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.concurrent.BasicFuture;
+import tink.org.apache.http.concurrent.FutureCallback;
+import tink.org.apache.http.impl.DefaultConnectionReuseStrategy;
 import org.apache.http.nio.ContentDecoder;
 import org.apache.http.nio.ContentEncoder;
 import org.apache.http.nio.IOControl;
 import org.apache.http.nio.NHttpClientConnection;
-import org.apache.http.protocol.HttpContext;
-import org.apache.http.protocol.HttpCoreContext;
-import org.apache.http.protocol.HttpProcessor;
-import org.apache.http.util.Args;
+import tink.org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.protocol.HttpCoreContext;
+import tink.org.apache.http.protocol.HttpProcessor;
+import tink.org.apache.http.util.Args;
 
 /**
  * Basic implementation of {@link HttpAsyncClientExchangeHandler} that executes

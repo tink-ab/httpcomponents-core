@@ -32,7 +32,7 @@ import java.io.FileInputStream;
 import java.io.InputStreamReader;
 import java.nio.ByteBuffer;
 
-import org.apache.http.util.EncodingUtils;
+import tink.org.apache.http.util.EncodingUtils;
 
 class CodecTestUtils {
 

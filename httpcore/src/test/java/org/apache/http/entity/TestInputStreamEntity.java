@@ -31,9 +31,9 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 
-import org.apache.http.Consts;
+import tink.org.apache.http.Consts;
 import org.junit.Assert;
-import org.junit.Test;
+import org.junit.Test;import tink.org.apache.http.entity.InputStreamEntity;
 
 /**
  * Unit tests for {@link InputStreamEntity}.

@@ -29,25 +29,25 @@ package org.apache.http.protocol;
 
 import java.io.InputStream;
 
-import org.apache.http.ConnectionReuseStrategy;
-import org.apache.http.HttpEntityEnclosingRequest;
-import org.apache.http.HttpException;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpResponseFactory;
-import org.apache.http.HttpServerConnection;
-import org.apache.http.HttpStatus;
-import org.apache.http.HttpVersion;
-import org.apache.http.MethodNotSupportedException;
-import org.apache.http.ProtocolException;
-import org.apache.http.UnsupportedHttpVersionException;
-import org.apache.http.entity.InputStreamEntity;
-import org.apache.http.message.BasicHttpEntityEnclosingRequest;
-import org.apache.http.message.BasicHttpRequest;
-import org.apache.http.message.BasicHttpResponse;
+import tink.org.apache.http.ConnectionReuseStrategy;
+import tink.org.apache.http.HttpEntityEnclosingRequest;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpResponseFactory;
+import tink.org.apache.http.HttpServerConnection;
+import tink.org.apache.http.HttpStatus;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.MethodNotSupportedException;
+import tink.org.apache.http.ProtocolException;
+import tink.org.apache.http.UnsupportedHttpVersionException;
+import tink.org.apache.http.entity.InputStreamEntity;
+import tink.org.apache.http.message.BasicHttpEntityEnclosingRequest;
+import tink.org.apache.http.message.BasicHttpRequest;
+import tink.org.apache.http.message.BasicHttpResponse;
 import org.junit.Assert;
 import org.junit.Test;
-import org.mockito.Mockito;
+import org.mockito.Mockito;import tink.org.apache.http.protocol.HTTP;import tink.org.apache.http.protocol.HttpContext;import tink.org.apache.http.protocol.HttpCoreContext;import tink.org.apache.http.protocol.HttpExpectationVerifier;import tink.org.apache.http.protocol.HttpProcessor;import tink.org.apache.http.protocol.HttpRequestHandler;import tink.org.apache.http.protocol.HttpRequestHandlerMapper;import tink.org.apache.http.protocol.HttpService;
 
 public class TestHttpService {
 

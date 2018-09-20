@@ -33,7 +33,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
 import org.junit.Assert;
-import org.junit.Test;
+import org.junit.Test;import tink.org.apache.http.HttpVersion;import tink.org.apache.http.ProtocolVersion;
 
 /**
  * Test cases for HTTP version class

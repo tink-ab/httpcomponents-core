@@ -28,7 +28,7 @@
 package org.apache.http.protocol;
 
 import org.junit.Assert;
-import org.junit.Test;
+import org.junit.Test;import tink.org.apache.http.protocol.BasicHttpContext;import tink.org.apache.http.protocol.HttpContext;
 
 // the name of this test is historic, the implementation classes of HttpContext
 // have been renamed to BasicHttpContext and SyncBasicHttpContext

@@ -27,10 +27,10 @@
 
 package org.apache.http.message;
 
-import org.apache.http.HeaderElement;
-import org.apache.http.NameValuePair;
+import tink.org.apache.http.HeaderElement;
+import tink.org.apache.http.NameValuePair;
 import org.junit.Assert;
-import org.junit.Test;
+import org.junit.Test;import tink.org.apache.http.message.BasicHeaderElement;import tink.org.apache.http.message.BasicHeaderValueParser;import tink.org.apache.http.message.BasicNameValuePair;
 
 /**
  * Simple tests for {@link HeaderElement}.

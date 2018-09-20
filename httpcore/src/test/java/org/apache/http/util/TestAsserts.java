@@ -27,7 +27,7 @@
 
 package org.apache.http.util;
 
-import org.junit.Test;
+import org.junit.Test;import tink.org.apache.http.util.Asserts;
 
 /**
  * Unit tests for {@link Asserts}.

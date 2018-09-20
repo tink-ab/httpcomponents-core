@@ -34,13 +34,13 @@ import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 import java.nio.channels.ReadableByteChannel;
 
-import org.apache.http.ConnectionClosedException;
-import org.apache.http.Consts;
+import tink.org.apache.http.ConnectionClosedException;
+import tink.org.apache.http.Consts;
 import org.apache.http.ReadableByteChannelMock;
-import org.apache.http.impl.io.HttpTransportMetricsImpl;
+import tink.org.apache.http.impl.io.HttpTransportMetricsImpl;
 import org.apache.http.impl.nio.reactor.SessionInputBufferImpl;
 import org.apache.http.nio.reactor.SessionInputBuffer;
-import org.apache.http.util.EncodingUtils;
+import tink.org.apache.http.util.EncodingUtils;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Test;

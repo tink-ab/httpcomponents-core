@@ -32,22 +32,22 @@ import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicLong;
 
-import org.apache.http.HttpHost;
-import org.apache.http.annotation.ThreadingBehavior;
-import org.apache.http.annotation.Contract;
-import org.apache.http.concurrent.FutureCallback;
-import org.apache.http.config.ConnectionConfig;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.annotation.ThreadingBehavior;
+import tink.org.apache.http.annotation.Contract;
+import tink.org.apache.http.concurrent.FutureCallback;
+import tink.org.apache.http.config.ConnectionConfig;
 import org.apache.http.nio.NHttpClientConnection;
 import org.apache.http.nio.pool.AbstractNIOConnPool;
 import org.apache.http.nio.pool.NIOConnFactory;
 import org.apache.http.nio.pool.SocketAddressResolver;
 import org.apache.http.nio.reactor.ConnectingIOReactor;
-import org.apache.http.params.CoreConnectionPNames;
-import org.apache.http.params.HttpParams;
-import org.apache.http.util.Args;
+import tink.org.apache.http.params.CoreConnectionPNames;
+import tink.org.apache.http.params.HttpParams;
+import tink.org.apache.http.util.Args;import tink.org.apache.http.pool.ConnPool;
 
 /**
- * A very basic {@link org.apache.http.pool.ConnPool} implementation that
+ * A very basic {@link ConnPool} implementation that
  * represents a pool of non-blocking {@link NHttpClientConnection} connections
  * identified by an {@link HttpHost} instance. Please note this pool
  * implementation does not support complex routes via a proxy cannot

@@ -31,8 +31,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-import org.apache.http.HttpEntity;
-import org.apache.http.entity.HttpEntityWrapper;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.entity.HttpEntityWrapper;
 import org.apache.http.nio.ContentDecoder;
 import org.apache.http.nio.IOControl;
 

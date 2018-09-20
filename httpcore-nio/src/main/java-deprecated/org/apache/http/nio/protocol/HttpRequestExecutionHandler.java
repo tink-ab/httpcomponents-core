@@ -29,9 +29,9 @@ package org.apache.http.nio.protocol;
 
 import java.io.IOException;
 
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.protocol.HttpContext;
 
 /**
  * HTTP request execution handler can be used by client-side protocol handlers

@@ -27,7 +27,7 @@
 
 package org.apache.http.message;
 
-import org.apache.http.util.CharArrayBuffer;
+import tink.org.apache.http.message.ParserCursor;import tink.org.apache.http.message.TokenParser;import tink.org.apache.http.util.CharArrayBuffer;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

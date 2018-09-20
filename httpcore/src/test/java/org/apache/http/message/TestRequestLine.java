@@ -32,10 +32,10 @@ import java.io.ByteArrayOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
-import org.apache.http.HttpVersion;
-import org.apache.http.RequestLine;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.RequestLine;
 import org.junit.Assert;
-import org.junit.Test;
+import org.junit.Test;import tink.org.apache.http.message.BasicRequestLine;
 
 /**
  * Simple tests for {@link RequestLine}.
