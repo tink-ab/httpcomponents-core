@@ -7,3 +7,5 @@ target
 maven-eclipse.xml
 .idea
 *.iml
+bazel-*
+
