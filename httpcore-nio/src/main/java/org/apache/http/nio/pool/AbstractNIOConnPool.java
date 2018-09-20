@@ -44,23 +44,23 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-import org.apache.http.annotation.Contract;
-import org.apache.http.annotation.ThreadingBehavior;
-import org.apache.http.concurrent.BasicFuture;
-import org.apache.http.concurrent.FutureCallback;
+import tink.org.apache.http.annotation.Contract;
+import tink.org.apache.http.annotation.ThreadingBehavior;
+import tink.org.apache.http.concurrent.BasicFuture;
+import tink.org.apache.http.concurrent.FutureCallback;
 import org.apache.http.nio.reactor.ConnectingIOReactor;
 import org.apache.http.nio.reactor.IOReactorStatus;
 import org.apache.http.nio.reactor.IOSession;
 import org.apache.http.nio.reactor.SessionRequest;
 import org.apache.http.nio.reactor.SessionRequestCallback;
-import org.apache.http.pool.ConnPool;
-import org.apache.http.pool.ConnPoolControl;
-import org.apache.http.pool.PoolEntry;
-import org.apache.http.pool.PoolEntryCallback;
-import org.apache.http.pool.PoolStats;
-import org.apache.http.util.Args;
-import org.apache.http.util.Asserts;
-import org.apache.http.util.LangUtils;
+import tink.org.apache.http.pool.ConnPool;
+import tink.org.apache.http.pool.ConnPoolControl;
+import tink.org.apache.http.pool.PoolEntry;
+import tink.org.apache.http.pool.PoolEntryCallback;
+import tink.org.apache.http.pool.PoolStats;
+import tink.org.apache.http.util.Args;
+import tink.org.apache.http.util.Asserts;
+import tink.org.apache.http.util.LangUtils;
 
 /**
  * Abstract non-blocking connection pool.
@@ -803,8 +803,8 @@ public abstract class AbstractNIOConnPool<T, C, E extends PoolEntry<T, C>>
     }
 
     /**
-     * Use {@link #enumLeased(org.apache.http.pool.PoolEntryCallback)}
-     *  or {@link #enumAvailable(org.apache.http.pool.PoolEntryCallback)} instead.
+     * Use {@link #enumLeased( PoolEntryCallback )}
+     *  or {@link #enumAvailable( PoolEntryCallback )} instead.
      *
      * @deprecated (4.3.2)
      */

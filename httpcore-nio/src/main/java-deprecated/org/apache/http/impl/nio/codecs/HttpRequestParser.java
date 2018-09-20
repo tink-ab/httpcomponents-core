@@ -27,27 +27,27 @@
 
 package org.apache.http.impl.nio.codecs;
 
-import org.apache.http.HttpException;
-import org.apache.http.HttpMessage;
-import org.apache.http.HttpRequestFactory;
-import org.apache.http.ParseException;
-import org.apache.http.RequestLine;
-import org.apache.http.message.LineParser;
-import org.apache.http.message.ParserCursor;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpMessage;
+import tink.org.apache.http.HttpRequest;import tink.org.apache.http.HttpRequestFactory;
+import tink.org.apache.http.ParseException;
+import tink.org.apache.http.RequestLine;
+import tink.org.apache.http.message.LineParser;
+import tink.org.apache.http.message.ParserCursor;
 import org.apache.http.nio.reactor.SessionInputBuffer;
-import org.apache.http.params.HttpParams;
-import org.apache.http.util.Args;
-import org.apache.http.util.CharArrayBuffer;
+import tink.org.apache.http.params.CoreConnectionPNames;import tink.org.apache.http.params.HttpParams;
+import tink.org.apache.http.util.Args;
+import tink.org.apache.http.util.CharArrayBuffer;
 
 /**
  * Default {@link org.apache.http.nio.NHttpMessageParser} implementation
- * for {@link org.apache.http.HttpRequest}s.
+ * for {@link HttpRequest}s.
  * <p>
  * The following parameters can be used to customize the behavior of this
  * class:
  * <ul>
- *  <li>{@link org.apache.http.params.CoreConnectionPNames#MAX_HEADER_COUNT}</li>
- *  <li>{@link org.apache.http.params.CoreConnectionPNames#MAX_LINE_LENGTH}</li>
+ *  <li>{@link CoreConnectionPNames#MAX_HEADER_COUNT}</li>
+ *  <li>{@link CoreConnectionPNames#MAX_LINE_LENGTH}</li>
  * </ul>
  *
  * @since 4.0

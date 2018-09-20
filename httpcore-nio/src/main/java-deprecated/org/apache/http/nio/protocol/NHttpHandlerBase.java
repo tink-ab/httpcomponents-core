@@ -29,15 +29,15 @@ package org.apache.http.nio.protocol;
 
 import java.io.IOException;
 
-import org.apache.http.ConnectionReuseStrategy;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpStatus;
+import tink.org.apache.http.ConnectionReuseStrategy;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpStatus;
 import org.apache.http.nio.NHttpConnection;
 import org.apache.http.nio.util.ByteBufferAllocator;
-import org.apache.http.params.HttpParams;
-import org.apache.http.protocol.HttpProcessor;
-import org.apache.http.util.Args;
+import tink.org.apache.http.params.HttpParams;
+import tink.org.apache.http.protocol.HttpProcessor;
+import tink.org.apache.http.util.Args;
 
 /**
  * @since 4.0

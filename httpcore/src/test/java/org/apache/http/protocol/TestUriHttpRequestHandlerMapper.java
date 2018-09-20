@@ -27,11 +27,11 @@
 
 package org.apache.http.protocol;
 
-import org.apache.http.HttpRequest;
-import org.apache.http.message.BasicHttpRequest;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.message.BasicHttpRequest;
 import org.junit.Assert;
 import org.junit.Test;
-import org.mockito.Mockito;
+import org.mockito.Mockito;import tink.org.apache.http.protocol.HttpRequestHandler;import tink.org.apache.http.protocol.UriHttpRequestHandlerMapper;import tink.org.apache.http.protocol.UriPatternMatcher;
 
 public class TestUriHttpRequestHandlerMapper {
 

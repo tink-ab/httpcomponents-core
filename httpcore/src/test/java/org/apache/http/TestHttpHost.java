@@ -34,7 +34,7 @@ import java.io.ObjectOutputStream;
 import java.net.InetAddress;
 
 import org.junit.Assert;
-import org.junit.Test;
+import org.junit.Test;import tink.org.apache.http.HttpHost;
 
 /**
  * Unit tests for {@link HttpHost}.

@@ -29,11 +29,11 @@ package org.apache.http.impl.nio.codecs;
 
 import java.io.IOException;
 
-import org.apache.http.HttpRequest;
-import org.apache.http.message.LineFormatter;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.message.LineFormatter;
 import org.apache.http.nio.reactor.SessionOutputBuffer;
-import org.apache.http.params.HttpParams;
-import org.apache.http.util.CharArrayBuffer;
+import tink.org.apache.http.params.HttpParams;
+import tink.org.apache.http.util.CharArrayBuffer;import tink.org.apache.http.message.BasicLineFormatter;
 
 /**
  * Default {@link org.apache.http.nio.NHttpMessageWriter} implementation
@@ -60,7 +60,7 @@ public class DefaultHttpRequestWriter extends AbstractMessageWriter<HttpRequest>
      *
      * @param buffer the session output buffer.
      * @param formatter the line formatter If {@code null}
-     *   {@link org.apache.http.message.BasicLineFormatter#INSTANCE} will be used.
+     *   {@link BasicLineFormatter#INSTANCE} will be used.
      *
      * @since 4.3
      */

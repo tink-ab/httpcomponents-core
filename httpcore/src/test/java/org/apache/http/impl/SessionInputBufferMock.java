@@ -33,12 +33,12 @@ import java.io.InputStream;
 import java.nio.charset.Charset;
 import java.nio.charset.CharsetDecoder;
 
-import org.apache.http.config.MessageConstraints;
-import org.apache.http.impl.io.HttpTransportMetricsImpl;
-import org.apache.http.impl.io.SessionInputBufferImpl;
+import tink.org.apache.http.config.MessageConstraints;
+import tink.org.apache.http.impl.io.HttpTransportMetricsImpl;
+import tink.org.apache.http.impl.io.SessionInputBufferImpl;import tink.org.apache.http.io.SessionInputBuffer;
 
 /**
- * {@link org.apache.http.io.SessionInputBuffer} mockup implementation.
+ * {@link SessionInputBuffer} mockup implementation.
  */
 public class SessionInputBufferMock extends SessionInputBufferImpl {
 

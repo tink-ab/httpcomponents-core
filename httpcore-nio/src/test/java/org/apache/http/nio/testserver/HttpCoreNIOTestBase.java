@@ -32,7 +32,7 @@ import java.net.URL;
 import javax.net.ssl.SSLContext;
 
 import org.apache.http.impl.nio.pool.BasicNIOConnFactory;
-import org.apache.http.ssl.SSLContextBuilder;
+import tink.org.apache.http.ssl.SSLContextBuilder;
 import org.junit.After;
 
 /**

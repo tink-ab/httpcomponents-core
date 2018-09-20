@@ -29,19 +29,19 @@ package org.apache.http.protocol;
 
 import java.io.IOException;
 
-import org.apache.http.HttpClientConnection;
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpEntityEnclosingRequest;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpVersion;
-import org.apache.http.ProtocolException;
-import org.apache.http.message.BasicHttpEntityEnclosingRequest;
-import org.apache.http.message.BasicHttpRequest;
-import org.apache.http.message.BasicHttpResponse;
+import tink.org.apache.http.HttpClientConnection;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.HttpEntityEnclosingRequest;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.ProtocolException;
+import tink.org.apache.http.message.BasicHttpEntityEnclosingRequest;
+import tink.org.apache.http.message.BasicHttpRequest;
+import tink.org.apache.http.message.BasicHttpResponse;
 import org.junit.Assert;
 import org.junit.Test;
-import org.mockito.Mockito;
+import org.mockito.Mockito;import tink.org.apache.http.protocol.HTTP;import tink.org.apache.http.protocol.HttpCoreContext;import tink.org.apache.http.protocol.HttpProcessor;import tink.org.apache.http.protocol.HttpRequestExecutor;
 
 public class TestHttpRequestExecutor {
 

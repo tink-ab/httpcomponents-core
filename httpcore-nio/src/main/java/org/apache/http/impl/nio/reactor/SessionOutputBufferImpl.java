@@ -42,12 +42,12 @@ import org.apache.http.nio.reactor.SessionOutputBuffer;
 import org.apache.http.nio.util.ByteBufferAllocator;
 import org.apache.http.nio.util.ExpandableBuffer;
 import org.apache.http.nio.util.HeapByteBufferAllocator;
-import org.apache.http.params.CoreProtocolPNames;
-import org.apache.http.params.HttpParams;
-import org.apache.http.protocol.HTTP;
-import org.apache.http.util.Args;
-import org.apache.http.util.CharArrayBuffer;
-import org.apache.http.util.CharsetUtils;
+import tink.org.apache.http.params.CoreProtocolPNames;
+import tink.org.apache.http.params.HttpParams;
+import tink.org.apache.http.protocol.HTTP;
+import tink.org.apache.http.util.Args;
+import tink.org.apache.http.util.CharArrayBuffer;
+import tink.org.apache.http.util.CharsetUtils;
 
 /**
  * Default implementation of {@link SessionOutputBuffer} based on

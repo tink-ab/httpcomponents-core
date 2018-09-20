@@ -29,9 +29,9 @@ package org.apache.http.nio.protocol;
 
 import java.util.Map;
 
-import org.apache.http.annotation.ThreadingBehavior;
-import org.apache.http.annotation.Contract;
-import org.apache.http.protocol.UriPatternMatcher;
+import tink.org.apache.http.annotation.ThreadingBehavior;
+import tink.org.apache.http.annotation.Contract;
+import tink.org.apache.http.protocol.UriPatternMatcher;
 
 /**
  * Maintains a map of HTTP request handlers keyed by a request URI pattern.

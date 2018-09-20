@@ -27,12 +27,12 @@
 
 package org.apache.http.impl.entity;
 
-import org.apache.http.HttpMessage;
-import org.apache.http.HttpVersion;
-import org.apache.http.ProtocolException;
-import org.apache.http.entity.ContentLengthStrategy;
+import tink.org.apache.http.HttpMessage;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.ProtocolException;
+import tink.org.apache.http.entity.ContentLengthStrategy;
 import org.junit.Assert;
-import org.junit.Test;
+import org.junit.Test;import tink.org.apache.http.impl.entity.StrictContentLengthStrategy;
 
 public class TestStrictContentLengthStrategy {
 

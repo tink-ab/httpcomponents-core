@@ -32,20 +32,20 @@ import java.nio.channels.ReadableByteChannel;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.http.HttpException;
-import org.apache.http.HttpMessage;
-import org.apache.http.MessageConstraintException;
-import org.apache.http.ParseException;
-import org.apache.http.ProtocolException;
-import org.apache.http.config.MessageConstraints;
-import org.apache.http.message.BasicLineParser;
-import org.apache.http.message.LineParser;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpMessage;
+import tink.org.apache.http.MessageConstraintException;
+import tink.org.apache.http.ParseException;
+import tink.org.apache.http.ProtocolException;
+import tink.org.apache.http.config.MessageConstraints;
+import tink.org.apache.http.message.BasicLineParser;
+import tink.org.apache.http.message.LineParser;
 import org.apache.http.nio.NHttpMessageParser;
 import org.apache.http.nio.reactor.SessionInputBuffer;
-import org.apache.http.params.HttpParamConfig;
-import org.apache.http.params.HttpParams;
-import org.apache.http.util.Args;
-import org.apache.http.util.CharArrayBuffer;
+import tink.org.apache.http.params.HttpParamConfig;
+import tink.org.apache.http.params.HttpParams;
+import tink.org.apache.http.util.Args;
+import tink.org.apache.http.util.CharArrayBuffer;
 
 /**
  * Abstract {@link NHttpMessageParser} that serves as a base for all message

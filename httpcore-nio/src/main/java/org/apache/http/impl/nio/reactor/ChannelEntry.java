@@ -29,7 +29,7 @@ package org.apache.http.impl.nio.reactor;
 
 import java.nio.channels.SocketChannel;
 
-import org.apache.http.util.Args;
+import tink.org.apache.http.util.Args;
 
 /**
  * {@link SocketChannel} entry maintained by the I/O reactor. If the channel

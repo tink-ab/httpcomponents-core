@@ -26,10 +26,10 @@
  */
 package org.apache.http.message;
 
-import org.apache.http.HeaderElement;
-import org.apache.http.NameValuePair;
+import tink.org.apache.http.HeaderElement;
+import tink.org.apache.http.NameValuePair;
 import org.junit.Assert;
-import org.junit.Test;
+import org.junit.Test;import tink.org.apache.http.message.BasicHeaderElement;import tink.org.apache.http.message.BasicHeaderValueFormatter;import tink.org.apache.http.message.BasicNameValuePair;
 
 /**
  * Tests for header value formatting.

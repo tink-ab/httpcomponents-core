@@ -31,10 +31,10 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-import org.apache.http.ConnectionClosedException;
-import org.apache.http.Consts;
+import tink.org.apache.http.ConnectionClosedException;
+import tink.org.apache.http.Consts;
 import org.apache.http.impl.SessionInputBufferMock;
-import org.apache.http.io.SessionInputBuffer;
+import tink.org.apache.http.impl.io.ContentLengthInputStream;import tink.org.apache.http.io.SessionInputBuffer;
 import org.junit.Assert;
 import org.junit.Test;
 

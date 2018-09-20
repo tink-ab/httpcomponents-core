@@ -29,13 +29,13 @@ package org.apache.http.nio.protocol;
 import java.io.IOException;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpException;
-import org.apache.http.HttpResponse;
-import org.apache.http.entity.ContentType;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.entity.ContentType;
 import org.apache.http.nio.ContentDecoder;
 import org.apache.http.nio.IOControl;
-import org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.protocol.HttpContext;
 
 /**
  * Abstract {@link HttpAsyncResponseConsumer} implementation that relieves its

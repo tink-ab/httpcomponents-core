@@ -32,27 +32,27 @@ import java.net.SocketTimeoutException;
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
-import org.apache.http.ConnectionClosedException;
-import org.apache.http.ExceptionLogger;
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpEntityEnclosingRequest;
-import org.apache.http.HttpException;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpStatus;
-import org.apache.http.HttpVersion;
-import org.apache.http.ProtocolException;
-import org.apache.http.ProtocolVersion;
-import org.apache.http.annotation.Contract;
-import org.apache.http.annotation.ThreadingBehavior;
+import tink.org.apache.http.ConnectionClosedException;
+import tink.org.apache.http.ExceptionLogger;
+import tink.org.apache.http.HttpConnection;import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.HttpEntityEnclosingRequest;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpStatus;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.ProtocolException;
+import tink.org.apache.http.ProtocolVersion;
+import tink.org.apache.http.annotation.Contract;
+import tink.org.apache.http.annotation.ThreadingBehavior;
 import org.apache.http.nio.ContentDecoder;
 import org.apache.http.nio.ContentEncoder;
 import org.apache.http.nio.NHttpClientConnection;
 import org.apache.http.nio.NHttpClientEventHandler;
 import org.apache.http.nio.NHttpConnection;
-import org.apache.http.protocol.HttpContext;
-import org.apache.http.util.Args;
-import org.apache.http.util.Asserts;
+import tink.org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.util.Args;
+import tink.org.apache.http.util.Asserts;import tink.org.apache.http.protocol.HttpProcessor;
 
 /**
  * {@code HttpAsyncRequestExecutor} is a fully asynchronous HTTP client side
@@ -69,7 +69,7 @@ import org.apache.http.util.Asserts;
  * be used to facilitate initiation of asynchronous HTTP request execution.
  * <p>
  * Individual {@code HttpAsyncClientExchangeHandler} are expected to make use of
- * a {@link org.apache.http.protocol.HttpProcessor} to generate mandatory protocol
+ * a {@link HttpProcessor} to generate mandatory protocol
  * headers for all outgoing messages and apply common, cross-cutting message
  * transformations to all incoming and outgoing messages.
  * {@code HttpAsyncClientExchangeHandler}s can delegate implementation of
@@ -95,7 +95,7 @@ public class HttpAsyncRequestExecutor implements NHttpClientEventHandler {
      * @param exceptionLogger Exception logger. If {@code null}
      *   {@link ExceptionLogger#NO_OP} will be used. Please note that the exception
      *   logger will be only used to log I/O exception thrown while closing
-     *   {@link java.io.Closeable} objects (such as {@link org.apache.http.HttpConnection}).
+     *   {@link java.io.Closeable} objects (such as {@link HttpConnection}).
      *
      * @since 4.4
      */
@@ -395,7 +395,7 @@ public class HttpAsyncRequestExecutor implements NHttpClientEventHandler {
     /**
      * This method can be used to log I/O exception thrown while closing
      * {@link java.io.Closeable} objects (such as
-     * {@link org.apache.http.HttpConnection}}).
+     * {@link HttpConnection}}).
      *
      * @param ex I/O exception thrown by {@link java.io.Closeable#close()}
      */

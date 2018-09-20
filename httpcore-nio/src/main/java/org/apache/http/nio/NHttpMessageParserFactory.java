@@ -27,8 +27,8 @@
 
 package org.apache.http.nio;
 
-import org.apache.http.HttpMessage;
-import org.apache.http.config.MessageConstraints;
+import tink.org.apache.http.HttpMessage;
+import tink.org.apache.http.config.MessageConstraints;
 import org.apache.http.nio.reactor.SessionInputBuffer;
 
 /**

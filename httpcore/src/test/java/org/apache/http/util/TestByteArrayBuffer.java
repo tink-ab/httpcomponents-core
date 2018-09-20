@@ -32,9 +32,9 @@ import java.io.ByteArrayOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
-import org.apache.http.Consts;
+import tink.org.apache.http.Consts;
 import org.junit.Assert;
-import org.junit.Test;
+import org.junit.Test;import tink.org.apache.http.util.ByteArrayBuffer;import tink.org.apache.http.util.CharArrayBuffer;
 
 /**
  * Unit tests for {@link ByteArrayBuffer}.

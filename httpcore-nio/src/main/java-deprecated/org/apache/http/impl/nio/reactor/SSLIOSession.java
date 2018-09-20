@@ -31,7 +31,7 @@ import javax.net.ssl.SSLContext;
 import javax.net.ssl.SSLException;
 
 import org.apache.http.nio.reactor.IOSession;
-import org.apache.http.params.HttpParams;
+import tink.org.apache.http.params.HttpParams;
 
 /**
  * A decorator class intended to transparently extend an {@link IOSession}

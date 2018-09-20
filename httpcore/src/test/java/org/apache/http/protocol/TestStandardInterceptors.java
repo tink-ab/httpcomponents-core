@@ -29,22 +29,22 @@ package org.apache.http.protocol;
 
 import java.net.InetAddress;
 
-import org.apache.http.Header;
-import org.apache.http.HttpHost;
-import org.apache.http.HttpInetConnection;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpStatus;
-import org.apache.http.HttpVersion;
-import org.apache.http.ProtocolException;
-import org.apache.http.entity.BasicHttpEntity;
-import org.apache.http.entity.StringEntity;
-import org.apache.http.message.BasicHeader;
-import org.apache.http.message.BasicHttpEntityEnclosingRequest;
-import org.apache.http.message.BasicHttpRequest;
-import org.apache.http.message.BasicHttpResponse;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.HttpInetConnection;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpStatus;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.ProtocolException;
+import tink.org.apache.http.entity.BasicHttpEntity;
+import tink.org.apache.http.entity.StringEntity;
+import tink.org.apache.http.message.BasicHeader;
+import tink.org.apache.http.message.BasicHttpEntityEnclosingRequest;
+import tink.org.apache.http.message.BasicHttpRequest;
+import tink.org.apache.http.message.BasicHttpResponse;
 import org.junit.Assert;
 import org.junit.Test;
-import org.mockito.Mockito;
+import org.mockito.Mockito;import tink.org.apache.http.protocol.BasicHttpContext;import tink.org.apache.http.protocol.HTTP;import tink.org.apache.http.protocol.HttpContext;import tink.org.apache.http.protocol.HttpCoreContext;import tink.org.apache.http.protocol.RequestConnControl;import tink.org.apache.http.protocol.RequestContent;import tink.org.apache.http.protocol.RequestDate;import tink.org.apache.http.protocol.RequestExpectContinue;import tink.org.apache.http.protocol.RequestTargetHost;import tink.org.apache.http.protocol.RequestUserAgent;import tink.org.apache.http.protocol.ResponseConnControl;import tink.org.apache.http.protocol.ResponseContent;import tink.org.apache.http.protocol.ResponseDate;import tink.org.apache.http.protocol.ResponseServer;
 
 public class TestStandardInterceptors {
 

@@ -33,10 +33,10 @@ import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
-import org.apache.http.HttpConnection;
+import tink.org.apache.http.HttpConnection;
 import org.junit.Assert;
 import org.junit.Test;
-import org.mockito.Mockito;
+import org.mockito.Mockito;import tink.org.apache.http.pool.AbstractConnPool;import tink.org.apache.http.pool.ConnFactory;import tink.org.apache.http.pool.PoolEntry;import tink.org.apache.http.pool.PoolStats;
 
 public class TestConnPool {
 

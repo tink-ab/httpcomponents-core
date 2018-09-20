@@ -33,10 +33,10 @@ import java.nio.ByteBuffer;
 import java.nio.channels.Channels;
 import java.nio.channels.ReadableByteChannel;
 
-import org.apache.http.HttpEntity;
+import tink.org.apache.http.HttpEntity;
 import org.apache.http.nio.ContentEncoder;
 import org.apache.http.nio.IOControl;
-import org.apache.http.util.Args;
+import tink.org.apache.http.util.Args;
 
 /**
  * Basic implementation of {@link HttpAsyncContentProducer} that relies on

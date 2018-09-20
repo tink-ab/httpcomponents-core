@@ -27,14 +27,14 @@
 
 package org.apache.http.impl.nio.codecs;
 
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpRequestFactory;
-import org.apache.http.annotation.ThreadingBehavior;
-import org.apache.http.annotation.Contract;
-import org.apache.http.config.MessageConstraints;
-import org.apache.http.impl.DefaultHttpRequestFactory;
-import org.apache.http.message.BasicLineParser;
-import org.apache.http.message.LineParser;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpRequestFactory;
+import tink.org.apache.http.annotation.ThreadingBehavior;
+import tink.org.apache.http.annotation.Contract;
+import tink.org.apache.http.config.MessageConstraints;
+import tink.org.apache.http.impl.DefaultHttpRequestFactory;
+import tink.org.apache.http.message.BasicLineParser;
+import tink.org.apache.http.message.LineParser;
 import org.apache.http.nio.NHttpMessageParser;
 import org.apache.http.nio.NHttpMessageParserFactory;
 import org.apache.http.nio.reactor.SessionInputBuffer;

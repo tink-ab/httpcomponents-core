@@ -29,9 +29,9 @@ package org.apache.http.benchmark;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-import org.apache.http.impl.DefaultBHttpClientConnection;
-import org.apache.http.io.SessionInputBuffer;
-import org.apache.http.io.SessionOutputBuffer;
+import tink.org.apache.http.impl.DefaultBHttpClientConnection;
+import tink.org.apache.http.io.SessionInputBuffer;
+import tink.org.apache.http.io.SessionOutputBuffer;
 
 class BenchmarkConnection extends DefaultBHttpClientConnection {
 

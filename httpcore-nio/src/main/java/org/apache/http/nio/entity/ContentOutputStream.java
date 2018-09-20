@@ -31,7 +31,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 
 import org.apache.http.nio.util.ContentOutputBuffer;
-import org.apache.http.util.Args;
+import tink.org.apache.http.util.Args;
 
 /**
  * {@link OutputStream} adaptor for {@link ContentOutputBuffer}.

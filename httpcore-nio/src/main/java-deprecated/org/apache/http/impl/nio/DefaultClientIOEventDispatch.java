@@ -29,17 +29,17 @@ package org.apache.http.impl.nio;
 
 import java.io.IOException;
 
-import org.apache.http.HttpResponseFactory;
-import org.apache.http.impl.DefaultHttpResponseFactory;
+import tink.org.apache.http.HttpResponseFactory;
+import tink.org.apache.http.HttpResponse;import tink.org.apache.http.impl.DefaultHttpResponseFactory;
 import org.apache.http.impl.nio.reactor.AbstractIODispatch;
 import org.apache.http.nio.NHttpClientHandler;
 import org.apache.http.nio.NHttpClientIOTarget;
 import org.apache.http.nio.reactor.IOSession;
 import org.apache.http.nio.util.ByteBufferAllocator;
 import org.apache.http.nio.util.HeapByteBufferAllocator;
-import org.apache.http.params.HttpConnectionParams;
-import org.apache.http.params.HttpParams;
-import org.apache.http.util.Args;
+import tink.org.apache.http.params.HttpConnectionParams;
+import tink.org.apache.http.params.HttpParams;
+import tink.org.apache.http.util.Args;
 
 /**
  * Default implementation of {@link org.apache.http.nio.reactor.IOEventDispatch}
@@ -89,7 +89,7 @@ public class DefaultClientIOEventDispatch extends AbstractIODispatch<NHttpClient
 
     /**
      * Creates an instance of {@link DefaultHttpResponseFactory} to be used
-     * by HTTP connections for creating {@link org.apache.http.HttpResponse}
+     * by HTTP connections for creating {@link HttpResponse}
      * objects.
      * <p>
      * This method can be overridden in a super class in order to provide

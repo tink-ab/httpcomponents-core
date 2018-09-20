@@ -29,10 +29,10 @@ package org.apache.http.pool;
 import java.io.IOException;
 import java.util.concurrent.Future;
 
-import org.apache.http.HttpConnection;
+import tink.org.apache.http.HttpConnection;
 import org.junit.Assert;
 import org.junit.Test;
-import org.mockito.Mockito;
+import org.mockito.Mockito;import tink.org.apache.http.pool.PoolEntry;
 
 public class TestRouteSpecificPool {
 

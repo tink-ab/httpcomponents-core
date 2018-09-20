@@ -34,11 +34,11 @@ import java.util.LinkedList;
 import java.util.Map;
 import java.util.Set;
 
-import org.apache.http.concurrent.BasicFuture;
+import tink.org.apache.http.concurrent.BasicFuture;
 import org.apache.http.nio.reactor.SessionRequest;
-import org.apache.http.pool.PoolEntry;
-import org.apache.http.util.Args;
-import org.apache.http.util.Asserts;
+import tink.org.apache.http.pool.PoolEntry;
+import tink.org.apache.http.util.Args;
+import tink.org.apache.http.util.Asserts;
 
 abstract class RouteSpecificPool<T, C, E extends PoolEntry<T, C>> {
 

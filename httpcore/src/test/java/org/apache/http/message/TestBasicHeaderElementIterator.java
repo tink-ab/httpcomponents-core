@@ -28,11 +28,11 @@ package org.apache.http.message;
 
 import java.util.NoSuchElementException;
 
-import org.apache.http.Header;
-import org.apache.http.HeaderElement;
-import org.apache.http.HeaderElementIterator;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HeaderElement;
+import tink.org.apache.http.HeaderElementIterator;
 import org.junit.Assert;
-import org.junit.Test;
+import org.junit.Test;import tink.org.apache.http.message.BasicHeader;import tink.org.apache.http.message.BasicHeaderElementIterator;import tink.org.apache.http.message.BasicHeaderIterator;
 
 /**
  * Tests for {@link BasicHeaderElementIterator}.

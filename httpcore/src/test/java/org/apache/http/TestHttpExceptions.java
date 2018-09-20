@@ -27,7 +27,7 @@
 
 package org.apache.http;
 
-import org.junit.Test;
+import org.junit.Test;import tink.org.apache.http.ConnectionClosedException;import tink.org.apache.http.HttpException;import tink.org.apache.http.MethodNotSupportedException;import tink.org.apache.http.NoHttpResponseException;import tink.org.apache.http.ProtocolException;import tink.org.apache.http.UnsupportedHttpVersionException;
 
 /**
  * Simple tests for various HTTP exception classes.

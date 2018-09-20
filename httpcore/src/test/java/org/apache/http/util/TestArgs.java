@@ -32,7 +32,7 @@ import java.util.Collections;
 import java.util.List;
 
 import org.junit.Assert;
-import org.junit.Test;
+import org.junit.Test;import tink.org.apache.http.util.Args;
 
 /**
  * Unit tests for {@link Args}.

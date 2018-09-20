@@ -32,10 +32,10 @@ import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 import java.nio.channels.WritableByteChannel;
 
-import org.apache.http.impl.io.HttpTransportMetricsImpl;
+import tink.org.apache.http.impl.io.HttpTransportMetricsImpl;
 import org.apache.http.nio.FileContentEncoder;
 import org.apache.http.nio.reactor.SessionOutputBuffer;
-import org.apache.http.util.Args;
+import tink.org.apache.http.util.Args;
 
 /**
  * Content encoder that cuts off after a defined number of bytes. This class

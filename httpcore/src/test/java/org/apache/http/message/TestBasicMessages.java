@@ -27,17 +27,17 @@
 
 package org.apache.http.message;
 
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpStatus;
-import org.apache.http.HttpVersion;
-import org.apache.http.entity.BasicHttpEntity;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpMessage;import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpStatus;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.entity.BasicHttpEntity;
 import org.junit.Assert;
-import org.junit.Test;
+import org.junit.Test;import tink.org.apache.http.message.BasicHttpEntityEnclosingRequest;import tink.org.apache.http.message.BasicHttpRequest;import tink.org.apache.http.message.BasicHttpResponse;import tink.org.apache.http.message.BasicStatusLine;
 
 /**
- * Unit tests for {@link org.apache.http.HttpMessage}.
+ * Unit tests for {@link HttpMessage}.
  *
  */
 public class TestBasicMessages {

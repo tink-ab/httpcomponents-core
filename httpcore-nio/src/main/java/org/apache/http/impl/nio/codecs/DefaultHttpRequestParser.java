@@ -27,19 +27,19 @@
 
 package org.apache.http.impl.nio.codecs;
 
-import org.apache.http.HttpException;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpRequestFactory;
-import org.apache.http.ParseException;
-import org.apache.http.RequestLine;
-import org.apache.http.config.MessageConstraints;
-import org.apache.http.impl.DefaultHttpRequestFactory;
-import org.apache.http.message.LineParser;
-import org.apache.http.message.ParserCursor;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpRequestFactory;
+import tink.org.apache.http.ParseException;
+import tink.org.apache.http.RequestLine;
+import tink.org.apache.http.config.MessageConstraints;
+import tink.org.apache.http.impl.DefaultHttpRequestFactory;
+import tink.org.apache.http.message.LineParser;
+import tink.org.apache.http.message.ParserCursor;
 import org.apache.http.nio.reactor.SessionInputBuffer;
-import org.apache.http.params.HttpParams;
-import org.apache.http.util.Args;
-import org.apache.http.util.CharArrayBuffer;
+import tink.org.apache.http.params.HttpParams;
+import tink.org.apache.http.util.Args;
+import tink.org.apache.http.util.CharArrayBuffer;import tink.org.apache.http.message.BasicLineParser;
 
 /**
  * Default {@link org.apache.http.nio.NHttpMessageParser} implementation
@@ -79,7 +79,7 @@ public class DefaultHttpRequestParser extends AbstractMessageParser<HttpRequest>
      *
      * @param buffer the session input buffer.
      * @param parser the line parser. If {@code null}
-     *   {@link org.apache.http.message.BasicLineParser#INSTANCE} will be used.
+     *   {@link BasicLineParser#INSTANCE} will be used.
      * @param requestFactory the request factory. If {@code null}
      *   {@link DefaultHttpRequestFactory#INSTANCE} will be used.
      * @param constraints Message constraints. If {@code null}

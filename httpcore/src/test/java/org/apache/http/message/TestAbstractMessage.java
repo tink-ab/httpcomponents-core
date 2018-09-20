@@ -26,12 +26,12 @@
  */
 package org.apache.http.message;
 
-import org.apache.http.Header;
-import org.apache.http.HttpMessage;
-import org.apache.http.HttpVersion;
-import org.apache.http.ProtocolVersion;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HttpMessage;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.ProtocolVersion;
 import org.junit.Assert;
-import org.junit.Test;
+import org.junit.Test;import tink.org.apache.http.message.AbstractHttpMessage;import tink.org.apache.http.message.BasicHeader;
 
 /**
  * Unit tests for {@link AbstractHttpMessage}.

@@ -30,9 +30,9 @@ package org.apache.http.entity;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 
-import org.apache.http.Consts;
+import tink.org.apache.http.Consts;
 import org.junit.Assert;
-import org.junit.Test;
+import org.junit.Test;import tink.org.apache.http.entity.BufferedHttpEntity;import tink.org.apache.http.entity.ByteArrayEntity;import tink.org.apache.http.entity.InputStreamEntity;
 
 /**
  * Unit tests for {@link BufferedHttpEntity}.

@@ -29,14 +29,14 @@ package org.apache.http.nio.protocol;
 
 import java.io.IOException;
 
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.HttpResponse;
 import org.apache.http.nio.ContentEncoder;
 import org.apache.http.nio.IOControl;
 import org.apache.http.nio.entity.EntityAsyncContentProducer;
 import org.apache.http.nio.entity.HttpAsyncContentProducer;
-import org.apache.http.protocol.HTTP;
-import org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.protocol.HTTP;
+import tink.org.apache.http.protocol.HttpContext;
 
 /**
  * This class changed from package private to public in version 4.4.8.

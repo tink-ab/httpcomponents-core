@@ -31,10 +31,10 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.channels.ReadableByteChannel;
 
-import org.apache.http.impl.io.HttpTransportMetricsImpl;
+import tink.org.apache.http.impl.io.HttpTransportMetricsImpl;
 import org.apache.http.nio.ContentDecoder;
 import org.apache.http.nio.reactor.SessionInputBuffer;
-import org.apache.http.util.Args;
+import tink.org.apache.http.util.Args;
 
 /**
  * Abstract {@link ContentDecoder} that serves as a base for all content

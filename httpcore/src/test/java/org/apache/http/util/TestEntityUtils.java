@@ -31,11 +31,11 @@ import java.io.ByteArrayInputStream;
 import java.io.InputStream;
 import java.nio.charset.Charset;
 
-import org.apache.http.Consts;
-import org.apache.http.entity.BasicHttpEntity;
-import org.apache.http.message.BasicHeader;
+import tink.org.apache.http.Consts;
+import tink.org.apache.http.entity.BasicHttpEntity;
+import tink.org.apache.http.message.BasicHeader;
 import org.junit.Assert;
-import org.junit.Test;
+import org.junit.Test;import tink.org.apache.http.util.EntityUtils;
 
 /**
  * Unit tests for {@link EntityUtils}.

@@ -37,14 +37,14 @@ import java.util.concurrent.atomic.AtomicLong;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.apache.http.Header;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.config.MessageConstraints;
-import org.apache.http.entity.ContentLengthStrategy;
-import org.apache.http.impl.DefaultBHttpServerConnection;
-import org.apache.http.io.HttpMessageParserFactory;
-import org.apache.http.io.HttpMessageWriterFactory;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.config.MessageConstraints;
+import tink.org.apache.http.entity.ContentLengthStrategy;
+import tink.org.apache.http.impl.DefaultBHttpServerConnection;
+import tink.org.apache.http.io.HttpMessageParserFactory;
+import tink.org.apache.http.io.HttpMessageWriterFactory;
 
 public class LoggingBHttpServerConnection extends DefaultBHttpServerConnection {
 

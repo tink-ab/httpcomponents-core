@@ -27,8 +27,8 @@
 
 package org.apache.http.nio.util;
 
-import org.apache.http.annotation.ThreadingBehavior;
-import org.apache.http.annotation.Contract;
+import tink.org.apache.http.annotation.ThreadingBehavior;
+import tink.org.apache.http.annotation.Contract;
 
 import java.nio.ByteBuffer;
 

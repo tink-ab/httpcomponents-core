@@ -29,13 +29,13 @@ package org.apache.http.nio.protocol;
 
 import java.io.IOException;
 
-import org.apache.http.HttpException;
-import org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpRequest;import tink.org.apache.http.HttpResponse;import tink.org.apache.http.protocol.HttpContext;
 
 /**
  * Callback interface to submit HTTP responses asynchronously.
  * <p>
- * The {@link NHttpRequestHandler#handle(org.apache.http.HttpRequest, HttpResponse, NHttpResponseTrigger, org.apache.http.protocol.HttpContext)}
+ * The {@link NHttpRequestHandler#handle( HttpRequest , HttpResponse, NHttpResponseTrigger, HttpContext )}
  * method does not have to submit a response immediately. It can defer
  * transmission of the HTTP response back to the client without blocking the
  * I/O thread by delegating the process of handling the HTTP request to a worker

@@ -38,18 +38,18 @@ import java.nio.charset.CharsetDecoder;
 import java.nio.charset.CoderResult;
 import java.nio.charset.CodingErrorAction;
 
-import org.apache.http.MessageConstraintException;
-import org.apache.http.config.MessageConstraints;
+import tink.org.apache.http.MessageConstraintException;
+import tink.org.apache.http.config.MessageConstraints;
 import org.apache.http.nio.reactor.SessionInputBuffer;
 import org.apache.http.nio.util.ByteBufferAllocator;
 import org.apache.http.nio.util.ExpandableBuffer;
 import org.apache.http.nio.util.HeapByteBufferAllocator;
-import org.apache.http.params.CoreProtocolPNames;
-import org.apache.http.params.HttpParams;
-import org.apache.http.protocol.HTTP;
-import org.apache.http.util.Args;
-import org.apache.http.util.CharArrayBuffer;
-import org.apache.http.util.CharsetUtils;
+import tink.org.apache.http.params.CoreProtocolPNames;
+import tink.org.apache.http.params.HttpParams;
+import tink.org.apache.http.protocol.HTTP;
+import tink.org.apache.http.util.Args;
+import tink.org.apache.http.util.CharArrayBuffer;
+import tink.org.apache.http.util.CharsetUtils;
 
 /**
  * Default implementation of {@link SessionInputBuffer} based on

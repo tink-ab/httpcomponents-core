@@ -29,14 +29,14 @@ package org.apache.http.nio.protocol;
 
 import java.io.IOException;
 
-import org.apache.http.ConnectionReuseStrategy;
-import org.apache.http.HttpEntityEnclosingRequest;
-import org.apache.http.HttpException;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpResponseFactory;
-import org.apache.http.annotation.ThreadingBehavior;
-import org.apache.http.annotation.Contract;
+import tink.org.apache.http.ConnectionReuseStrategy;
+import tink.org.apache.http.HttpEntityEnclosingRequest;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpEntity;import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpResponseFactory;
+import tink.org.apache.http.annotation.ThreadingBehavior;
+import tink.org.apache.http.annotation.Contract;
 import org.apache.http.nio.ContentDecoder;
 import org.apache.http.nio.ContentEncoder;
 import org.apache.http.nio.NHttpServerConnection;
@@ -45,12 +45,12 @@ import org.apache.http.nio.entity.BufferingNHttpEntity;
 import org.apache.http.nio.entity.ConsumingNHttpEntity;
 import org.apache.http.nio.util.ByteBufferAllocator;
 import org.apache.http.nio.util.HeapByteBufferAllocator;
-import org.apache.http.params.HttpParams;
-import org.apache.http.protocol.HttpContext;
-import org.apache.http.protocol.HttpExpectationVerifier;
-import org.apache.http.protocol.HttpProcessor;
-import org.apache.http.protocol.HttpRequestHandler;
-import org.apache.http.protocol.HttpRequestHandlerResolver;
+import tink.org.apache.http.params.HttpParams;
+import tink.org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.protocol.HttpExpectationVerifier;
+import tink.org.apache.http.protocol.HttpProcessor;
+import tink.org.apache.http.protocol.HttpRequestHandler;
+import tink.org.apache.http.protocol.HttpRequestHandlerResolver;
 
 /**
  * Service protocol handler implementations that provide compatibility with
@@ -61,7 +61,7 @@ import org.apache.http.protocol.HttpRequestHandlerResolver;
  * main I/O thread and therefore individual HTTP request handlers should not
  * block indefinitely.
  * <p>
- * When using this protocol handler {@link org.apache.http.HttpEntity}'s content
+ * When using this protocol handler {@link HttpEntity}'s content
  * can be generated / consumed using standard {@link java.io.InputStream}/
  * {@link java.io.OutputStream} classes.
  * <p>

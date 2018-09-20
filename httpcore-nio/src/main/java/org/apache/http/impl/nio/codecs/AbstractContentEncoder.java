@@ -31,11 +31,11 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.channels.WritableByteChannel;
 
-import org.apache.http.impl.io.HttpTransportMetricsImpl;
+import tink.org.apache.http.impl.io.HttpTransportMetricsImpl;
 import org.apache.http.nio.ContentEncoder;
 import org.apache.http.nio.reactor.SessionOutputBuffer;
-import org.apache.http.util.Args;
-import org.apache.http.util.Asserts;
+import tink.org.apache.http.util.Args;
+import tink.org.apache.http.util.Asserts;
 
 /**
  * Abstract {@link ContentEncoder} that serves as a base for all content

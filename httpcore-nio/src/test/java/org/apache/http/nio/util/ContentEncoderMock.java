@@ -31,10 +31,10 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.channels.WritableByteChannel;
 
-import org.apache.http.impl.io.HttpTransportMetricsImpl;
+import tink.org.apache.http.impl.io.HttpTransportMetricsImpl;
 import org.apache.http.impl.nio.codecs.AbstractContentEncoder;
 import org.apache.http.nio.reactor.SessionOutputBuffer;
-import org.apache.http.util.Asserts;
+import tink.org.apache.http.util.Asserts;
 
 public class ContentEncoderMock extends AbstractContentEncoder {
 

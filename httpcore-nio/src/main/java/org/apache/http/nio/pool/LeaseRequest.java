@@ -29,11 +29,11 @@ package org.apache.http.nio.pool;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicReference;
 
-import org.apache.http.concurrent.BasicFuture;
-import org.apache.http.concurrent.Cancellable;
+import tink.org.apache.http.concurrent.BasicFuture;
+import tink.org.apache.http.concurrent.Cancellable;
 import org.apache.http.nio.reactor.SessionRequest;
-import org.apache.http.pool.PoolEntry;
-import org.apache.http.util.Asserts;
+import tink.org.apache.http.pool.PoolEntry;
+import tink.org.apache.http.util.Asserts;
 
 class LeaseRequest<T, C, E extends PoolEntry<T, C>> implements Cancellable {
 

@@ -28,15 +28,15 @@ package org.apache.http.impl.nio;
 
 import javax.net.ssl.SSLContext;
 
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpRequestFactory;
-import org.apache.http.HttpResponse;
-import org.apache.http.annotation.ThreadingBehavior;
-import org.apache.http.annotation.Contract;
-import org.apache.http.config.ConnectionConfig;
-import org.apache.http.entity.ContentLengthStrategy;
-import org.apache.http.impl.ConnSupport;
-import org.apache.http.impl.DefaultHttpRequestFactory;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpRequestFactory;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.annotation.ThreadingBehavior;
+import tink.org.apache.http.annotation.Contract;
+import tink.org.apache.http.config.ConnectionConfig;
+import tink.org.apache.http.entity.ContentLengthStrategy;
+import tink.org.apache.http.impl.ConnSupport;
+import tink.org.apache.http.impl.DefaultHttpRequestFactory;
 import org.apache.http.impl.nio.codecs.DefaultHttpRequestParserFactory;
 import org.apache.http.nio.NHttpConnectionFactory;
 import org.apache.http.nio.NHttpMessageParserFactory;
@@ -47,10 +47,10 @@ import org.apache.http.nio.reactor.ssl.SSLMode;
 import org.apache.http.nio.reactor.ssl.SSLSetupHandler;
 import org.apache.http.nio.util.ByteBufferAllocator;
 import org.apache.http.nio.util.HeapByteBufferAllocator;
-import org.apache.http.params.HttpParamConfig;
-import org.apache.http.params.HttpParams;
-import org.apache.http.ssl.SSLContexts;
-import org.apache.http.util.Args;
+import tink.org.apache.http.params.HttpParamConfig;
+import tink.org.apache.http.params.HttpParams;
+import tink.org.apache.http.ssl.SSLContexts;
+import tink.org.apache.http.util.Args;
 
 /**
  * Default factory for SSL encrypted, non-blocking

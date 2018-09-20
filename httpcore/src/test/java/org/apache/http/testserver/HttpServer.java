@@ -35,15 +35,15 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.apache.http.ConnectionClosedException;
-import org.apache.http.ExceptionLogger;
-import org.apache.http.HttpConnectionFactory;
-import org.apache.http.config.SocketConfig;
-import org.apache.http.impl.bootstrap.ServerBootstrap;
-import org.apache.http.protocol.HttpExpectationVerifier;
-import org.apache.http.protocol.HttpRequestHandler;
-import org.apache.http.protocol.UriHttpRequestHandlerMapper;
-import org.apache.http.util.Asserts;
+import tink.org.apache.http.ConnectionClosedException;
+import tink.org.apache.http.ExceptionLogger;
+import tink.org.apache.http.HttpConnectionFactory;
+import tink.org.apache.http.config.SocketConfig;
+import tink.org.apache.http.impl.bootstrap.ServerBootstrap;
+import tink.org.apache.http.protocol.HttpExpectationVerifier;
+import tink.org.apache.http.protocol.HttpRequestHandler;
+import tink.org.apache.http.protocol.UriHttpRequestHandlerMapper;
+import tink.org.apache.http.util.Asserts;
 
 public class HttpServer {
 
@@ -51,7 +51,7 @@ public class HttpServer {
     private volatile HttpExpectationVerifier expectationVerifier;
     private volatile int timeout;
 
-    private volatile org.apache.http.impl.bootstrap.HttpServer server;
+    private volatile tink.org.apache.http.impl.bootstrap.HttpServer server;
 
     public HttpServer() throws IOException {
         super();
@@ -77,7 +77,7 @@ public class HttpServer {
     }
 
     public int getPort() {
-        final org.apache.http.impl.bootstrap.HttpServer local = this.server;
+        final tink.org.apache.http.impl.bootstrap.HttpServer local = this.server;
         if (local != null) {
             return this.server.getLocalPort();
         } else {
@@ -86,7 +86,7 @@ public class HttpServer {
     }
 
     public InetAddress getInetAddress() {
-        final org.apache.http.impl.bootstrap.HttpServer local = this.server;
+        final tink.org.apache.http.impl.bootstrap.HttpServer local = this.server;
         if (local != null) {
             return local.getInetAddress();
         } else {
@@ -110,7 +110,7 @@ public class HttpServer {
     }
 
     public void shutdown() {
-        final org.apache.http.impl.bootstrap.HttpServer local = this.server;
+        final tink.org.apache.http.impl.bootstrap.HttpServer local = this.server;
         this.server = null;
         if (local != null) {
             local.shutdown(5, TimeUnit.SECONDS);

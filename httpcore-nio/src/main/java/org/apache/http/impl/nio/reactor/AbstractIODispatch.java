@@ -32,7 +32,7 @@ import java.io.IOException;
 import org.apache.http.nio.reactor.IOEventDispatch;
 import org.apache.http.nio.reactor.IOSession;
 import org.apache.http.nio.reactor.ssl.SSLIOSession;
-import org.apache.http.util.Asserts;
+import tink.org.apache.http.util.Asserts;
 
 /**
  * Abstract {@link IOEventDispatch} implementation that supports both plain (non-encrypted)

@@ -29,12 +29,12 @@ package org.apache.http.nio.protocol;
 import java.io.Closeable;
 import java.io.IOException;
 
-import org.apache.http.HttpException;
-import org.apache.http.HttpHost;
-import org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpEntityEnclosingRequest;import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.HttpRequest;
 import org.apache.http.nio.ContentEncoder;
 import org.apache.http.nio.IOControl;
-import org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.protocol.HttpContext;
 
 /**
  * {@code HttpAsyncRequestProducer} is a callback interface whose methods
@@ -58,10 +58,10 @@ public interface HttpAsyncRequestProducer extends Closeable {
 
     /**
      * Invoked to generate a HTTP request message head. The message is expected
-     * to implement the {@link org.apache.http.HttpEntityEnclosingRequest} interface
+     * to implement the {@link HttpEntityEnclosingRequest} interface
      * if it is to enclose a content entity. The {@link #produceContent(
      * ContentEncoder, IOControl)} method will not be invoked if
-     * {@link org.apache.http.HttpEntityEnclosingRequest#getEntity()}
+     * {@link HttpEntityEnclosingRequest#getEntity()}
      * returns {@code null}.
      *
      * @return HTTP request message.

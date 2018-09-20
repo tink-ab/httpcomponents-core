@@ -31,9 +31,9 @@ import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-import org.apache.http.HttpEntityEnclosingRequest;
-import org.apache.http.HttpHost;
-import org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpEntityEnclosingRequest;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.HttpRequest;
 import org.apache.http.nio.ContentEncoder;
 import org.apache.http.nio.entity.HttpAsyncContentProducer;
 import org.junit.After;

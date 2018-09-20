@@ -31,23 +31,23 @@ import java.io.IOException;
 import java.util.List;
 import java.util.concurrent.Future;
 
-import org.apache.http.ConnectionClosedException;
-import org.apache.http.ConnectionReuseStrategy;
-import org.apache.http.ExceptionLogger;
-import org.apache.http.HttpHost;
-import org.apache.http.annotation.ThreadingBehavior;
-import org.apache.http.annotation.Contract;
-import org.apache.http.concurrent.BasicFuture;
-import org.apache.http.concurrent.FutureCallback;
-import org.apache.http.impl.DefaultConnectionReuseStrategy;
+import tink.org.apache.http.ConnectionClosedException;
+import tink.org.apache.http.ConnectionReuseStrategy;
+import tink.org.apache.http.ExceptionLogger;
+import tink.org.apache.http.HttpConnection;import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.annotation.ThreadingBehavior;
+import tink.org.apache.http.annotation.Contract;
+import tink.org.apache.http.concurrent.BasicFuture;
+import tink.org.apache.http.concurrent.FutureCallback;
+import tink.org.apache.http.impl.DefaultConnectionReuseStrategy;
 import org.apache.http.nio.NHttpClientConnection;
-import org.apache.http.params.HttpParams;
-import org.apache.http.pool.ConnPool;
-import org.apache.http.pool.PoolEntry;
-import org.apache.http.protocol.BasicHttpContext;
-import org.apache.http.protocol.HttpContext;
-import org.apache.http.protocol.HttpProcessor;
-import org.apache.http.util.Args;
+import tink.org.apache.http.params.HttpParams;
+import tink.org.apache.http.pool.ConnPool;
+import tink.org.apache.http.pool.PoolEntry;
+import tink.org.apache.http.protocol.BasicHttpContext;
+import tink.org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.protocol.HttpProcessor;
+import tink.org.apache.http.util.Args;
 
 /**
  * {@code HttpAsyncRequester} is a utility class that can be used
@@ -86,7 +86,7 @@ public class HttpAsyncRequester {
      * @param exceptionLogger Exception logger. If {@code null}
      *   {@link ExceptionLogger#NO_OP} will be used. Please note that the exception
      *   logger will be only used to log I/O exception thrown while closing
-     *   {@link java.io.Closeable} objects (such as {@link org.apache.http.HttpConnection}).
+     *   {@link java.io.Closeable} objects (such as {@link HttpConnection}).
      *
      * @since 4.4
      */
@@ -577,7 +577,7 @@ public class HttpAsyncRequester {
     /**
      * This method can be used to log I/O exception thrown while closing
      * {@link java.io.Closeable} objects (such as
-     * {@link org.apache.http.HttpConnection}}).
+     * {@link HttpConnection}}).
      *
      * @param ex I/O exception thrown by {@link java.io.Closeable#close()}
      */

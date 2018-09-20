@@ -29,9 +29,9 @@ package org.apache.http.impl.nio.codecs;
 
 import java.nio.ByteBuffer;
 
-import org.apache.http.Consts;
+import tink.org.apache.http.Consts;
 import org.apache.http.WritableByteChannelMock;
-import org.apache.http.impl.io.HttpTransportMetricsImpl;
+import tink.org.apache.http.impl.io.HttpTransportMetricsImpl;
 import org.apache.http.impl.nio.reactor.SessionOutputBufferImpl;
 import org.apache.http.nio.reactor.SessionOutputBuffer;
 import org.junit.Assert;

@@ -33,14 +33,14 @@ import java.util.Map;
 
 import javax.net.ssl.SSLContext;
 
-import org.apache.http.ConnectionReuseStrategy;
-import org.apache.http.ExceptionLogger;
-import org.apache.http.HttpRequestInterceptor;
-import org.apache.http.HttpResponseFactory;
-import org.apache.http.HttpResponseInterceptor;
-import org.apache.http.config.ConnectionConfig;
-import org.apache.http.impl.DefaultConnectionReuseStrategy;
-import org.apache.http.impl.DefaultHttpResponseFactory;
+import tink.org.apache.http.ConnectionReuseStrategy;
+import tink.org.apache.http.ExceptionLogger;
+import tink.org.apache.http.HttpRequestInterceptor;
+import tink.org.apache.http.HttpResponseFactory;
+import tink.org.apache.http.HttpResponseInterceptor;
+import tink.org.apache.http.config.ConnectionConfig;
+import tink.org.apache.http.impl.DefaultConnectionReuseStrategy;
+import tink.org.apache.http.impl.DefaultHttpResponseFactory;
 import org.apache.http.impl.nio.DefaultNHttpServerConnection;
 import org.apache.http.impl.nio.DefaultNHttpServerConnectionFactory;
 import org.apache.http.impl.nio.SSLNHttpServerConnectionFactory;
@@ -52,12 +52,12 @@ import org.apache.http.nio.protocol.HttpAsyncRequestHandlerMapper;
 import org.apache.http.nio.protocol.HttpAsyncService;
 import org.apache.http.nio.protocol.UriHttpAsyncRequestHandlerMapper;
 import org.apache.http.nio.reactor.ssl.SSLSetupHandler;
-import org.apache.http.protocol.HttpProcessor;
-import org.apache.http.protocol.HttpProcessorBuilder;
-import org.apache.http.protocol.ResponseConnControl;
-import org.apache.http.protocol.ResponseContent;
-import org.apache.http.protocol.ResponseDate;
-import org.apache.http.protocol.ResponseServer;
+import tink.org.apache.http.protocol.HttpProcessor;
+import tink.org.apache.http.protocol.HttpProcessorBuilder;
+import tink.org.apache.http.protocol.ResponseConnControl;
+import tink.org.apache.http.protocol.ResponseContent;
+import tink.org.apache.http.protocol.ResponseDate;
+import tink.org.apache.http.protocol.ResponseServer;
 
 /**
  * @since 4.4
@@ -127,7 +127,7 @@ public class ServerBootstrap {
     }
 
     /**
-     * Assigns {@link org.apache.http.protocol.HttpProcessor} instance.
+     * Assigns {@link HttpProcessor} instance.
      */
     public final ServerBootstrap setHttpProcessor(final HttpProcessor httpProcessor) {
         this.httpProcessor = httpProcessor;
@@ -138,7 +138,7 @@ public class ServerBootstrap {
      * Adds this protocol interceptor to the head of the protocol processing list.
      * <p>
      * Please note this value can be overridden by the {@link #setHttpProcessor(
-     * org.apache.http.protocol.HttpProcessor)} method.
+     * HttpProcessor )} method.
      */
     public final ServerBootstrap addInterceptorFirst(final HttpResponseInterceptor itcp) {
         if (itcp == null) {
@@ -155,7 +155,7 @@ public class ServerBootstrap {
      * Adds this protocol interceptor to the tail of the protocol processing list.
      * <p>
      * Please note this value can be overridden by the {@link #setHttpProcessor(
-     * org.apache.http.protocol.HttpProcessor)} method.
+     * HttpProcessor )} method.
      */
     public final ServerBootstrap addInterceptorLast(final HttpResponseInterceptor itcp) {
         if (itcp == null) {
@@ -172,7 +172,7 @@ public class ServerBootstrap {
      * Adds this protocol interceptor to the head of the protocol processing list.
      * <p>
      * Please note this value can be overridden by the {@link #setHttpProcessor(
-     * org.apache.http.protocol.HttpProcessor)} method.
+     * HttpProcessor )} method.
      */
     public final ServerBootstrap addInterceptorFirst(final HttpRequestInterceptor itcp) {
         if (itcp == null) {
@@ -189,7 +189,7 @@ public class ServerBootstrap {
      * Adds this protocol interceptor to the tail of the protocol processing list.
      * <p>
      * Please note this value can be overridden by the {@link #setHttpProcessor(
-     * org.apache.http.protocol.HttpProcessor)} method.
+     * HttpProcessor )} method.
      */
     public final ServerBootstrap addInterceptorLast(final HttpRequestInterceptor itcp) {
         if (itcp == null) {
@@ -206,7 +206,7 @@ public class ServerBootstrap {
      * Assigns {@code Server} response header value.
      * <p>
      * Please note this value can be overridden by the {@link #setHttpProcessor(
-     * org.apache.http.protocol.HttpProcessor)} method.
+     * HttpProcessor )} method.
      */
     public final ServerBootstrap setServerInfo(final String serverInfo) {
         this.serverInfo = serverInfo;
@@ -214,7 +214,7 @@ public class ServerBootstrap {
     }
 
     /**
-     * Assigns {@link org.apache.http.ConnectionReuseStrategy} instance.
+     * Assigns {@link ConnectionReuseStrategy} instance.
      */
     public final ServerBootstrap setConnectionReuseStrategy(final ConnectionReuseStrategy connStrategy) {
         this.connStrategy = connStrategy;
@@ -222,7 +222,7 @@ public class ServerBootstrap {
     }
 
     /**
-     * Assigns {@link org.apache.http.HttpResponseFactory} instance.
+     * Assigns {@link HttpResponseFactory} instance.
      */
     public final ServerBootstrap setResponseFactory(final HttpResponseFactory responseFactory) {
         this.responseFactory = responseFactory;
@@ -298,7 +298,7 @@ public class ServerBootstrap {
     }
 
     /**
-     * Assigns {@link org.apache.http.ExceptionLogger} instance.
+     * Assigns {@link ExceptionLogger} instance.
      */
     public final ServerBootstrap setExceptionLogger(final ExceptionLogger exceptionLogger) {
         this.exceptionLogger = exceptionLogger;

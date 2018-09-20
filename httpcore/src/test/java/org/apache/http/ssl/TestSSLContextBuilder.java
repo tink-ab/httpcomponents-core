@@ -68,10 +68,10 @@ import org.apache.commons.lang3.JavaVersion;
 import org.apache.commons.lang3.SystemUtils;
 import org.junit.After;
 import org.junit.Assert;
-import org.junit.Test;
+import org.junit.Test;import tink.org.apache.http.ssl.PrivateKeyDetails;import tink.org.apache.http.ssl.PrivateKeyStrategy;import tink.org.apache.http.ssl.SSLContextBuilder;import tink.org.apache.http.ssl.TrustStrategy;
 
 /**
- * Unit tests for {@link org.apache.http.ssl.SSLContextBuilder}.
+ * Unit tests for {@link SSLContextBuilder}.
  */
 public class TestSSLContextBuilder {
 

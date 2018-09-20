@@ -26,8 +26,8 @@
  */
 package org.apache.http.impl.nio.pool;
 
-import org.apache.http.HttpHost;
-import org.apache.http.config.ConnectionConfig;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.config.ConnectionConfig;
 import org.apache.http.nio.NHttpClientConnection;
 import org.apache.http.nio.pool.NIOConnFactory;
 import org.apache.http.nio.reactor.ConnectingIOReactor;

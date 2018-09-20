@@ -28,10 +28,10 @@
 package org.apache.http.util;
 
 import org.junit.Assert;
-import org.junit.Test;
+import org.junit.Test;import tink.org.apache.http.util.TextUtils;
 
 /**
- * Unit tests for {@link org.apache.http.util.TextUtils}.
+ * Unit tests for {@link TextUtils}.
  *
  */
 public class TestTextUtils {

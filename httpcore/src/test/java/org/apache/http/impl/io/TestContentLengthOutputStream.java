@@ -33,7 +33,7 @@ import java.io.OutputStream;
 
 import org.apache.http.impl.SessionOutputBufferMock;
 import org.junit.Assert;
-import org.junit.Test;
+import org.junit.Test;import tink.org.apache.http.impl.io.ContentLengthOutputStream;
 
 public class TestContentLengthOutputStream {
 

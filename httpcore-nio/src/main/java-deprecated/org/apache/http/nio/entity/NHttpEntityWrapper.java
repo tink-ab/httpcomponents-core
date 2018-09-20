@@ -34,8 +34,8 @@ import java.nio.ByteBuffer;
 import java.nio.channels.Channels;
 import java.nio.channels.ReadableByteChannel;
 
-import org.apache.http.HttpEntity;
-import org.apache.http.entity.HttpEntityWrapper;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.entity.HttpEntityWrapper;
 import org.apache.http.nio.ContentEncoder;
 import org.apache.http.nio.IOControl;
 

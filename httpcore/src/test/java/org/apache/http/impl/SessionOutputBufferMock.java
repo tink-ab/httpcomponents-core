@@ -31,11 +31,11 @@ import java.io.ByteArrayOutputStream;
 import java.nio.charset.Charset;
 import java.nio.charset.CharsetEncoder;
 
-import org.apache.http.impl.io.HttpTransportMetricsImpl;
-import org.apache.http.impl.io.SessionOutputBufferImpl;
+import tink.org.apache.http.impl.io.HttpTransportMetricsImpl;
+import tink.org.apache.http.impl.io.SessionOutputBufferImpl;import tink.org.apache.http.io.SessionOutputBuffer;
 
 /**
- * {@link org.apache.http.io.SessionOutputBuffer} mockup implementation.
+ * {@link SessionOutputBuffer} mockup implementation.
  *
  */
 public class SessionOutputBufferMock extends SessionOutputBufferImpl {
